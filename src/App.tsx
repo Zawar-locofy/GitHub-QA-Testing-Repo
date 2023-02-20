@@ -45,7 +45,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ServiceResponsive />} />
+      <Route path="/zawar" element={<ServiceResponsive />} />
+       <Route path="/aditya" element={<ServiceResponsive />} />
+  
     </Routes>
   );
 }
