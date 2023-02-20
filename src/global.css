@@ -27,9 +27,6 @@ body {
   --color-whitesmoke: #f2f2f2;
   --color: #626262;
 
-  /* Gaps */
-  --gap-md: 55px;
-
   /* border radiuses */
   --br-sm: 4px;
   --br-md: 6px;

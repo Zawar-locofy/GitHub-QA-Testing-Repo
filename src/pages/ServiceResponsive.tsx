@@ -1,5 +1,7 @@
 import { FunctionComponent } from "react";
-import styles from "../components/ServiceResponsive.module.css";
+import GroupComponentCard5 from "../components/GroupComponentCard5";
+import RectangleIcon2 from "../components/RectangleIcon2";
+import styles from "./ServiceResponsive.module.css";
 
 const ServiceResponsive: FunctionComponent = () => {
   return (
@@ -18,7 +20,7 @@ const ServiceResponsive: FunctionComponent = () => {
         <img
           className={styles.cogaiLogotrans11Icon}
           alt=""
-          src="../../public/cogailogotrans1-1@2x.png"
+          src="../../public/testFolder1/cogailogotrans1-1@2x.png"
         />
         <div className={styles.homeParent}>
           <div className={styles.home}>Home</div>
@@ -45,18 +47,11 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.cogaiLogotrans11Icon1}
             alt=""
-            src="../../public/cogailogotrans1-1@2x.png"
+            src="../../public/testFolder1/cogailogotrans1-1@2x.png"
           />
-          <div className={styles.homeGroup}>
-            <div className={styles.about}>Home</div>
-            <div className={styles.about}>About</div>
-            <div className={styles.services2}>Services</div>
-            <div className={styles.about}>Industries</div>
-            <div className={styles.about}>Resources</div>
-          </div>
           <div className={styles.rectangleGroup}>
             <div className={styles.groupChild} />
-            <div className={styles.getAQuote}>GET A QUOTE</div>
+            <div className={styles.getAQuote}>Get Nothing</div>
           </div>
         </div>
       </div>
@@ -113,7 +108,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon1}
                 alt=""
-                src="../../public/vector1.svg"
+                src="../../vector2.svg"
               />
               <div className={styles.infocogaiuk}>info@cogai.uk</div>
             </div>
@@ -145,35 +140,7 @@ const ServiceResponsive: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.groupContainer}>
-        <div className={styles.groupDiv}>
-          <img
-            className={styles.squareIcon}
-            alt=""
-            src="../../public/rectangle-9@2x.png"
-          />
-          <div className={styles.groupParent1}>
-            <div className={styles.applicationDevelopmentIsAtParent}>
-              <div className={styles.applicationDevelopmentIsContainer}>
-                <p className={styles.hazelGroveStockport}>
-                  Application development is at the heart of what we do. Our
-                  team are skilled in creating custom software solutions that
-                  meet the unique needs of our clients. So whether you need a
-                  simple
-                </p>
-                <p className={styles.englandSk75er}>
-                  application to automate a business process or a complex system
-                  to manage your entire operation, we have the expertise and
-                  experience to deliver results.
-                </p>
-              </div>
-              <div className={styles.applicationDevelopment1}>
-                1. Application Development
-              </div>
-            </div>
-            <div className={styles.rectangleDiv} />
-          </div>
-          <div className={styles.readMore}>Read more</div>
-        </div>
+        <GroupComponentCard5 />
         <div className={styles.frameGroup}>
           <div className={styles.frameDiv}>
             <div className={styles.groupWrapper}>
@@ -193,30 +160,26 @@ const ServiceResponsive: FunctionComponent = () => {
                     controls....
                   </p>
                 </div>
-                <div className={styles.applicationDevelopment1}>
+                <div className={styles.humanToMachineCommunication3}>
                   2. Human-To-Machine Communication
                 </div>
               </div>
             </div>
-            <div className={styles.rectangleParent1}>
-              <div className={styles.groupChild1} />
-              <div className={styles.readMore1}>Read more</div>
+            <div className={styles.groupDiv}>
+              <div className={styles.rectangleDiv} />
+              <div className={styles.readMore}>Read more</div>
             </div>
           </div>
-          <img
-            className={styles.frameChild}
-            alt=""
-            src="../../public/rectangle-11@2x.png"
-          />
+          <RectangleIcon2 />
         </div>
-        <div className={styles.rectangleParent2}>
+        <div className={styles.rectangleParent1}>
           <img
             className={styles.frameChild}
             alt=""
             src="../../public/rectangle-111@2x.png"
           />
-          <div className={styles.groupParent2}>
-            <div className={styles.groupParent3}>
+          <div className={styles.groupParent1}>
+            <div className={styles.groupParent2}>
               <div className={styles.machineToMachineCommunicatiParent}>
                 <div className={styles.machineToMachineCommunicati1}>
                   <p className={styles.hazelGroveStockport}>
@@ -233,22 +196,22 @@ const ServiceResponsive: FunctionComponent = () => {
                     business growth.
                   </p>
                 </div>
-                <div className={styles.applicationDevelopment1}>
+                <div className={styles.humanToMachineCommunication3}>
                   3. Machine-To-Machine Communication
                 </div>
               </div>
-              <div className={styles.rectangleDiv} />
+              <div className={styles.groupChild1} />
             </div>
-            <div className={styles.readMore2}>Read more</div>
+            <div className={styles.readMore1}>Read more</div>
           </div>
         </div>
-        <div className={styles.rectangleParent3}>
+        <div className={styles.rectangleParent2}>
           <img
-            className={styles.groupChild3}
+            className={styles.rectangleIcon}
             alt=""
             src="../../public/rectangle-10@2x.png"
           />
-          <div className={styles.groupParent4}>
+          <div className={styles.groupParent3}>
             <div className={styles.ourVideoAnalyticsServicesAParent}>
               <div className={styles.ourVideoAnalyticsContainer}>
                 <p className={styles.hazelGroveStockport}>
@@ -263,13 +226,13 @@ const ServiceResponsive: FunctionComponent = () => {
                   actionable insights.
                 </p>
               </div>
-              <div className={styles.applicationDevelopment1}>
+              <div className={styles.humanToMachineCommunication3}>
                 4. Video Analytics
               </div>
             </div>
-            <div className={styles.rectangleDiv} />
+            <div className={styles.groupChild1} />
           </div>
-          <div className={styles.readMore3}>Read more</div>
+          <div className={styles.readMore2}>Read more</div>
         </div>
         <div className={styles.groupFrame}>
           <div className={styles.servicesWeAreProvidingWrapper}>
@@ -279,7 +242,7 @@ const ServiceResponsive: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.homeServices}>Home / Services</div>
-        <div className={styles.frameInner} />
+        <div className={styles.frameItem} />
       </div>
     </div>
   );
