@@ -65,7 +65,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-md);
+  gap: 55px;
   color: var(--color);
   font-family: var(--font-poppins);
 }
@@ -117,8 +117,6 @@
   top: 223px;
   left: 403.5px;
   width: 633px;
-  text-align: center;
-  font-size: var(--font-size-xl);
 }
 .cogaiLogotrans11Icon1 {
   position: absolute;
@@ -128,29 +126,14 @@
   height: 70.63px;
   object-fit: cover;
 }
-.services2 {
-  position: relative;
-  font-weight: 500;
-  color: var(--color-white);
-}
-.homeGroup {
-  position: absolute;
-  top: 61.32px;
-  left: 471.5px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-md);
-  color: var(--color);
-  font-family: var(--font-poppins);
-}
 .rectangleGroup {
   position: absolute;
   top: 41.82px;
   left: 1148.33px;
   width: 181.66px;
   height: 63px;
+  text-align: left;
+  font-size: var(--paragraph-size);
 }
 .imageParent {
   height: 425px;
@@ -170,6 +153,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  text-align: center;
+  font-size: var(--font-size-xl);
 }
 .groupInner {
   background-color: #263238;
