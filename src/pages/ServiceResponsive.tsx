@@ -147,7 +147,7 @@ const ServiceResponsive: FunctionComponent = () => {
       <div className={styles.groupContainer}>
         <div className={styles.groupDiv}>
           <img
-            className={styles.rectangleIcon}
+            className={styles.squareIcon}
             alt=""
             src="../../public/rectangle-9@2x.png"
           />
