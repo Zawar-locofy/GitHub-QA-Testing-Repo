@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
-import styles from "../components/ServiceResponsive.module.css";
+import RectangleIcon2 from "../components/RectangleIcon2";
+import styles from "./ServiceResponsive.module.css";
 
 const ServiceResponsive: FunctionComponent = () => {
   return (
@@ -18,7 +19,7 @@ const ServiceResponsive: FunctionComponent = () => {
         <img
           className={styles.cogaiLogotrans11Icon}
           alt=""
-          src="../../public/cogailogotrans1-1@2x.png"
+          src="../../public/testFolder1/cogailogotrans1-1@2x.png"
         />
         <div className={styles.homeParent}>
           <div className={styles.home}>Home</div>
@@ -45,18 +46,11 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.cogaiLogotrans11Icon1}
             alt=""
-            src="../../public/cogailogotrans1-1@2x.png"
+            src="../../public/testFolder1/cogailogotrans1-1@2x.png"
           />
-          <div className={styles.homeGroup}>
-            <div className={styles.about}>Home</div>
-            <div className={styles.about}>About</div>
-            <div className={styles.services2}>Services</div>
-            <div className={styles.about}>Industries</div>
-            <div className={styles.about}>Resources</div>
-          </div>
           <div className={styles.rectangleGroup}>
             <div className={styles.groupChild} />
-            <div className={styles.getAQuote}>GET A QUOTE</div>
+            <div className={styles.getAQuote}>Get Nothing</div>
           </div>
         </div>
       </div>
@@ -113,7 +107,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon1}
                 alt=""
-                src="../../public/vector1.svg"
+                src="../../vector2.svg"
               />
               <div className={styles.infocogaiuk}>info@cogai.uk</div>
             </div>
@@ -147,9 +141,9 @@ const ServiceResponsive: FunctionComponent = () => {
       <div className={styles.groupContainer}>
         <div className={styles.groupDiv}>
           <img
-            className={styles.squareIcon}
+            className={styles.rectangleIcon}
             alt=""
-            src="../../public/rectangle-9@2x.png"
+            src="../../public/pages/testFolder1/rectangle-9@2x.png"
           />
           <div className={styles.groupParent1}>
             <div className={styles.applicationDevelopmentIsAtParent}>
@@ -203,11 +197,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <div className={styles.readMore1}>Read more</div>
             </div>
           </div>
-          <img
-            className={styles.frameChild}
-            alt=""
-            src="../../public/rectangle-11@2x.png"
-          />
+          <RectangleIcon2 />
         </div>
         <div className={styles.rectangleParent2}>
           <img
@@ -279,7 +269,7 @@ const ServiceResponsive: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.homeServices}>Home / Services</div>
-        <div className={styles.frameInner} />
+        <div className={styles.frameItem} />
       </div>
     </div>
   );
