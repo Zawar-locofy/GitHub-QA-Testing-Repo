@@ -65,7 +65,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-md);
+  gap: 55px;
   color: var(--color);
   font-family: var(--font-poppins);
 }
@@ -117,8 +117,6 @@
   top: 223px;
   left: 403.5px;
   width: 633px;
-  text-align: center;
-  font-size: var(--font-size-xl);
 }
 .cogaiLogotrans11Icon1 {
   position: absolute;
@@ -128,29 +126,14 @@
   height: 70.63px;
   object-fit: cover;
 }
-.services2 {
-  position: relative;
-  font-weight: 500;
-  color: var(--color-white);
-}
-.homeGroup {
-  position: absolute;
-  top: 61.32px;
-  left: 471.5px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-md);
-  color: var(--color);
-  font-family: var(--font-poppins);
-}
 .rectangleGroup {
   position: absolute;
   top: 41.82px;
   left: 1148.33px;
   width: 181.66px;
   height: 63px;
+  text-align: left;
+  font-size: var(--paragraph-size);
 }
 .imageParent {
   height: 425px;
@@ -170,6 +153,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  text-align: center;
+  font-size: var(--font-size-xl);
 }
 .groupInner {
   background-color: #263238;
@@ -375,73 +360,6 @@
   color: var(--color-darkgray);
   font-family: var(--font-poppins);
 }
-.rectangleIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-lg);
-  width: 587px;
-  height: 403px;
-  object-fit: cover;
-}
-.applicationDevelopmentIsContainer {
-  position: absolute;
-  top: 69px;
-  left: 0;
-  letter-spacing: 0.01em;
-  line-height: 210.9%;
-  display: inline-block;
-  width: 542px;
-  height: 243px;
-}
-.applicationDevelopment1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: var(--font-size-lg);
-  letter-spacing: 0.01em;
-  line-height: 177.9%;
-  font-weight: 600;
-  color: var(--color-black);
-}
-.applicationDevelopmentIsAtParent,
-.rectangleDiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 542px;
-  height: 312px;
-}
-.rectangleDiv {
-  top: 347px;
-  border-radius: var(--br-sm);
-  background-color: var(--headings);
-  width: 149px;
-  height: 50px;
-}
-.groupParent1 {
-  position: absolute;
-  top: 6px;
-  left: 654px;
-  width: 542px;
-  height: 397px;
-}
-.readMore {
-  position: absolute;
-  top: 364px;
-  left: 683px;
-  letter-spacing: 0.01em;
-  line-height: 177.9%;
-  color: var(--color-white);
-  text-align: center;
-}
-.groupDiv {
-  position: absolute;
-  top: 204px;
-  left: 133.25px;
-  width: 1196px;
-  height: 403px;
-}
 .humanToMachineCommunication1 {
   position: absolute;
   top: 69px;
@@ -450,6 +368,16 @@
   line-height: 210.9%;
   display: inline-block;
   width: 555.25px;
+}
+.humanToMachineCommunication3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 177.9%;
+  font-weight: 600;
+  color: var(--color-black);
 }
 .humanToMachineCommunicationParent {
   position: absolute;
@@ -464,7 +392,7 @@
   height: 307px;
   flex-shrink: 0;
 }
-.groupChild1 {
+.rectangleDiv {
   position: absolute;
   top: 0;
   left: 0;
@@ -473,14 +401,14 @@
   width: 149px;
   height: 50px;
 }
-.readMore1 {
+.readMore {
   position: absolute;
   top: 11px;
   left: 29px;
   letter-spacing: 0.01em;
   line-height: 177.9%;
 }
-.rectangleParent1 {
+.groupDiv {
   position: relative;
   width: 149px;
   height: 50px;
@@ -488,12 +416,21 @@
   text-align: center;
   color: var(--color-white);
 }
-.frameDiv {
+.frameDiv,
+.frameGroup {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 40px;
+}
+.frameGroup {
+  position: absolute;
+  top: 742px;
+  left: 111px;
+  flex-direction: row;
+  align-items: center;
+  gap: 76px;
 }
 .frameChild {
   position: relative;
@@ -502,16 +439,6 @@
   height: 403px;
   flex-shrink: 0;
   object-fit: cover;
-}
-.frameGroup {
-  position: absolute;
-  top: 742px;
-  left: 111px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 76px;
 }
 .machineToMachineCommunicati1 {
   position: absolute;
@@ -522,7 +449,7 @@
   display: inline-block;
   width: 553px;
 }
-.groupParent3,
+.groupChild1,
 .machineToMachineCommunicatiParent {
   position: absolute;
   top: 0;
@@ -530,10 +457,21 @@
   width: 553px;
   height: 307px;
 }
-.groupParent3 {
+.groupChild1 {
+  top: 347px;
+  border-radius: var(--br-sm);
+  background-color: var(--headings);
+  width: 149px;
+  height: 50px;
+}
+.groupParent2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 553px;
   height: 397px;
 }
-.readMore2 {
+.readMore1 {
   position: absolute;
   top: 358px;
   left: 29px;
@@ -542,13 +480,13 @@
   color: var(--color-white);
   text-align: center;
 }
-.groupParent2 {
+.groupParent1 {
   position: relative;
   width: 553px;
   height: 397px;
   flex-shrink: 0;
 }
-.rectangleParent2 {
+.rectangleParent1 {
   position: absolute;
   top: 1280px;
   left: 122.25px;
@@ -558,7 +496,7 @@
   justify-content: flex-start;
   gap: 67px;
 }
-.groupChild3 {
+.rectangleIcon {
   position: absolute;
   top: 0;
   left: 631px;
@@ -577,7 +515,7 @@
   width: 542px;
   height: 242px;
 }
-.groupParent4,
+.groupParent3,
 .ourVideoAnalyticsServicesAParent {
   position: absolute;
   top: 0;
@@ -585,11 +523,11 @@
   width: 542px;
   height: 311px;
 }
-.groupParent4 {
+.groupParent3 {
   top: 13px;
   height: 397px;
 }
-.readMore3 {
+.readMore2 {
   position: absolute;
   top: 371px;
   left: 29px;
@@ -598,7 +536,7 @@
   color: var(--color-white);
   text-align: center;
 }
-.rectangleParent3 {
+.rectangleParent2 {
   position: absolute;
   top: 1818px;
   left: 111.25px;
@@ -634,7 +572,7 @@
   font-family: var(--font-poppins);
   color: var(--color-darkgray);
 }
-.frameInner,
+.frameItem,
 .groupContainer {
   position: absolute;
   top: 2315px;
