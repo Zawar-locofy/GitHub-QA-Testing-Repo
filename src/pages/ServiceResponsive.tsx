@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import GroupComponentCard5 from "../components/GroupComponentCard5";
 import RectangleIcon2 from "../components/RectangleIcon2";
 import "./ServiceResponsive.css";
 
@@ -110,7 +109,31 @@ const ServiceResponsive: FunctionComponent = () => {
         </div>
       </div>
       <div className="group-container">
-        <GroupComponentCard5 />
+        <div className="group-div">
+          <img className="rectangle-icon" alt="" src="/rectangle-9@2x.png" />
+          <div className="group-parent1">
+            <div className="application-development-is-at-parent">
+              <div className="application-development-is-container">
+                <p className="hazel-grove-stockport">
+                  Application development is at the heart of what we do. Our
+                  team are skilled in creating custom software solutions that
+                  meet the unique needs of our clients. So whether you need a
+                  simple
+                </p>
+                <p className="england-sk7-5er">
+                  application to automate a business process or a complex system
+                  to manage your entire operation, we have the expertise and
+                  experience to deliver results.
+                </p>
+              </div>
+              <div className="application-development1">
+                1. Application Development
+              </div>
+            </div>
+            <div className="rectangle-div" />
+          </div>
+          <div className="read-more">Read more</div>
+        </div>
         <div className="frame-group">
           <div className="frame-div">
             <div className="group-wrapper">
@@ -130,22 +153,22 @@ const ServiceResponsive: FunctionComponent = () => {
                     controls....
                   </p>
                 </div>
-                <div className="human-to-machine-communication3">
+                <div className="application-development1">
                   2. Human-To-Machine Communication
                 </div>
               </div>
             </div>
-            <div className="group-div">
-              <div className="rectangle-div" />
-              <div className="read-more">Read more</div>
+            <div className="rectangle-parent1">
+              <div className="group-child1" />
+              <div className="read-more1">Read more</div>
             </div>
           </div>
           <RectangleIcon2 />
         </div>
-        <div className="rectangle-parent1">
+        <div className="rectangle-parent2">
           <img className="frame-child" alt="" src="/rectangle-111@2x.png" />
-          <div className="group-parent1">
-            <div className="group-parent2">
+          <div className="group-parent2">
+            <div className="group-parent3">
               <div className="machine-to-machine-communicati-parent">
                 <div className="machine-to-machine-communicati1">
                   <p className="hazel-grove-stockport">
@@ -162,18 +185,18 @@ const ServiceResponsive: FunctionComponent = () => {
                     business growth.
                   </p>
                 </div>
-                <div className="human-to-machine-communication3">
+                <div className="application-development1">
                   3. Machine-To-Machine Communication
                 </div>
               </div>
-              <div className="group-child1" />
+              <div className="rectangle-div" />
             </div>
-            <div className="read-more1">Read more</div>
+            <div className="read-more2">Read more</div>
           </div>
         </div>
-        <div className="rectangle-parent2">
-          <img className="rectangle-icon" alt="" src="/rectangle-10@2x.png" />
-          <div className="group-parent3">
+        <div className="rectangle-parent3">
+          <img className="group-child3" alt="" src="/rectangle-10@2x.png" />
+          <div className="group-parent4">
             <div className="our-video-analytics-services-a-parent">
               <div className="our-video-analytics-container">
                 <p className="hazel-grove-stockport">
@@ -188,13 +211,11 @@ const ServiceResponsive: FunctionComponent = () => {
                   actionable insights.
                 </p>
               </div>
-              <div className="human-to-machine-communication3">
-                4. Video Analytics
-              </div>
+              <div className="application-development1">4. Video Analytics</div>
             </div>
-            <div className="group-child1" />
+            <div className="rectangle-div" />
           </div>
-          <div className="read-more2">Read more</div>
+          <div className="read-more3">Read more</div>
         </div>
         <div className="group-frame">
           <div className="services-we-are-providing-wrapper">

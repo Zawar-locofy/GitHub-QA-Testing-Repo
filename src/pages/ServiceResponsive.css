@@ -359,16 +359,26 @@
   color: var(--color-darkgray);
   font-family: var(--font-poppins);
 }
-.human-to-machine-communication1 {
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  width: 587px;
+  height: 403px;
+  object-fit: cover;
+}
+.application-development-is-container {
   position: absolute;
   top: 69px;
   left: 0;
   letter-spacing: 0.01em;
   line-height: 210.9%;
   display: inline-block;
-  width: 555.25px;
+  width: 542px;
+  height: 243px;
 }
-.human-to-machine-communication3 {
+.application-development1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -377,6 +387,53 @@
   line-height: 177.9%;
   font-weight: 600;
   color: var(--color-black);
+}
+.application-development-is-at-parent,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 542px;
+  height: 312px;
+}
+.rectangle-div {
+  top: 347px;
+  border-radius: var(--br-sm);
+  background-color: var(--headings);
+  width: 149px;
+  height: 50px;
+}
+.group-parent1 {
+  position: absolute;
+  top: 6px;
+  left: 654px;
+  width: 542px;
+  height: 397px;
+}
+.read-more {
+  position: absolute;
+  top: 364px;
+  left: 683px;
+  letter-spacing: 0.01em;
+  line-height: 177.9%;
+  color: var(--color-white);
+  text-align: center;
+}
+.group-div {
+  position: absolute;
+  top: 204px;
+  left: 133.25px;
+  width: 1196px;
+  height: 403px;
+}
+.human-to-machine-communication1 {
+  position: absolute;
+  top: 69px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 210.9%;
+  display: inline-block;
+  width: 555.25px;
 }
 .human-to-machine-communication-parent {
   position: absolute;
@@ -391,7 +448,7 @@
   height: 307px;
   flex-shrink: 0;
 }
-.rectangle-div {
+.group-child1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -400,14 +457,14 @@
   width: 149px;
   height: 50px;
 }
-.read-more {
+.read-more1 {
   position: absolute;
   top: 11px;
   left: 29px;
   letter-spacing: 0.01em;
   line-height: 177.9%;
 }
-.group-div {
+.rectangle-parent1 {
   position: relative;
   width: 149px;
   height: 50px;
@@ -448,7 +505,7 @@
   display: inline-block;
   width: 553px;
 }
-.group-child1,
+.group-parent3,
 .machine-to-machine-communicati-parent {
   position: absolute;
   top: 0;
@@ -456,21 +513,10 @@
   width: 553px;
   height: 307px;
 }
-.group-child1 {
-  top: 347px;
-  border-radius: var(--br-sm);
-  background-color: var(--headings);
-  width: 149px;
-  height: 50px;
-}
-.group-parent2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 553px;
+.group-parent3 {
   height: 397px;
 }
-.read-more1 {
+.read-more2 {
   position: absolute;
   top: 358px;
   left: 29px;
@@ -479,13 +525,13 @@
   color: var(--color-white);
   text-align: center;
 }
-.group-parent1 {
+.group-parent2 {
   position: relative;
   width: 553px;
   height: 397px;
   flex-shrink: 0;
 }
-.rectangle-parent1 {
+.rectangle-parent2 {
   position: absolute;
   top: 1280px;
   left: 122.25px;
@@ -495,7 +541,7 @@
   justify-content: flex-start;
   gap: 67px;
 }
-.rectangle-icon {
+.group-child3 {
   position: absolute;
   top: 0;
   left: 631px;
@@ -514,7 +560,7 @@
   width: 542px;
   height: 242px;
 }
-.group-parent3,
+.group-parent4,
 .our-video-analytics-services-a-parent {
   position: absolute;
   top: 0;
@@ -522,11 +568,11 @@
   width: 542px;
   height: 311px;
 }
-.group-parent3 {
+.group-parent4 {
   top: 13px;
   height: 397px;
 }
-.read-more2 {
+.read-more3 {
   position: absolute;
   top: 371px;
   left: 29px;
@@ -535,7 +581,7 @@
   color: var(--color-white);
   text-align: center;
 }
-.rectangle-parent2 {
+.rectangle-parent3 {
   position: absolute;
   top: 1818px;
   left: 111.25px;
