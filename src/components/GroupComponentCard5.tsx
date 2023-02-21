@@ -7,7 +7,7 @@ const GroupComponentCard5: FunctionComponent = () => {
       <img
         className={styles.groupChild}
         alt=""
-        src={"../../pages/testFolder1/rectangle-9@2x.png"}
+        src={"../../rectangle-9@2x.png"}
       />
       <div className={styles.groupParent}>
         <div className={styles.applicationDevelopmentIsAtParent}>

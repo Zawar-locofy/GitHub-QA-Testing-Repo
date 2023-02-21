@@ -20,7 +20,7 @@ const ServiceResponsive: FunctionComponent = () => {
         <img
           className={styles.cogaiLogotrans11Icon}
           alt=""
-          src={"../../testFolder1/cogailogotrans1-1@2x.png"}
+          src={"../../cogailogotrans1-1@2x.png"}
         />
         <div className={styles.homeParent}>
           <div className={styles.home}>Home</div>
@@ -47,7 +47,7 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.cogaiLogotrans11Icon1}
             alt=""
-            src={"../../testFolder1/cogailogotrans1-1@2x.png"}
+            src={"../../cogailogotrans1-1@2x.png"}
           />
           <div className={styles.rectangleGroup}>
             <div className={styles.groupChild} />
@@ -104,7 +104,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon1}
                 alt=""
-                src={require("../../vector2.svg")}
+                src={"../../vector1.svg"}
               />
               <div className={styles.infocogaiuk}>info@cogai.uk</div>
             </div>
