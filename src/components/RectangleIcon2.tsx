@@ -1,10 +1,9 @@
 import { FunctionComponent } from "react";
-import styles from "./RectangleIcon2.module.css";
 
 const RectangleIcon2: FunctionComponent = () => {
   return (
     <img
-      className={styles.frameChild}
+      className="relative rounded-base w-[587px] h-[403px] shrink-0 object-cover"
       alt=""
       src={"../../rectangle-11@2x.png"}
     />
