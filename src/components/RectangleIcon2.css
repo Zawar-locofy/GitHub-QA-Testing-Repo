@@ -1,0 +1,8 @@
+.frame-inner {
+  position: relative;
+  border-radius: var(--br-lg);
+  width: 587px;
+  height: 403px;
+  flex-shrink: 0;
+  object-fit: cover;
+}

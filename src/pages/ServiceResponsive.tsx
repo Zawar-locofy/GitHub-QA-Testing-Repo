@@ -1,173 +1,128 @@
 import { FunctionComponent } from "react";
 import GroupComponentCard5 from "../components/GroupComponentCard5";
 import RectangleIcon2 from "../components/RectangleIcon2";
+import "./ServiceResponsive.css";
 
 const ServiceResponsive: FunctionComponent = () => {
   return (
-    <div className="relative bg-white w-full h-[3193px] overflow-hidden text-left text-base text-white font-paragraph">
-      <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
-        <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-xl">
-          <div className="w-[200px] flex flex-col items-center justify-start gap-[34px]">
-            <b className="relative tracking-[-0.02em] leading-[110%]">
-              Contact Us
-            </b>
-            <div className="relative box-border w-[58px] h-[3px] shrink-0 border-t-[3px] border-solid border-white" />
+    <div className="service-responsive">
+      <div className="banner">
+        <div className="content">
+          <div className="title">
+            <b className="contact-us">Contact Us</b>
+            <div className="line" />
           </div>
-          <div className="relative text-[19px] tracking-[-0.01em] leading-[180%] font-inter inline-block w-[633px]">
+          <div className="there-are-many">
             There are many variations of passages of Lorem Ipsum available, have
             suffered alteration in some form.
           </div>
         </div>
         <img
-          className="absolute top-[38px] left-[173px] w-[92.55px] h-[70.63px] object-cover"
+          className="cogai-logotrans-1-1-icon"
           alt=""
-          src={"../../cogailogotrans1-1@2x.png"}
+          src="/cogailogotrans1-1@2x.png"
         />
-        <div className="absolute top-[61.32px] left-[521.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
-          <div className="relative font-medium text-headings">Home</div>
-          <div className="relative font-medium">About</div>
-          <div className="relative font-medium">Services</div>
-          <div className="relative font-medium">Industries</div>
-          <div className="relative font-medium">Resources</div>
+        <div className="home-parent">
+          <div className="home">Home</div>
+          <div className="about">About</div>
+          <div className="about">Services</div>
+          <div className="about">Industries</div>
+          <div className="about">Resources</div>
         </div>
-        <div className="absolute top-[41.82px] left-[1198.33px] w-[181.66px] h-[63px]">
-          <div className="absolute top-[0px] left-[0px] rounded-md bg-headings w-[181.66px] h-[63px]" />
-          <div className="absolute top-[18.5px] left-[34.33px] leading-[163%] font-medium">
-            GET A QUOTE
-          </div>
+        <div className="rectangle-parent">
+          <div className="group-child" />
+          <div className="get-a-quote">GET A QUOTE</div>
         </div>
       </div>
-      <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px] bg-[url(../public/banner@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-xl">
-        <div className="absolute top-[0px] left-[0px] w-[1440px] h-[425px] overflow-hidden">
-          <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
-            <div className="absolute top-[0px] left-[0px] bg-yellowgreen w-[1440px] h-[424.64px] opacity-[0.85]" />
+      <div className="banner1">
+        <div className="image-parent">
+          <div className="banner">
+            <div className="background" />
           </div>
-          <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start">
-            <div className="w-[200px] flex flex-col items-center justify-start">
-              <b className="relative tracking-[-0.02em] leading-[110%]">
-                Services
-              </b>
+          <div className="content1">
+            <div className="title1">
+              <b className="contact-us">Services</b>
             </div>
           </div>
           <img
-            className="absolute top-[38px] left-[123px] w-[92.55px] h-[70.63px] object-cover"
+            className="cogai-logotrans-1-1-icon1"
             alt=""
-            src={"../../cogailogotrans1-1@2x.png"}
+            src="/cogailogotrans1-1@2x.png"
           />
-          <div className="absolute top-[41.82px] left-[1148.33px] w-[181.66px] h-[63px] text-left text-base">
-            <div className="absolute top-[0px] left-[0px] rounded-md bg-headings w-[181.66px] h-[63px]" />
-            <div className="absolute top-[18.5px] left-[34.33px] leading-[163%] font-medium">
-              Get Nothing
-            </div>
+          <div className="rectangle-group">
+            <div className="group-child" />
+            <div className="get-a-quote">Get Nothing</div>
           </div>
         </div>
       </div>
-      <div className="absolute top-[2740.54px] left-[0px] w-[1440px] h-[452.25px] text-darkgray font-poppins">
-        <div className="absolute top-[0px] left-[0px] w-[1440px] h-[452.25px]">
-          <div className="absolute top-[0px] left-[0px] bg-darkslategray-200 w-[1440px] h-[452.25px]" />
-          <div className="absolute top-[418.25px] left-[616px] text-[11px] leading-[148.52%]">
+      <div className="group-parent">
+        <div className="rectangle-container">
+          <div className="group-inner" />
+          <div className="copyright-2022">
             Copyright @ 2022. All Rights Reserved.
           </div>
-          <b className="absolute top-[80.25px] left-[1171px] text-lg leading-[148.52%] font-paragraph text-whitesmoke">
-            Other Links
-          </b>
-          <div className="absolute top-[156.25px] left-[1171px] leading-[148.52%]">{`Terms & Condition`}</div>
-          <div className="absolute top-[190.25px] left-[1171px] leading-[148.52%]">
-            Privacy Policy
-          </div>
-          <div className="absolute top-[224.25px] left-[1171px] leading-[148.52%]">
-            Report Abuse
-          </div>
-          <div className="absolute top-[258.25px] left-[1171px] leading-[148.52%]">
-            Contact Us
-          </div>
-          <b className="absolute top-[80.25px] left-[759px] text-lg leading-[148.52%] font-paragraph text-whitesmoke">
-            Serives
-          </b>
-          <div className="absolute top-[156.25px] left-[759px] leading-[148.52%]">
-            Application Development
-          </div>
-          <div className="absolute top-[190.25px] left-[759px] leading-[148.52%]">
+          <b className="other-links">Other Links</b>
+          <div className="terms-condition">{`Terms & Condition`}</div>
+          <div className="privacy-policy">Privacy Policy</div>
+          <div className="report-abuse">Report Abuse</div>
+          <div className="contact-us1">Contact Us</div>
+          <b className="serives">Serives</b>
+          <div className="application-development">Application Development</div>
+          <div className="human-to-machine-communication">
             Human-to-Machine Communication
           </div>
-          <div className="absolute top-[224.25px] left-[759px] leading-[148.52%]">
+          <div className="machine-to-machine-communicati">
             Machine-to-Machine Communication
           </div>
-          <div className="absolute top-[258.25px] left-[759px] leading-[148.52%]">
-            Video Analytics
-          </div>
-          <div className="absolute top-[80.25px] left-[121px] w-[182px] h-[36.1px]" />
-          <img
-            className="absolute top-[309.73px] left-[134.95px] w-[178.05px] h-[33.26px]"
-            alt=""
-            src={"../../group-215.svg"}
-          />
-          <img
-            className="absolute top-[73.5px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
-            alt=""
-            src={"../../frame.svg"}
-          />
-          <div className="absolute top-[183.87px] left-[134.95px] text-[14px] leading-[163%] font-paragraph inline-block w-[251.05px]">
+          <div className="video-analytics">Video Analytics</div>
+          <div className="div" />
+          <img className="group-icon" alt="" src="/group-215.svg" />
+          <img className="frame-icon" alt="" src="/frame.svg" />
+          <div className="we-specialize-in">
             We specialize in developing custom applications that streamline
             processes and improve efficiency for businesses of all sizes.
           </div>
         </div>
-        <div className="absolute top-[90.25px] left-[454px] flex flex-col items-start justify-start gap-[42px] text-[20px] text-whitesmoke font-paragraph">
-          <b className="relative">CONTACT US</b>
-          <div className="flex flex-col items-start justify-start gap-[22px] text-sm text-darkgray font-inter">
-            <div className="flex flex-row items-end justify-start gap-[15px]">
-              <img
-                className="relative w-[15px] h-[19px] shrink-0"
-                alt=""
-                src={"../../vector.svg"}
-              />
-              <div className="relative">+44-(0)-1474-338-718</div>
+        <div className="contact-us-parent">
+          <b className="infocogaiuk">CONTACT US</b>
+          <div className="frame-parent">
+            <div className="vector-parent">
+              <img className="vector-icon" alt="" src="/vector.svg" />
+              <div className="infocogaiuk">+44-(0)-1474-338-718</div>
             </div>
-            <div className="flex flex-row items-center justify-start gap-[12px]">
-              <img
-                className="relative w-[18px] h-3.5 shrink-0"
-                alt=""
-                src={"../../vector1.svg"}
-              />
-              <div className="relative">info@cogai.uk</div>
+            <div className="vector-group">
+              <img className="vector-icon1" alt="" src="/vector1.svg" />
+              <div className="infocogaiuk">info@cogai.uk</div>
             </div>
-            <div className="flex flex-row items-start justify-start gap-[16px]">
-              <img
-                className="relative w-[11.63px] h-[17.44px] shrink-0"
-                alt=""
-                src={"../../group.svg"}
-              />
-              <div className="relative">
-                <p className="[margin-block-start:0] [margin-block-end:0px]">{`Cogai LTD, 6 Station View, `}</p>
-                <p className="[margin-block-start:0] [margin-block-end:0px]">{`Hazel Grove, Stockport, `}</p>
-                <p className="m-0">England, SK7 5ER</p>
+            <div className="group-group">
+              <img className="group-icon1" alt="" src="/group.svg" />
+              <div className="infocogaiuk">
+                <p className="hazel-grove-stockport">{`Cogai LTD, 6 Station View, `}</p>
+                <p className="hazel-grove-stockport">{`Hazel Grove, Stockport, `}</p>
+                <p className="england-sk7-5er">England, SK7 5ER</p>
               </div>
             </div>
-            <div className="flex flex-row items-center justify-start gap-[13px]">
-              <img
-                className="relative w-4 h-4 shrink-0"
-                alt=""
-                src={"../../vector2.svg"}
-              />
-              <div className="relative">Monday To Friday</div>
+            <div className="vector-container">
+              <img className="vector-icon2" alt="" src="/vector2.svg" />
+              <div className="infocogaiuk">Monday To Friday</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="absolute top-[425px] left-[0px] w-[1440px] h-[2316px] overflow-hidden text-darkslategray-100">
+      <div className="group-container">
         <GroupComponentCard5 />
-        <div className="absolute top-[742px] left-[111px] flex flex-row items-center justify-start gap-[76px]">
-          <div className="flex flex-col items-start justify-start gap-[40px]">
-            <div className="relative w-[555.25px] h-[307px] shrink-0">
-              <div className="absolute top-[0px] left-[0px] w-[555.25px] h-[307px]">
-                <div className="absolute top-[69px] left-[0px] tracking-[0.01em] leading-[210.9%] inline-block w-[555.25px]">
-                  <p className="[margin-block-start:0] [margin-block-end:0px]">
+        <div className="frame-group">
+          <div className="frame-div">
+            <div className="group-wrapper">
+              <div className="human-to-machine-communication-parent">
+                <div className="human-to-machine-communication1">
+                  <p className="hazel-grove-stockport">
                     Human-to-machine communication is another crucial area of
                     focus for our company. With the proliferation of smart
                     devices and the Internet of Things (IoT), it's more
                     important than ever for
                   </p>
-                  <p className="m-0">
+                  <p className="england-sk7-5er">
                     businesses to connect and communicate seamlessly with their
                     customers and employees. Our team can help you develop the
                     systems and technologies needed to enable effective
@@ -175,37 +130,31 @@ const ServiceResponsive: FunctionComponent = () => {
                     controls....
                   </p>
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-lg tracking-[0.01em] leading-[177.9%] font-semibold text-black">
+                <div className="human-to-machine-communication3">
                   2. Human-To-Machine Communication
                 </div>
               </div>
             </div>
-            <div className="relative w-[149px] h-[50px] shrink-0 text-center text-white">
-              <div className="absolute top-[0px] left-[0px] rounded bg-headings w-[149px] h-[50px]" />
-              <div className="absolute top-[11px] left-[29px] tracking-[0.01em] leading-[177.9%]">
-                Read more
-              </div>
+            <div className="group-div">
+              <div className="rectangle-div" />
+              <div className="read-more">Read more</div>
             </div>
           </div>
           <RectangleIcon2 />
         </div>
-        <div className="absolute top-[1280px] left-[122.25px] flex flex-row items-end justify-start gap-[67px]">
-          <img
-            className="relative rounded-base w-[587px] h-[403px] shrink-0 object-cover"
-            alt=""
-            src={"../../rectangle-111@2x.png"}
-          />
-          <div className="relative w-[553px] h-[397px] shrink-0">
-            <div className="absolute top-[0px] left-[0px] w-[553px] h-[397px]">
-              <div className="absolute top-[0px] left-[0px] w-[553px] h-[307px]">
-                <div className="absolute top-[69px] left-[0px] tracking-[0.01em] leading-[210.9%] inline-block w-[553px]">
-                  <p className="[margin-block-start:0] [margin-block-end:0px]">
+        <div className="rectangle-parent1">
+          <img className="frame-child" alt="" src="/rectangle-111@2x.png" />
+          <div className="group-parent1">
+            <div className="group-parent2">
+              <div className="machine-to-machine-communicati-parent">
+                <div className="machine-to-machine-communicati1">
+                  <p className="hazel-grove-stockport">
                     Machine-to-machine communication is also an essential part
                     of our offering. With the ability to connect and communicate
                     with other devices and systems, businesses can automate
                     processes,
                   </p>
-                  <p className="m-0">
+                  <p className="england-sk7-5er">
                     improve efficiency, and gather valuable data to inform
                     decision-making. We can help you develop the infrastructure
                     and systems needed to enable effective machine-to-machine
@@ -213,59 +162,47 @@ const ServiceResponsive: FunctionComponent = () => {
                     business growth.
                   </p>
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-lg tracking-[0.01em] leading-[177.9%] font-semibold text-black">
+                <div className="human-to-machine-communication3">
                   3. Machine-To-Machine Communication
                 </div>
               </div>
-              <div className="absolute top-[347px] left-[0px] rounded bg-headings w-[149px] h-[50px]" />
+              <div className="group-child1" />
             </div>
-            <div className="absolute top-[358px] left-[29px] tracking-[0.01em] leading-[177.9%] text-white text-center">
-              Read more
-            </div>
+            <div className="read-more1">Read more</div>
           </div>
         </div>
-        <div className="absolute top-[1818px] left-[111.25px] w-[1218px] h-[410px]">
-          <img
-            className="absolute top-[0px] left-[631px] rounded-base w-[587px] h-[403px] object-cover"
-            alt=""
-            src={"../../rectangle-10@2x.png"}
-          />
-          <div className="absolute top-[13px] left-[0px] w-[542px] h-[397px]">
-            <div className="absolute top-[0px] left-[0px] w-[542px] h-[311px]">
-              <div className="absolute top-[69px] left-[0px] tracking-[0.01em] leading-[210.9%] inline-block w-[542px] h-[242px]">
-                <p className="[margin-block-start:0] [margin-block-end:0px]">
+        <div className="rectangle-parent2">
+          <img className="rectangle-icon" alt="" src="/rectangle-10@2x.png" />
+          <div className="group-parent3">
+            <div className="our-video-analytics-services-a-parent">
+              <div className="our-video-analytics-container">
+                <p className="hazel-grove-stockport">
                   Our video analytics services are designed to help businesses
                   extract valuable insights and information from video footage.
                   Whether you need to monitor customer behavior in a retail
                 </p>
-                <p className="m-0">
+                <p className="england-sk7-5er">
                   environment, optimize your manufacturing processes, or gather
                   intelligence for security, our team can help you develop the
                   technology and capabilities needed to turn video data into
                   actionable insights.
                 </p>
               </div>
-              <div className="absolute top-[0px] left-[0px] text-lg tracking-[0.01em] leading-[177.9%] font-semibold text-black">
+              <div className="human-to-machine-communication3">
                 4. Video Analytics
               </div>
             </div>
-            <div className="absolute top-[347px] left-[0px] rounded bg-headings w-[149px] h-[50px]" />
+            <div className="group-child1" />
           </div>
-          <div className="absolute top-[371px] left-[29px] tracking-[0.01em] leading-[177.9%] text-white text-center">
-            Read more
-          </div>
+          <div className="read-more2">Read more</div>
         </div>
-        <div className="absolute top-[87.25px] left-[441px] w-[637px] h-[50px] text-center text-[45px] text-gray">
-          <div className="absolute top-[0px] left-[0px] w-[637px] h-[50px]">
-            <div className="absolute top-[0px] left-[0px] leading-[110%] font-extrabold">
-              Services We Are Providing
-            </div>
+        <div className="group-frame">
+          <div className="services-we-are-providing-wrapper">
+            <div className="services-we-are">Services We Are Providing</div>
           </div>
         </div>
-        <div className="absolute top-[13.93px] left-[122.25px] font-poppins text-darkgray">
-          Home / Services
-        </div>
-        <div className="absolute top-[2315px] left-[0px] w-[1440px] h-[452px] overflow-hidden" />
+        <div className="home-services">Home / Services</div>
+        <div className="frame-item" />
       </div>
     </div>
   );
