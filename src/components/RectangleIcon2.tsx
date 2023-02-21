@@ -6,7 +6,7 @@ const RectangleIcon2: FunctionComponent = () => {
     <img
       className={styles.frameChild}
       alt=""
-      src="../../public/rectangle-11@2x.png"
+      src={"../../rectangle-11@2x.png"}
     />
   );
 };

@@ -20,7 +20,7 @@ const ServiceResponsive: FunctionComponent = () => {
         <img
           className={styles.cogaiLogotrans11Icon}
           alt=""
-          src="../../public/testFolder1/cogailogotrans1-1@2x.png"
+          src={"../../testFolder1/cogailogotrans1-1@2x.png"}
         />
         <div className={styles.homeParent}>
           <div className={styles.home}>Home</div>
@@ -47,7 +47,7 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.cogaiLogotrans11Icon1}
             alt=""
-            src="../../public/testFolder1/cogailogotrans1-1@2x.png"
+            src={"../../testFolder1/cogailogotrans1-1@2x.png"}
           />
           <div className={styles.rectangleGroup}>
             <div className={styles.groupChild} />
@@ -81,13 +81,9 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.groupIcon}
             alt=""
-            src="../../public/group-215.svg"
+            src={"../../group-215.svg"}
           />
-          <img
-            className={styles.frameIcon}
-            alt=""
-            src="../../public/frame.svg"
-          />
+          <img className={styles.frameIcon} alt="" src={"../../frame.svg"} />
           <div className={styles.weSpecializeIn}>
             We specialize in developing custom applications that streamline
             processes and improve efficiency for businesses of all sizes.
@@ -100,7 +96,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon}
                 alt=""
-                src="../../public/vector.svg"
+                src={"../../vector.svg"}
               />
               <div className={styles.infocogaiuk}>+44-(0)-1474-338-718</div>
             </div>
@@ -108,7 +104,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon1}
                 alt=""
-                src="../../vector2.svg"
+                src={require("../../vector2.svg")}
               />
               <div className={styles.infocogaiuk}>info@cogai.uk</div>
             </div>
@@ -116,7 +112,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.groupIcon1}
                 alt=""
-                src="../../public/group.svg"
+                src={"../../group.svg"}
               />
               <div className={styles.infocogaiuk}>
                 <p
@@ -132,7 +128,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon2}
                 alt=""
-                src="../../public/vector2.svg"
+                src={"../../vector2.svg"}
               />
               <div className={styles.infocogaiuk}>Monday To Friday</div>
             </div>
@@ -176,7 +172,7 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.frameChild}
             alt=""
-            src="../../public/rectangle-111@2x.png"
+            src={"../../rectangle-111@2x.png"}
           />
           <div className={styles.groupParent1}>
             <div className={styles.groupParent2}>
@@ -209,7 +205,7 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className={styles.rectangleIcon}
             alt=""
-            src="../../public/rectangle-10@2x.png"
+            src={"../../rectangle-10@2x.png"}
           />
           <div className={styles.groupParent3}>
             <div className={styles.ourVideoAnalyticsServicesAParent}>
