@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import RectangleIcon2 from "../components/RectangleIcon2";
 import "./ServiceResponsive.css";
 
 const ServiceResponsive: FunctionComponent = () => {
@@ -51,6 +50,18 @@ const ServiceResponsive: FunctionComponent = () => {
           <div className="rectangle-group">
             <div className="group-child" />
             <div className="get-a-quote">Get Nothing</div>
+          </div>
+          <div className="links">
+            <button className="hamburger">
+              <div className="hamburger-child" />
+              <div className="hamburger-child" />
+              <div className="hamburger-child" />
+            </button>
+            <div className="home1">Home</div>
+            <div className="home1">About</div>
+            <div className="services2">Services</div>
+            <div className="home1">Industries</div>
+            <div className="home1">Resources</div>
           </div>
         </div>
       </div>
@@ -163,7 +174,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <div className="read-more1">Read more</div>
             </div>
           </div>
-          <RectangleIcon2 />
+          <img className="frame-child" alt="" src="/rectangle-11@2x.png" />
         </div>
         <div className="rectangle-parent2">
           <img className="frame-child" alt="" src="/rectangle-111@2x.png" />
@@ -223,7 +234,7 @@ const ServiceResponsive: FunctionComponent = () => {
           </div>
         </div>
         <div className="home-services">Home / Services</div>
-        <div className="frame-item" />
+        <div className="frame-inner" />
       </div>
     </div>
   );

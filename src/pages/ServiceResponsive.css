@@ -39,7 +39,7 @@
   justify-content: flex-start;
   gap: 28px;
   text-align: center;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-2xl);
 }
 .cogai-logotrans-1-1-icon {
   position: absolute;
@@ -117,6 +117,7 @@
   top: 223px;
   left: 403.5px;
   width: 633px;
+  text-align: center;
 }
 .cogai-logotrans-1-1-icon1 {
   position: absolute;
@@ -132,8 +133,50 @@
   left: 1148.33px;
   width: 181.66px;
   height: 63px;
-  text-align: left;
   font-size: var(--paragraph-size);
+}
+.hamburger-child {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 46px;
+  height: 7px;
+  flex-shrink: 0;
+}
+.hamburger {
+  cursor: pointer;
+  border: 0;
+  padding: 6px;
+  background-color: var(--color-black);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.home1,
+.services2 {
+  position: relative;
+  font-weight: 900;
+}
+.services2 {
+  color: var(--color-white);
+}
+.links {
+  position: absolute;
+  top: 34px;
+  left: 347px;
+  width: 690px;
+  height: 70.63px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
 }
 .image-parent {
   height: 425px;
@@ -153,8 +196,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  text-align: center;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-2xl);
 }
 .group-inner {
   background-color: #263238;
@@ -175,7 +217,7 @@
 }
 .other-links {
   top: 80.25px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-family: var(--paragraph);
   color: var(--color-whitesmoke);
 }
@@ -203,7 +245,7 @@
 .serives {
   top: 80.25px;
   left: 759px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-family: var(--paragraph);
   color: var(--color-whitesmoke);
 }
@@ -321,6 +363,8 @@
   height: 16px;
   flex-shrink: 0;
 }
+.contact-us-parent,
+.frame-parent,
 .vector-container {
   display: flex;
   flex-direction: row;
@@ -330,12 +374,8 @@
 }
 .contact-us-parent,
 .frame-parent {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-}
-.frame-parent {
   gap: 22px;
   font-size: var(--font-size-sm);
   color: var(--color-darkgray);
@@ -346,7 +386,7 @@
   top: 90.25px;
   left: 454px;
   gap: 42px;
-  font-size: 20px;
+  font-size: var(--font-size-lg);
   color: var(--color-whitesmoke);
   font-family: var(--paragraph);
 }
@@ -382,7 +422,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   letter-spacing: 0.01em;
   line-height: 177.9%;
   font-weight: 600;
@@ -472,21 +512,12 @@
   text-align: center;
   color: var(--color-white);
 }
-.frame-div,
-.frame-group {
+.frame-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 40px;
-}
-.frame-group {
-  position: absolute;
-  top: 742px;
-  left: 111px;
-  flex-direction: row;
-  align-items: center;
-  gap: 76px;
 }
 .frame-child {
   position: relative;
@@ -495,6 +526,16 @@
   height: 403px;
   flex-shrink: 0;
   object-fit: cover;
+}
+.frame-group {
+  position: absolute;
+  top: 742px;
+  left: 111px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 76px;
 }
 .machine-to-machine-communicati1 {
   position: absolute;
@@ -617,7 +658,7 @@
   font-family: var(--font-poppins);
   color: var(--color-darkgray);
 }
-.frame-item,
+.frame-inner,
 .group-container {
   position: absolute;
   top: 2315px;
@@ -641,4 +682,21 @@
   font-size: var(--paragraph-size);
   color: var(--color-white);
   font-family: var(--paragraph);
+}
+@media screen and (max-width: 960px) {
+  .hamburger {
+    display: flex;
+  }
+  .links {
+    display: none;
+  }
+  .frame-group,
+  .rectangle-parent2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .links {
+    display: none;
+  }
 }
