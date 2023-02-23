@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap");
 
 body {
   margin: 0;
@@ -15,20 +15,20 @@ body {
   /* font sizes */
   --font-size-sm: 15px;
   --paragraph-size: 16px;
-  --font-size-lg: 24px;
-  --font-size-xl: 50px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 50px;
 
   /* Colors */
   --color-white: #fff;
   --color-darkgray: #a6a6a6;
+  --color-gray-100: #1f1c23;
   --color-darkslategray-100: #424242;
   --headings: #14342b;
   --color-black: #000;
   --color-whitesmoke: #f2f2f2;
+  --color-gainsboro: #d9d9d9;
   --color: #626262;
-
-  /* Gaps */
-  --gap-md: 55px;
 
   /* border radiuses */
   --br-sm: 4px;
