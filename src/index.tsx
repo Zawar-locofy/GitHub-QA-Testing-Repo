@@ -7,6 +7,7 @@ import "./global.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);
+reportWebVitals(console.log);
 
 root.render(
   <BrowserRouter>
