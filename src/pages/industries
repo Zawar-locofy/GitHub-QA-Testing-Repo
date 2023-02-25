@@ -1,0 +1,270 @@
+
+
+import UnsplashvbAEHCrvXZ0Icon from "../components/unsplashvb-a-e-h-crv-x-z0-icon";
+import "./industries.css";
+
+const Industries = () => {
+  return (
+    <div className="industries4">
+      <div className="banner5">
+        <div className="banner6">
+          <div className="content4">
+            <div className="title4">
+              <b className="contact-us6">Contact Us</b>
+              <div className="line2" />
+            </div>
+            <div className="there-are-many2">
+              There are many variations of passages of Lorem Ipsum available,
+              have suffered alteration in some form.
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon4"
+            alt=""
+            src="/cogailogotrans1-1@2x.png"
+          />
+          <div className="home-parent1">
+            <div className="home4">Home</div>
+            <div className="about4">About</div>
+            <div className="about4">Services</div>
+            <div className="about4">Industries</div>
+            <div className="about4">Resources</div>
+          </div>
+          <div className="rectangle-parent10">
+            <div className="group-child16" />
+            <div className="get-a-quote3">GET A QUOTE</div>
+          </div>
+        </div>
+        <div className="banner7">
+          <div className="banner6">
+            <div className="background2" />
+          </div>
+          <div className="content5">
+            <div className="title5">
+              <b className="contact-us6">Industries</b>
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon5"
+            alt=""
+            src="/cogailogotrans1-1@2x.png"
+          />
+          <div className="home-parent2">
+            <div className="about4">Home</div>
+            <div className="about4">About</div>
+            <div className="about4">Services</div>
+            <div className="industries7">Industries</div>
+            <div className="about4">Resources</div>
+          </div>
+          <button className="rectangle-parent11">
+            <div className="group-child16" />
+            <div className="get-a-quote4">GET A QUOTE</div>
+          </button>
+        </div>
+      </div>
+      <div className="group-parent10">
+        <div className="group-parent11">
+          <div className="rectangle-parent12">
+            <div className="group-child18" />
+            <div className="copyright-20222">
+              Copyright @ 2022. All Rights Reserved.
+            </div>
+            <b className="other-links2">Other Links</b>
+            <div className="terms-condition2">{`Terms & Condition`}</div>
+            <div className="privacy-policy2">Privacy Policy</div>
+            <div className="report-abuse2">Report Abuse</div>
+            <div className="contact-us7">Contact Us</div>
+            <b className="serives2">Serives</b>
+            <div className="application-development5">
+              Application Development
+            </div>
+            <div className="human-to-machine-communication5">
+              Human-to-Machine Communication
+            </div>
+            <div className="machine-to-machine-communicati5">
+              Machine-to-Machine Communication
+            </div>
+            <div className="video-analytics3">Video Analytics</div>
+            <div className="div4" />
+            <img className="group-child19" alt="" src="/group-2152.svg" />
+            <img className="frame-icon2" alt="" src="/frame2.svg" />
+            <div className="we-specialize-in2">
+              We specialize in developing custom applications that streamline
+              processes and improve efficiency for businesses of all sizes.
+            </div>
+          </div>
+          <div className="contact-us-container">
+            <b className="contact-us8">CONTACT US</b>
+            <div className="frame-parent2">
+              <div className="vector-parent4">
+                <img className="vector-icon6" alt="" src="/vector6.svg" />
+                <div className="contact-us8">+44-(0)-1474-338-718</div>
+              </div>
+              <div className="vector-parent5">
+                <img className="vector-icon7" alt="" src="/vector7.svg" />
+                <div className="contact-us8">info@cogai.uk</div>
+              </div>
+              <div className="group-parent12">
+                <img className="group-icon4" alt="" src="/group3.svg" />
+                <div className="contact-us8">
+                  <p className="cogai-ltd-62">{`Cogai LTD, 6 Station View, `}</p>
+                  <p className="cogai-ltd-62">{`Hazel Grove, Stockport, `}</p>
+                  <p className="england-sk7-5er2">England, SK7 5ER</p>
+                </div>
+              </div>
+              <div className="vector-parent6">
+                <img className="vector-icon8" alt="" src="/vector8.svg" />
+                <div className="contact-us8">Monday To Friday</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="rectangle-parent13">
+          <div className="group-child20" />
+          <div className="group-child21" />
+          <div className="submit">Submit</div>
+          <div className="group-child22" />
+          <div className="group-child23" />
+          <div className="group-child24" />
+          <img className="group-child25" alt="" src="/rectangle-11859.svg" />
+          <div className="group-child26" />
+          <div className="group-child27" />
+          <div className="name1">Name</div>
+          <div className="email1">Email</div>
+          <div className="company1">Company</div>
+          <div className="company-size1">Company Size</div>
+          <div className="choose-services">Choose Service(s)</div>
+          <div className="add-comment-optional1">Add Comment (optional)</div>
+          <div className="feeling-curious">Feeling Curious?</div>
+          <b className="get-in-touch">GET IN TOUCH</b>
+          <img className="group-child28" alt="" src="/polygon-2.svg" />
+          <img className="group-child29" alt="" src="/polygon-31.svg" />
+        </div>
+      </div>
+      <div className="we-serve-in-different-industri-wrapper">
+        <b className="we-serve-in">We Serve In Different Industries</b>
+      </div>
+      <div className="group-parent13">
+        <div className="unsplashvbaehcrvxz0-parent">
+          <UnsplashvbAEHCrvXZ0Icon />
+          <div className="unsplashvbaehcrvxz0-group">
+            <img
+              className="unsplashvbaehcrvxz0-group"
+              alt=""
+              src="/unsplashvbaehcrvxz01.svg"
+            />
+            <div className="smart-building">Smart Building</div>
+            <div className="dui-massa-sapien4">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+            <button className="rectangle-parent14">
+              <div className="group-child30" />
+              <div className="read-more4">Read more</div>
+            </button>
+          </div>
+        </div>
+        <div className="unsplashvbaehcrvxz0-container">
+          <img
+            className="unsplashvbaehcrvxz0-icon1"
+            alt=""
+            src="/unsplashvbaehcrvxz02@2x.png"
+          />
+          <div className="unsplashvbaehcrvxz0-parent1">
+            <div className="unsplashvbaehcrvxz0" />
+            <div className="smart-cities">Smart Cities</div>
+            <div className="dui-massa-sapien5">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+            <div className="rectangle-parent15">
+              <button className="group-child31" />
+              <div className="read-more5">Read more</div>
+            </div>
+          </div>
+        </div>
+        <div className="unsplashvbaehcrvxz0-parent2">
+          <img
+            className="unsplashvbaehcrvxz0-icon1"
+            alt=""
+            src="/unsplashvbaehcrvxz03@2x.png"
+          />
+          <div className="unsplashvbaehcrvxz0-parent1">
+            <div className="unsplashvbaehcrvxz0" />
+            <div className="smart-agriculture">Smart Agriculture</div>
+            <div className="dui-massa-sapien5">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+            <div className="rectangle-parent16">
+              <div className="group-child30" />
+              <div className="read-more5">Read more</div>
+            </div>
+          </div>
+        </div>
+        <div className="group-wrapper1">
+          <div className="unsplashvbaehcrvxz0-parent4">
+            <img
+              className="unsplashvbaehcrvxz0-icon1"
+              alt=""
+              src="/unsplashvbaehcrvxz04@2x.png"
+            />
+            <div className="unsplashvbaehcrvxz0-parent1">
+              <div className="unsplashvbaehcrvxz0" />
+              <div className="smart-energy">Smart Energy</div>
+              <div className="dui-massa-sapien5">
+                Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+                maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+              </div>
+              <div className="rectangle-parent16">
+                <div className="group-child30" />
+                <div className="read-more5">Read more</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="unsplashvbaehcrvxz0-parent6">
+          <img
+            className="unsplashvbaehcrvxz0-icon4"
+            alt=""
+            src="/unsplashvbaehcrvxz05@2x.png"
+          />
+          <div className="unsplashvbaehcrvxz0-group">
+            <div className="unsplashvbaehcrvxz03" />
+            <div className="smart-constructions">Smart Constructions</div>
+            <div className="dui-massa-sapien4">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+            <button className="rectangle-parent18">
+              <div className="group-child30" />
+              <div className="read-more4">Read more</div>
+            </button>
+          </div>
+        </div>
+        <div className="unsplashvbaehcrvxz0-parent8">
+          <img
+            className="unsplashvbaehcrvxz0-icon4"
+            alt=""
+            src="/unsplashvbaehcrvxz06@2x.png"
+          />
+          <div className="unsplashvbaehcrvxz0-group">
+            <div className="unsplashvbaehcrvxz03" />
+            <div className="smart-factories">Smart Factories</div>
+            <div className="dui-massa-sapien9">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+            <div className="rectangle-parent19">
+              <div className="group-child30" />
+              <div className="read-more5">Read more</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-industries">Home / Industries</div>
+    </div>
+  );
+};
+
+export default Industries;

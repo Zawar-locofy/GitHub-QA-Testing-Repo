@@ -1,0 +1,279 @@
+
+
+import { TextField } from "@mui/material";
+import "./blogs.css";
+
+const Blogs = () => {
+  return (
+    <div className="blogs">
+      <div className="latest-blog-posts-wrapper">
+        <b className="latest-blog-posts">Latest Blog Posts</b>
+      </div>
+      <div className="shortcut-links">Shortcut Links</div>
+      <div className="featured-video">Featured Video</div>
+      <div className="blogs-child" />
+      <img
+        className="unsplash8hgmg03spf4-icon"
+        alt=""
+        src="/unsplash8hgmg03spf4@2x.png"
+      />
+      <img className="frame-icon3" alt="" src="/frame3.svg" />
+      <img
+        className="unsplashvbaehcrvxz0-icon6"
+        alt=""
+        src="/unsplashvbaehcrvxz07@2x.png"
+      />
+      <div className="unsplashxtud5six464-parent">
+        <img
+          className="unsplashxtud5six464-icon"
+          alt=""
+          src="/unsplashxtud5six464@2x.png"
+        />
+        <div className="faucibus-interdum-cras">
+          Faucibus interdum cras imperdiet fames. Ullamcorper.
+        </div>
+        <div className="jan-2023">1 Jan, 2023</div>
+        <div className="technology">Technology</div>
+      </div>
+      <div className="unsplashpo8woh4ybd8-parent">
+        <img
+          className="unsplashxtud5six464-icon"
+          alt=""
+          src="/unsplashpo8woh4ybd8@2x.png"
+        />
+        <div className="faucibus-interdum-cras">
+          Enim elementum tristique vestibulum et sit. Mattis.
+        </div>
+        <div className="jan-2023">1 Jan, 2023</div>
+        <div className="technology">Technology</div>
+      </div>
+      <div className="unsplashsjspo9hqf7s-parent">
+        <img
+          className="unsplashxtud5six464-icon"
+          alt=""
+          src="/unsplashsjspo9hqf7s@2x.png"
+        />
+        <div className="faucibus-interdum-cras">
+          In lectus lectus eleifend proin vitae bibendum elementum.
+        </div>
+        <div className="jan-2023">1 Jan, 2023</div>
+        <div className="technology">Technology</div>
+      </div>
+      <div className="unsplashw6onivdcfn0-parent">
+        <img
+          className="unsplashxtud5six464-icon"
+          alt=""
+          src="/unsplashw6onivdcfn0@2x.png"
+        />
+        <div className="faucibus-interdum-cras">
+          Sollicitudin tristique in senec ornare ullamcorper
+        </div>
+        <div className="jan-2023">1 Jan, 2023</div>
+        <div className="technology">Technology</div>
+      </div>
+      <div className="unsplashxjxwbfso2f0-parent">
+        <img
+          className="unsplashxjxwbfso2f0-icon"
+          alt=""
+          src="/unsplashxjxwbfso2f0@2x.png"
+        />
+        <div className="porttitor-pharetra-consectetu">{`Porttitor pharetra, consectetur viverra est nisl a, vulputate id. `}</div>
+        <div className="january-2023">1 January, 2023</div>
+        <div className="technology4">Technology</div>
+      </div>
+      <div className="january-20231">1 January, 2023</div>
+      <div className="technology5">Technology</div>
+      <div className="porttitor-pharetra-consectetu1">
+        Porttitor pharetra, consectetur viverra est nisl a, vulputate id...
+      </div>
+      <div className="dui-massa-sapien10">
+        Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer maecenas
+        sit. Nibh suspendisse lectus hendrerit pretium...
+      </div>
+      <div className="unsplash2ejcsulrwc8-parent">
+        <img
+          className="unsplash2ejcsulrwc8-icon"
+          alt=""
+          src="/unsplash2ejcsulrwc8@2x.png"
+        />
+        <div className="porttitor-pharetra-consectetu">{`Diam amet non placerat risus magna non volutpat. `}</div>
+        <div className="january-2023">1 January, 2023</div>
+        <div className="technology4">Technology</div>
+      </div>
+      <div className="unsplashim7lzjxelhg-parent">
+        <img
+          className="unsplash2ejcsulrwc8-icon"
+          alt=""
+          src="/unsplashim7lzjxelhg@2x.png"
+        />
+        <div className="porttitor-pharetra-consectetu">
+          Egestas leo a dolor venenatis vel porttitor vitae suspendisse.
+        </div>
+        <div className="january-2023">1 January, 2023</div>
+        <div className="technology4">Technology</div>
+      </div>
+      <div className="unsplashvee00hx5d0q-parent">
+        <img
+          className="unsplashvee00hx5d0q-icon"
+          alt=""
+          src="/unsplashvee00hx5d0q@2x.png"
+        />
+        <div className="porttitor-pharetra-consectetu">
+          Orci suspendisse leo, congue tortor, ultricies egestas. Urna.
+        </div>
+        <div className="january-2023">1 January, 2023</div>
+        <div className="technology4">Technology</div>
+      </div>
+      <div className="unsplash6lct2krpvni-parent">
+        <img
+          className="unsplashxjxwbfso2f0-icon"
+          alt=""
+          src="/unsplash6lct2krpvni@2x.png"
+        />
+        <div className="porttitor-pharetra-consectetu">
+          Adipiscing lacus dui rutrum quam. In morbi facilisis elit.
+        </div>
+        <div className="january-2023">1 January, 2023</div>
+        <div className="technology4">Technology</div>
+      </div>
+      <div className="unsplashourqhrte2im-parent">
+        <img
+          className="unsplashxjxwbfso2f0-icon"
+          alt=""
+          src="/unsplashourqhrte2im@2x.png"
+        />
+        <div className="porttitor-pharetra-consectetu">
+          Volutpat volutpat turpis risus nunc in nisl habitasse leo.
+        </div>
+        <div className="january-2023">1 January, 2023</div>
+        <div className="technology4">Technology</div>
+      </div>
+      <div className="banner8">
+        <div className="banner9">
+          <div className="content6">
+            <div className="title6">
+              <b className="contact-us9">Contact Us</b>
+              <div className="line3" />
+            </div>
+            <div className="there-are-many3">
+              There are many variations of passages of Lorem Ipsum available,
+              have suffered alteration in some form.
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon6"
+            alt=""
+            src="/cogailogotrans1-1@2x.png"
+          />
+          <div className="home-parent3">
+            <div className="home6">Home</div>
+            <div className="about6">About</div>
+            <div className="about6">Services</div>
+            <div className="about6">Industries</div>
+            <div className="about6">Resources</div>
+          </div>
+          <div className="rectangle-parent20">
+            <div className="group-child36" />
+            <div className="get-a-quote5">GET A QUOTE</div>
+          </div>
+        </div>
+        <div className="banner10">
+          <div className="banner9">
+            <div className="background3" />
+          </div>
+          <div className="content7">
+            <div className="title7">
+              <b className="contact-us9">Blogs</b>
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon7"
+            alt=""
+            src="/cogailogotrans1-1@2x.png"
+          />
+          <div className="home-parent4">
+            <div className="about6">Home</div>
+            <div className="about6">About</div>
+            <div className="about6">Services</div>
+            <div className="about6">Industries</div>
+            <div className="resources7">Resources</div>
+          </div>
+          <div className="rectangle-parent21">
+            <div className="group-child36" />
+            <div className="get-a-quote5">GET A QUOTE</div>
+          </div>
+        </div>
+      </div>
+      <div className="group-parent14">
+        <div className="rectangle-parent22">
+          <div className="group-child38" />
+          <div className="copyright-20223">
+            Copyright @ 2022. All Rights Reserved.
+          </div>
+          <b className="other-links3">Other Links</b>
+          <div className="terms-condition3">{`Terms & Condition`}</div>
+          <div className="privacy-policy3">Privacy Policy</div>
+          <div className="report-abuse3">Report Abuse</div>
+          <div className="contact-us10">Contact Us</div>
+          <b className="serives3">Serives</b>
+          <div className="application-development6">
+            Application Development
+          </div>
+          <div className="human-to-machine-communication6">
+            Human-to-Machine Communication
+          </div>
+          <div className="machine-to-machine-communicati6">
+            Machine-to-Machine Communication
+          </div>
+          <div className="video-analytics4">Video Analytics</div>
+          <div className="div6" />
+          <img className="group-child39" alt="" src="/group-2153.svg" />
+          <img className="frame-icon4" alt="" src="/frame4.svg" />
+          <div className="we-specialize-in3">
+            We specialize in developing custom applications that streamline
+            processes and improve efficiency for businesses of all sizes.
+          </div>
+          <TextField
+            className="inputfilled"
+            sx={{ width: 236 }}
+            color="primary"
+            variant="filled"
+            defaultValue="Input"
+            type="text"
+            label="Label"
+            size="medium"
+            margin="none"
+          />
+        </div>
+        <div className="contact-us-parent1">
+          <b className="contact-us11">CONTACT US</b>
+          <div className="frame-parent3">
+            <div className="vector-parent7">
+              <img className="vector-icon9" alt="" src="/vector9.svg" />
+              <div className="contact-us11">+44-(0)-1474-338-718</div>
+            </div>
+            <div className="vector-parent8">
+              <img className="vector-icon10" alt="" src="/vector10.svg" />
+              <div className="contact-us11">info@cogai.uk</div>
+            </div>
+            <div className="group-parent15">
+              <img className="group-icon5" alt="" src="/group4.svg" />
+              <div className="contact-us11">
+                <p className="cogai-ltd-63">{`Cogai LTD, 6 Station View, `}</p>
+                <p className="cogai-ltd-63">{`Hazel Grove, Stockport, `}</p>
+                <p className="england-sk7-5er3">England, SK7 5ER</p>
+              </div>
+            </div>
+            <div className="vector-parent9">
+              <img className="vector-icon11" alt="" src="/Vectoor.svg" />
+              <div className="contact-us11">Monday To Friday</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-resources">Home / Resources</div>
+    </div>
+  );
+};
+
+export default Blogs;

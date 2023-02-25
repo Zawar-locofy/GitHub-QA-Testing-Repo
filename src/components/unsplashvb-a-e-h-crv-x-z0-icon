@@ -1,0 +1,13 @@
+import "./unsplashvb-a-e-h-crv-x-z0-icon.css";
+
+const UnsplashvbAEHCrvXZ0Icon = () => {
+  return (
+    <img
+      className="unsplashvbaehcrvxz0-icon7"
+      alt=""
+      src="/unsplashvbaehcrvxz0@2x.png"
+    />
+  );
+};
+
+export default UnsplashvbAEHCrvXZ0Icon;

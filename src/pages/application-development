@@ -1,0 +1,315 @@
+import "./application-development.css";
+
+const ApplicationDevelopment = () => {
+  return (
+    <div className="application-development">
+      <div className="banner">
+        <div className="image">
+          <div className="content">
+            <div className="title">
+              <b className="contact-us">Contact Us</b>
+              <div className="line" />
+            </div>
+            <div className="there-are-many">
+              There are many variations of passages of Lorem Ipsum available,
+              have suffered alteration in some form.
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon"
+            alt=""
+            src="/cogailogotrans1-1@2x.png"
+          />
+          <div className="home-parent">
+            <div className="home">Home</div>
+            <div className="about">About</div>
+            <div className="about">Services</div>
+            <div className="about">Industries</div>
+            <div className="about">Resources</div>
+          </div>
+          <div className="rectangle-parent">
+            <div className="group-child" />
+            <div className="get-a-quote">GET A QUOTE</div>
+          </div>
+        </div>
+        <div className="banner2">
+          <div className="image">
+            <div className="background" />
+          </div>
+          <div className="content1">
+            <div className="title1">
+              <b className="contact-us">Application Development</b>
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon1"
+            alt=""
+            src="/cogailogotrans1-1@2x.png"
+          />
+          <div className="home-group">
+            <div className="about">Home</div>
+            <div className="about">About</div>
+            <div className="about">Services</div>
+            <div className="about">Industries</div>
+            <div className="about">Resources</div>
+          </div>
+          <div className="rectangle-group">
+            <div className="group-item" />
+            <div className="locofy-get-a">Locofy GET A QUOTE</div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-modeltheme-portfolio-16-1-parent">
+        <img
+          className="mt-modeltheme-portfolio-16-1-icon"
+          alt=""
+          src="/mt-modeltheme-portfolio-16-1@2x.png"
+        />
+        <div className="group-parent">
+          <div className="rectangle-container">
+            <div className="group-inner" />
+            <div className="copyright-2022">
+              Copyright @ 2022. All Rights Reserved.
+            </div>
+            <b className="other-links">Other Links</b>
+            <div className="terms-condition">{`Terms & Condition`}</div>
+            <div className="privacy-policy">Privacy Policy</div>
+            <div className="report-abuse">Report Abuse</div>
+            <div className="contact-us1">Contact Us</div>
+            <b className="serives">Serives</b>
+            <div className="application-development2">
+              Application Development
+            </div>
+            <div className="human-to-machine-communication">
+              Human-to-Machine Communication
+            </div>
+            <div className="machine-to-machine-communicati">
+              Machine-to-Machine Communication
+            </div>
+            <div className="video-analytics">Video Analytics</div>
+            <div className="div" />
+            <img className="group-icon" alt="" src="/group-215.svg" />
+            <img className="frame-icon" alt="" src="/frame.svg" />
+            <div className="we-specialize-in">
+              We specialize in developing custom applications that streamline
+              processes and improve efficiency for businesses of all sizes.
+            </div>
+          </div>
+          <div className="contact-us-parent">
+            <b className="infocogaiuk">CONTACT US</b>
+            <div className="frame-parent">
+              <div className="vector-parent">
+                <img className="vector-icon" alt="" src="/vector.svg" />
+                <div className="infocogaiuk">+44-(0)-1474-338-718</div>
+              </div>
+              <div className="vector-group">
+                <img className="vector-icon1" alt="" src="/vector1.svg" />
+                <div className="infocogaiuk">info@cogai.uk</div>
+              </div>
+              <div className="group-group">
+                <img className="group-icon1" alt="" src="/group.svg" />
+                <div className="infocogaiuk">
+                  <p className="hazel-grove-stockport">{`Cogai LTD, 6 Station View, `}</p>
+                  <p className="hazel-grove-stockport">{`Hazel Grove, Stockport, `}</p>
+                  <p className="england-sk7-5er">England, SK7 5ER</p>
+                </div>
+              </div>
+              <div className="vector-container">
+                <img className="vector-icon2" alt="" src="/vector2.svg" />
+                <div className="infocogaiuk">Monday To Friday</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <b className="case-studies">Case Studies</b>
+        <div className="line-div" />
+        <img
+          className="mt-modeltheme-portfolio-09-icon"
+          alt=""
+          src="/mt-modeltheme-portfolio-09@2x.png"
+        />
+        <img
+          className="mt-modeltheme-portfolio-09-icon1"
+          alt=""
+          src="/mt-modeltheme-portfolio-091@2x.png"
+        />
+        <img
+          className="mt-modeltheme-portfolio-11-1-icon"
+          alt=""
+          src="/mt-modeltheme-portfolio-11-1@2x.png"
+        />
+        <img
+          className="mt-modeltheme-portfolio-12-icon"
+          alt=""
+          src="/mt-modeltheme-portfolio-12@2x.png"
+        />
+        <img
+          className="mt-modeltheme-portfolio-11-1-icon1"
+          alt=""
+          src="/mt-modeltheme-portfolio-11-11@2x.png"
+        />
+        <div className="rectangle-div" />
+        <div className="management-software">Management Software</div>
+      </div>
+      <div className="application-development-child" />
+      <div className="application-development-item" />
+      <b className="get-a-quote1">GET A QUOTE!</b>
+      <div className="application-development-inner" />
+      <div className="application-development-child1" />
+      <div className="application-development-child2" />
+      <img className="rectangle-icon" alt="" src="/rectangle-12.svg" />
+      <div className="application-development-child3" />
+      <div className="name">Name</div>
+      <div className="email">Email</div>
+      <div className="company">Company</div>
+      <div className="company-size">Company Size</div>
+      <div className="add-comment-optional">Add Comment (optional)</div>
+      <img className="polygon-icon" alt="" src="/polygon-3.svg" />
+      <div className="application-development-child4" />
+      <div className="locofy-submit">Locofy Submit</div>
+      <div className="our-digitalization-service-container">
+        <p className="hazel-grove-stockport">
+          Our digitalization service, specialize in developing custom
+          applications that streamline processes and improve efficiency for
+          businesses of all sizes. Our team of skilled developers has the
+        </p>
+        <p className="hazel-grove-stockport">
+          expertise to create solutions for various industries, from healthcare
+          to finance.
+        </p>
+        <p className="hazel-grove-stockport">{`Our application development process is designed to be seamless and efficient. We start by gathering requirements and conducting a thorough analysis to ensure that our solution is tailored to your needs. `}</p>
+        <p className="hazel-grove-stockport">&nbsp;</p>
+        <p className="hazel-grove-stockport">
+          From there, we move into the design phase, where we create wireframes
+          and prototypes to
+        </p>
+        <p className="hazel-grove-stockport">
+          give you a clear understanding of what the final product will look
+          like.
+        </p>
+        <p className="hazel-grove-stockport">
+          Once the design is approved, our team builds and tests the
+          application. We use the latest
+        </p>
+        <p className="hazel-grove-stockport">
+          technologies and best practices to ensure that the finished product is
+          of the highest quality.
+        </p>
+        <p className="hazel-grove-stockport">
+          Throughout the development process, we keep you informed and provide
+          regular updates so you can see our progress.
+        </p>
+        <p className="hazel-grove-stockport">&nbsp;</p>
+        <p className="hazel-grove-stockport">
+          After completing the application, we provide ongoing support to ensure
+          that it runs smoothly and
+        </p>
+        <p className="hazel-grove-stockport">
+          meets your needs. In addition, we are always available to answer
+          questions and make any necessary
+        </p>
+        <p className="hazel-grove-stockport">updates or improvements.</p>
+        <p className="hazel-grove-stockport">
+          One of the key advantages of working with us is our focus on customer
+          satisfaction. We take the time to understand each client's unique
+          needs and tailor our solutions to their specific goals and
+        </p>
+        <p className="hazel-grove-stockport">
+          challenges. In addition, our team is available to answer any questions
+          and provide support
+        </p>
+        <p className="hazel-grove-stockport">throughout the process.</p>
+      </div>
+      <div className="application-development-child5" />
+      <div className="the-stages-and">
+        The stages and process for app development
+      </div>
+      <b className="application-development-proces">
+        Application Development Process
+      </b>
+      <div className="line-parent">
+        <div className="group-child1" />
+        <div className="group-container">
+          <div className="group-div">
+            <div className="group-child2" />
+            <div className="stage-2-parent">
+              <b className="stage-2">Stage 2</b>
+              <img className="frame-child" alt="" src="/ellipse-271.svg" />
+            </div>
+          </div>
+          <div className="frame-group">
+            <div className="innovation-and-development-parent">
+              <div className="innovation-and-development">
+                Innovation And Development
+              </div>
+              <div className="dui-massa-sapien">
+                Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+                maecenas sit. Nibh suspendisse lectus hendrerit pretium...
+              </div>
+            </div>
+            <img
+              className="group-5451233-icon"
+              alt=""
+              src="/group5451233.svg"
+            />
+          </div>
+        </div>
+        <div className="group-56706-parent">
+          <img className="group-56706-icon" alt="" src="/group56706.svg" />
+          <div className="idea-validation-parent">
+            <div className="innovation-and-development">Idea Validation</div>
+            <div className="dui-massa-sapien">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+          </div>
+          <div className="rectangle-parent1">
+            <div className="group-child2" />
+            <img className="ellipse-icon" alt="" src="/ellipse-2711.svg" />
+            <b className="stage-1">Stage 1</b>
+          </div>
+        </div>
+        <div className="group-parent1">
+          <img className="group-icon2" alt="" src="/group1.svg" />
+          <div className="idea-validation-parent">
+            <div className="innovation-and-development">Software Testing</div>
+            <div className="dui-massa-sapien">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
+            </div>
+          </div>
+          <div className="rectangle-parent2">
+            <div className="group-child2" />
+            <img className="group-child5" alt="" src="/ellipse-2712.svg" />
+            <b className="stage-1">Stage 3</b>
+          </div>
+        </div>
+        <div className="frame-container">
+          <div className="deployment-parent">
+            <div className="innovation-and-development">Deployment</div>
+            <div className="dui-massa-sapien">
+              Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
+              maecenas sit. Nibh suspendisse lectus hendrerit pretium...
+            </div>
+          </div>
+          <div className="rectangle-parent3">
+            <div className="group-child2" />
+            <div className="stage-2-parent">
+              <b className="stage-2">Stage 4</b>
+              <img className="frame-child" alt="" src="/ellipse-2713.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img className="group-56707-icon" alt="" src="/group56707.svg" />
+      <b className="custom-application-development">
+        Custom Application Development Services
+      </b>
+      <div className="home-services">
+        Home / Services / Application Development
+      </div>
+    </div>
+  );
+};
+
+export default ApplicationDevelopment;

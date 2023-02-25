@@ -1,0 +1,244 @@
+import "./service-responsive.css";
+
+const ServiceResponsive = () => {
+  return (
+    <div className="service-responsive">
+      <div className="banner3">
+        <div className="content2">
+          <div className="title2">
+            <b className="contact-us3">Contact Us</b>
+            <div className="line1" />
+          </div>
+          <div className="there-are-many1">
+            There are many variations of passages of Lorem Ipsum available, have
+            suffered alteration in some form.
+          </div>
+        </div>
+        <img
+          className="cogai-logotrans-1-1-icon2"
+          alt=""
+          src="/cogailogotrans1-11@2x.png"
+        />
+        <div className="home-container">
+          <div className="home2">Home</div>
+          <div className="about2">About</div>
+          <div className="about2">Services</div>
+          <div className="about2">Industries</div>
+          <div className="about2">Resources</div>
+        </div>
+        <div className="rectangle-parent4">
+          <div className="group-child7" />
+          <div className="get-nothing">GET A QUOTE</div>
+        </div>
+      </div>
+      <div className="banner4">
+        <div className="image-parent">
+          <div className="banner3">
+            <div className="background1" />
+          </div>
+          <div className="content3">
+            <div className="title3">
+              <b className="contact-us3">Services</b>
+            </div>
+          </div>
+          <img
+            className="cogai-logotrans-1-1-icon3"
+            alt=""
+            src="/cogailogotrans1-11@2x.png"
+          />
+          <div className="rectangle-parent5">
+            <div className="group-child7" />
+            <div className="get-nothing">Get Nothing</div>
+          </div>
+          <div className="links">
+            <button className="hamburger">
+              <div className="hamburger-child" />
+              <div className="hamburger-child" />
+              <div className="hamburger-child" />
+            </button>
+            <div className="home3">Home</div>
+            <div className="home3">About</div>
+            <div className="services4">Services</div>
+            <div className="home3">Industries</div>
+            <div className="home3">Resources</div>
+          </div>
+        </div>
+      </div>
+      <div className="group-parent2">
+        <div className="rectangle-parent6">
+          <div className="group-child9" />
+          <div className="copyright-20221">
+            Copyright @ 2022. All Rights Reserved.
+          </div>
+          <b className="other-links1">Other Links</b>
+          <div className="terms-condition1">{`Terms & Condition`}</div>
+          <div className="privacy-policy1">Privacy Policy</div>
+          <div className="report-abuse1">Report Abuse</div>
+          <div className="contact-us4">Contact Us</div>
+          <b className="serives1">Serives</b>
+          <div className="application-development3">
+            Application Development
+          </div>
+          <div className="human-to-machine-communication1">
+            Human-to-Machine Communication
+          </div>
+          <div className="machine-to-machine-communicati1">
+            Machine-to-Machine Communication
+          </div>
+          <div className="video-analytics1">Video Analytics</div>
+          <div className="div2" />
+          <img className="group-child10" alt="" src="/group-2151.svg" />
+          <img className="frame-icon1" alt="" src="/frame1.svg" />
+          <div className="we-specialize-in1">
+            We specialize in developing custom applications that streamline
+            processes and improve efficiency for businesses of all sizes.
+          </div>
+        </div>
+        <div className="contact-us-group">
+          <b className="contact-us5">CONTACT US</b>
+          <div className="frame-div">
+            <div className="vector-parent1">
+              <img className="vector-icon3" alt="" src="/vector3.svg" />
+              <div className="contact-us5">+44-(0)-1474-338-718</div>
+            </div>
+            <div className="vector-parent2">
+              <img className="vector-icon4" alt="" src="/vector4.svg" />
+              <div className="contact-us5">info@cogai.uk</div>
+            </div>
+            <div className="group-parent3">
+              <img className="group-icon3" alt="" src="/group2.svg" />
+              <div className="contact-us5">
+                <p className="application-development-is">{`Cogai LTD, 6 Station View, `}</p>
+                <p className="application-development-is">{`Hazel Grove, Stockport, `}</p>
+                <p className="application-to-automate">England, SK7 5ER</p>
+              </div>
+            </div>
+            <div className="vector-parent3">
+              <img className="vector-icon5" alt="" src="/vector5.svg" />
+              <div className="contact-us5">Monday To Friday</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="group-parent4">
+        <div className="rectangle-parent7">
+          <img className="group-child11" alt="" src="/rectangle-9@2x.png" />
+          <div className="group-parent5">
+            <div className="application-development-is-at-parent">
+              <div className="application-development-is-container">
+                <p className="application-development-is">
+                  Application development is at the heart of what we do. Our
+                  team are skilled in creating custom software solutions that
+                  meet the unique needs of our clients. So whether you need a
+                  simple
+                </p>
+                <p className="application-to-automate">
+                  application to automate a business process or a complex system
+                  to manage your entire operation, we have the expertise and
+                  experience to deliver results.
+                </p>
+              </div>
+              <div className="application-development4">
+                1. Application Development
+              </div>
+            </div>
+            <button className="rectangle-button" />
+          </div>
+          <div className="read-more">Read more</div>
+        </div>
+        <div className="frame-parent1">
+          <div className="group-parent6">
+            <div className="group-wrapper">
+              <div className="human-to-machine-communication-parent">
+                <div className="human-to-machine-communication2">
+                  <p className="application-development-is">
+                    Human-to-machine communication is another crucial area of
+                    focus for our company. With the proliferation of smart
+                    devices and the Internet of Things (IoT), it's more
+                    important than ever for
+                  </p>
+                  <p className="application-to-automate">
+                    businesses to connect and communicate seamlessly with their
+                    customers and employees. Our team can help you develop the
+                    systems and technologies needed to enable effective
+                    human-to-machine communication, including wireless
+                    controls....
+                  </p>
+                </div>
+                <div className="application-development4">
+                  2. Human-To-Machine Communication
+                </div>
+              </div>
+            </div>
+            <button className="group-button">
+              <div className="group-child12" />
+              <div className="read-more1">Read more</div>
+            </button>
+          </div>
+          <img className="frame-inner" alt="" src="/rectangle-11@2x.png" />
+        </div>
+        <div className="rectangle-parent8">
+          <img className="frame-inner" alt="" src="/rectangle-111@2x.png" />
+          <div className="group-parent7">
+            <div className="group-parent8">
+              <div className="machine-to-machine-communicati-parent">
+                <div className="machine-to-machine-communicati2">
+                  <p className="application-development-is">
+                    Machine-to-machine communication is also an essential part
+                    of our offering. With the ability to connect and communicate
+                    with other devices and systems, businesses can automate
+                    processes,
+                  </p>
+                  <p className="application-to-automate">
+                    improve efficiency, and gather valuable data to inform
+                    decision-making. We can help you develop the infrastructure
+                    and systems needed to enable effective machine-to-machine
+                    communication and leverage the power of the IoT to drive
+                    business growth.
+                  </p>
+                </div>
+                <div className="application-development4">
+                  3. Machine-To-Machine Communication
+                </div>
+              </div>
+              <div className="group-child13" />
+            </div>
+            <div className="read-more2">Read more</div>
+          </div>
+        </div>
+        <div className="rectangle-parent9">
+          <img className="group-child14" alt="" src="/rectangle-10@2x.png" />
+          <div className="group-parent9">
+            <div className="our-video-analytics-services-a-parent">
+              <div className="our-video-analytics-container">
+                <p className="application-development-is">
+                  Our video analytics services are designed to help businesses
+                  extract valuable insights and information from video footage.
+                  Whether you need to monitor customer behavior in a retail
+                </p>
+                <p className="application-to-automate">
+                  environment, optimize your manufacturing processes, or gather
+                  intelligence for security, our team can help you develop the
+                  technology and capabilities needed to turn video data into
+                  actionable insights.
+                </p>
+              </div>
+              <div className="application-development4">4. Video Analytics</div>
+            </div>
+            <button className="group-child15" />
+          </div>
+          <div className="read-more3">Read more</div>
+        </div>
+        <div className="group-frame">
+          <div className="services-we-are-providing-wrapper">
+            <div className="services-we-are">Services We Are Providing</div>
+          </div>
+        </div>
+        <div className="home-services1">Home / Services</div>
+        <div className="frame-child2" />
+      </div>
+    </div>
+  );
+};
+
+export default ServiceResponsive;
