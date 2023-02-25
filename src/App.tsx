@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import ServiceResponsive from "./src/screens/ServiceResponsive";
+import FrameComponent from "./pages/FrameComponent";
 import { useEffect } from "react";
 
 function App() {
@@ -45,9 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/zawar" element={<ServiceResponsive />} />
-       <Route path="/aditya" element={<ServiceResponsive />} />
-  
+      <Route path="/" element={<FrameComponent />} />
     </Routes>
   );
 }
