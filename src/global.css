@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
   margin: 0;
@@ -8,27 +7,15 @@ body {
 }
 :root {
   /* fonts */
-  --font-poppins: Poppins;
-  --paragraph: Montserrat;
   --font-inter: Inter;
 
   /* font sizes */
-  --font-size-sm: 15px;
-  --paragraph-size: 16px;
-  --font-size-lg: 24px;
-  --font-size-xl: 50px;
+  --font-size-base: 12px;
 
   /* Colors */
   --color-white: #fff;
-  --color-darkgray: #a6a6a6;
-  --color-darkslategray-100: #424242;
-  --headings: #14342b;
-  --color-black: #000;
-  --color-whitesmoke: #f2f2f2;
-  --color: #626262;
+  --color-red: #ff0000;
 
-  /* border radiuses */
-  --br-sm: 4px;
-  --br-md: 6px;
-  --br-lg: 20px;
+  /* Paddings */
+  --padding-md: 10px;
 }

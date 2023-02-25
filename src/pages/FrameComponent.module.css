@@ -1,0 +1,39 @@
+.contactButton {
+  position: relative;
+}
+.contactButtonWrapper {
+  background-color: var(--color-red);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild,
+.frameParent {
+  position: relative;
+  overflow: hidden;
+}
+.frameChild {
+  width: 117px;
+  height: 47px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameParent {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 317px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
