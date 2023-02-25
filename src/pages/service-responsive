@@ -78,7 +78,7 @@ const ServiceResponsive = () => {
           <div className="report-abuse1">Report Abuse</div>
           <div className="contact-us4">Contact Us</div>
           <b className="serives1">Serives</b>
-          <div className="application-development3">
+          <div className="application-development2">
             Application Development
           </div>
           <div className="human-to-machine-communication1">
@@ -140,7 +140,7 @@ const ServiceResponsive = () => {
                   experience to deliver results.
                 </p>
               </div>
-              <div className="application-development4">
+              <div className="application-development3">
                 1. Application Development
               </div>
             </div>
@@ -167,7 +167,7 @@ const ServiceResponsive = () => {
                     controls....
                   </p>
                 </div>
-                <div className="application-development4">
+                <div className="application-development3">
                   2. Human-To-Machine Communication
                 </div>
               </div>
@@ -199,7 +199,7 @@ const ServiceResponsive = () => {
                     business growth.
                   </p>
                 </div>
-                <div className="application-development4">
+                <div className="application-development3">
                   3. Machine-To-Machine Communication
                 </div>
               </div>
@@ -225,7 +225,7 @@ const ServiceResponsive = () => {
                   actionable insights.
                 </p>
               </div>
-              <div className="application-development4">4. Video Analytics</div>
+              <div className="application-development3">4. Video Analytics</div>
             </div>
             <button className="group-child15" />
           </div>

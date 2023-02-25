@@ -216,7 +216,7 @@ const Blogs = () => {
           <div className="report-abuse3">Report Abuse</div>
           <div className="contact-us10">Contact Us</div>
           <b className="serives3">Serives</b>
-          <div className="application-development6">
+          <div className="application-development5">
             Application Development
           </div>
           <div className="human-to-machine-communication6">

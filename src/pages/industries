@@ -75,7 +75,7 @@ const Industries = () => {
             <div className="report-abuse2">Report Abuse</div>
             <div className="contact-us7">Contact Us</div>
             <b className="serives2">Serives</b>
-            <div className="application-development5">
+            <div className="application-development4">
               Application Development
             </div>
             <div className="human-to-machine-communication5">

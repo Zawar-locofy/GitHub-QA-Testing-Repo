@@ -23,11 +23,11 @@ const ApplicationDevelopment = () => {
             src="/cogailogotrans1-1@2x.png"
           />
           <div className="home-parent">
-            <div className="home">Git Home</div>
-            <div className="about">Git About</div>
-            <div className="about">Git Services</div>
-            <div className="about">Git Industries</div>
-            <div className="about">Git Resources</div>
+            <div className="home">Home</div>
+            <div className="about">About</div>
+            <div className="about">Services</div>
+            <div className="about">Industries</div>
+            <div className="about">Resources</div>
           </div>
           <div className="rectangle-parent">
             <div className="group-child" />
@@ -39,21 +39,22 @@ const ApplicationDevelopment = () => {
             <div className="background" />
           </div>
           <div className="content1">
-            <div className="title1">
-              <b className="contact-us">Application Development</b>
-            </div>
+            <div className="title1" />
           </div>
+          <b className="loco-application-development">
+            LOCO Application Development
+          </b>
           <img
             className="cogai-logotrans-1-1-icon1"
             alt=""
             src="/cogailogotrans1-1@2x.png"
           />
           <div className="loco-home-parent">
-            <div className="about">Git Home</div>
-            <div className="about">Git About</div>
-            <div className="about">Git Services</div>
-            <div className="about">Git Industries</div>
-            <div className="about">Git Resources</div>
+            <div className="about">loco Home</div>
+            <div className="about">loco About</div>
+            <div className="about">loco Services</div>
+            <div className="about">loco Industries</div>
+            <div className="about">loco Resources</div>
           </div>
           <div className="rectangle-group">
             <div className="group-item" />
@@ -79,7 +80,7 @@ const ApplicationDevelopment = () => {
             <div className="report-abuse">Report Abuse</div>
             <div className="contact-us1">Contact Us</div>
             <b className="serives">Serives</b>
-            <div className="application-development2">
+            <div className="application-development1">
               Application Development
             </div>
             <div className="human-to-machine-communication">
