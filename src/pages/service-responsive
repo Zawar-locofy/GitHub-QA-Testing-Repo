@@ -1,3 +1,5 @@
+
+
 import "./service-responsive.css";
 
 const ServiceResponsive = () => {
@@ -19,12 +21,12 @@ const ServiceResponsive = () => {
           alt=""
           src="/cogailogotrans1-11@2x.png"
         />
-        <div className="home-container">
-          <div className="home2">Home</div>
-          <div className="about2">About</div>
-          <div className="about2">Services</div>
-          <div className="about2">Industries</div>
-          <div className="about2">Resources</div>
+        <div className="home-group">
+          <div className="home1">Home</div>
+          <div className="about1">About</div>
+          <div className="about1">Services</div>
+          <div className="about1">Industries</div>
+          <div className="about1">Resources</div>
         </div>
         <div className="rectangle-parent4">
           <div className="group-child7" />
@@ -56,11 +58,11 @@ const ServiceResponsive = () => {
               <div className="hamburger-child" />
               <div className="hamburger-child" />
             </button>
-            <div className="home3">Home</div>
-            <div className="home3">About</div>
-            <div className="services4">Services</div>
-            <div className="home3">Industries</div>
-            <div className="home3">Resources</div>
+            <div className="home2">Home</div>
+            <div className="home2">About</div>
+            <div className="services3">Services</div>
+            <div className="home2">Industries</div>
+            <div className="home2">Resources</div>
           </div>
         </div>
       </div>

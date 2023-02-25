@@ -165,12 +165,12 @@ const Blogs = () => {
             alt=""
             src="/cogailogotrans1-1@2x.png"
           />
-          <div className="home-parent3">
-            <div className="home6">Home</div>
-            <div className="about6">About</div>
-            <div className="about6">Services</div>
-            <div className="about6">Industries</div>
-            <div className="about6">Resources</div>
+          <div className="home-parent2">
+            <div className="home5">Home</div>
+            <div className="about5">About</div>
+            <div className="about5">Services</div>
+            <div className="about5">Industries</div>
+            <div className="about5">Resources</div>
           </div>
           <div className="rectangle-parent20">
             <div className="group-child36" />
@@ -191,12 +191,12 @@ const Blogs = () => {
             alt=""
             src="/cogailogotrans1-1@2x.png"
           />
-          <div className="home-parent4">
-            <div className="about6">Home</div>
-            <div className="about6">About</div>
-            <div className="about6">Services</div>
-            <div className="about6">Industries</div>
-            <div className="resources7">Resources</div>
+          <div className="home-parent3">
+            <div className="about5">Home</div>
+            <div className="about5">About</div>
+            <div className="about5">Services</div>
+            <div className="about5">Industries</div>
+            <div className="resources6">Resources</div>
           </div>
           <div className="rectangle-parent21">
             <div className="group-child36" />

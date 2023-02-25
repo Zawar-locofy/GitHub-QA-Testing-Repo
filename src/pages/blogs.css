@@ -1,5 +1,6 @@
 
 
+
 .latest-blog-posts {
 position: absolute;
 top: 0px;
@@ -357,16 +358,16 @@ width: 92.55px;
 height: 70.63px;
 object-fit: cover;
 }
-.home6 {
+.home5 {
 position: relative;
 font-weight: 500;
 color: var(--headings);
 }
-.about6 {
+.about5 {
 position: relative;
 font-weight: 500;
 }
-.home-parent3 {
+.home-parent2 {
 position: absolute;
 top: 61.32px;
 left: 521.5px;
@@ -444,12 +445,12 @@ width: 92.55px;
 height: 70.63px;
 object-fit: cover;
 }
-.resources7 {
+.resources6 {
 position: relative;
 font-weight: 500;
 color: var(--color-white);
 }
-.home-parent4 {
+.home-parent3 {
 position: absolute;
 top: 61.32px;
 left: 471.5px;

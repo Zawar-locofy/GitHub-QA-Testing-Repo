@@ -1,3 +1,5 @@
+
+
 import "./application-development.css";
 
 const ApplicationDevelopment = () => {
@@ -7,11 +9,11 @@ const ApplicationDevelopment = () => {
         <div className="image">
           <div className="content">
             <div className="title">
-              <b className="contact-us">Github Contact Us</b>
+              <b className="contact-us">Contact Us</b>
               <div className="line" />
             </div>
             <div className="there-are-many">
-              GitHub there are many variations of passages of Lorem Ipsum available,
+              There are many variations of passages of Lorem Ipsum available,
               have suffered alteration in some form.
             </div>
           </div>
@@ -21,11 +23,11 @@ const ApplicationDevelopment = () => {
             src="/cogailogotrans1-1@2x.png"
           />
           <div className="home-parent">
-            <div className="home">git Home</div>
-            <div className="about">git About</div>
-            <div className="about">git Services</div>
-            <div className="about">git Industries</div>
-            <div className="about">git Resources</div>
+            <div className="home">Home</div>
+            <div className="about">About</div>
+            <div className="about">Services</div>
+            <div className="about">Industries</div>
+            <div className="about">Resources</div>
           </div>
           <div className="rectangle-parent">
             <div className="group-child" />
@@ -46,12 +48,12 @@ const ApplicationDevelopment = () => {
             alt=""
             src="/cogailogotrans1-1@2x.png"
           />
-          <div className="home-group">
-            <div className="about">Home</div>
-            <div className="about">About</div>
-            <div className="about">Services</div>
-            <div className="about">Industries</div>
-            <div className="about">Resources</div>
+          <div className="loco-home-parent">
+            <div className="about">loco Home</div>
+            <div className="about">loco About</div>
+            <div className="about">loco Services</div>
+            <div className="about">loco Industries</div>
+            <div className="about">loco Resources</div>
           </div>
           <div className="rectangle-group">
             <div className="group-item" />

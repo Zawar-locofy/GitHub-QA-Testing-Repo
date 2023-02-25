@@ -5,7 +5,7 @@ import "./industries.css";
 
 const Industries = () => {
   return (
-    <div className="industries4">
+    <div className="industries3">
       <div className="banner5">
         <div className="banner6">
           <div className="content4">
@@ -23,12 +23,12 @@ const Industries = () => {
             alt=""
             src="/cogailogotrans1-1@2x.png"
           />
-          <div className="home-parent1">
-            <div className="home4">Home</div>
-            <div className="about4">About</div>
-            <div className="about4">Services</div>
-            <div className="about4">Industries</div>
-            <div className="about4">Resources</div>
+          <div className="home-container">
+            <div className="home3">Home</div>
+            <div className="about3">About</div>
+            <div className="about3">Services</div>
+            <div className="about3">Industries</div>
+            <div className="about3">Resources</div>
           </div>
           <div className="rectangle-parent10">
             <div className="group-child16" />
@@ -49,12 +49,12 @@ const Industries = () => {
             alt=""
             src="/cogailogotrans1-1@2x.png"
           />
-          <div className="home-parent2">
-            <div className="about4">Home</div>
-            <div className="about4">About</div>
-            <div className="about4">Services</div>
-            <div className="industries7">Industries</div>
-            <div className="about4">Resources</div>
+          <div className="home-parent1">
+            <div className="about3">Home</div>
+            <div className="about3">About</div>
+            <div className="about3">Services</div>
+            <div className="industries6">Industries</div>
+            <div className="about3">Resources</div>
           </div>
           <button className="rectangle-parent11">
             <div className="group-child16" />

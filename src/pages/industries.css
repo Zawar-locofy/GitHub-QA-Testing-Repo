@@ -1,5 +1,6 @@
 
 
+
 .contact-us6 {
 position: relative;
 letter-spacing: -0.02em;
@@ -51,16 +52,16 @@ width: 92.55px;
 height: 70.63px;
 object-fit: cover;
 }
-.home4 {
+.home3 {
 position: relative;
 font-weight: 500;
 color: var(--headings);
 }
-.about4 {
+.about3 {
 position: relative;
 font-weight: 500;
 }
-.home-parent1 {
+.home-container {
 position: absolute;
 top: 61.32px;
 left: 521.5px;
@@ -138,12 +139,12 @@ width: 92.55px;
 height: 70.63px;
 object-fit: cover;
 }
-.industries7 {
+.industries6 {
 position: relative;
 font-weight: 500;
 color: var(--color-white);
 }
-.home-parent2 {
+.home-parent1 {
 position: absolute;
 top: 61.32px;
 left: 471.5px;
@@ -959,7 +960,7 @@ top: 438.93px;
 left: 123.5px;
 font-family: var(--font-poppins);
 }
-.industries4 {
+.industries3 {
 position: relative;
 background-color: var(--color-white);
 width: 100%;
