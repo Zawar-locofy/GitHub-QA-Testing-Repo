@@ -23,11 +23,11 @@ const ApplicationDevelopment = () => {
             src="/cogailogotrans1-1@2x.png"
           />
           <div className="home-parent">
-            <div className="home">Home</div>
-            <div className="about">About</div>
-            <div className="about">Services</div>
-            <div className="about">Industries</div>
-            <div className="about">Resources</div>
+            <div className="home">Git Home</div>
+            <div className="about">Git About</div>
+            <div className="about">Git Services</div>
+            <div className="about">Git Industries</div>
+            <div className="about">Git Resources</div>
           </div>
           <div className="rectangle-parent">
             <div className="group-child" />
@@ -49,11 +49,11 @@ const ApplicationDevelopment = () => {
             src="/cogailogotrans1-1@2x.png"
           />
           <div className="loco-home-parent">
-            <div className="about">loco Home</div>
-            <div className="about">loco About</div>
-            <div className="about">loco Services</div>
-            <div className="about">loco Industries</div>
-            <div className="about">loco Resources</div>
+            <div className="about">Git Home</div>
+            <div className="about">Git About</div>
+            <div className="about">Git Services</div>
+            <div className="about">Git Industries</div>
+            <div className="about">Git Resources</div>
           </div>
           <div className="rectangle-group">
             <div className="group-item" />
