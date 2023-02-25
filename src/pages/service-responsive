@@ -1,5 +1,3 @@
-
-
 import "./service-responsive.css";
 
 const ServiceResponsive = () => {
