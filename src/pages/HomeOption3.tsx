@@ -98,7 +98,7 @@ const HomeOption3: FunctionComponent = () => {
             </div>
             <div className="flex flex-row items-center justify-start gap-[12px]">
               <img className="relative w-[18px] h-3.5 shrink-0" alt="" />
-              <div className="relative">info@cogai.uk</div>
+              <div className="relative">info@locofy.uk</div>
             </div>
             <div className="flex flex-row items-start justify-start gap-[16px]">
               <img
@@ -113,7 +113,7 @@ const HomeOption3: FunctionComponent = () => {
             </div>
             <div className="flex flex-row items-center justify-start gap-[13px]">
               <img className="relative w-4 h-4 shrink-0" alt="" />
-              <div className="relative">Monday To Friday</div>
+              <div className="relative">Monday To Saturday</div>
             </div>
           </div>
         </div>
@@ -306,6 +306,7 @@ const HomeOption3: FunctionComponent = () => {
           <div className="relative leading-[163%] font-semibold">
             <span className="tracking-[-0.13em]">--</span>
             <span className="text-white">{`    Experienced & Skilled Resources`}</span>
+             <span className="text-white">{`   Git Experienced & Git Skilled Resources`}</span>
           </div>
         </div>
       </div>
