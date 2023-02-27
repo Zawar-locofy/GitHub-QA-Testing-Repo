@@ -76,12 +76,12 @@ const HomeOption3: FunctionComponent = () => {
           <img
             className="absolute top-[400.49px] left-[134.95px] w-[178.05px] h-[33.26px]"
             alt=""
-            src="/group-2154.svg"
+            src="/group-215.svg"
           />
           <img
             className="absolute top-[164.25px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
             alt=""
-            src="/frame5.svg"
+            src="/frame.svg"
           />
           <div className="absolute top-[274.63px] left-[134.95px] text-xs leading-[163%] font-header inline-block w-[251.05px]">
             We specialize in developing custom applications that streamline
@@ -140,7 +140,7 @@ const HomeOption3: FunctionComponent = () => {
             <img
               className="absolute h-[51.92%] w-[32.81%] top-[0%] right-[33.59%] bottom-[48.08%] left-[33.59%] max-w-full overflow-hidden max-h-full"
               alt=""
-              src="/vector12.svg"
+              src="/vector.svg"
             />
           </div>
           <div className="relative w-0 h-[62.67px] shrink-0" />
@@ -151,7 +151,7 @@ const HomeOption3: FunctionComponent = () => {
             <img
               className="absolute h-[52.41%] w-[56.53%] top-[0%] right-[21.73%] bottom-[47.59%] left-[21.73%] max-w-full overflow-hidden max-h-full"
               alt=""
-              src="/vector13.svg"
+              src="/vector1.svg"
             />
           </div>
           <div className="relative w-0 h-[62.67px] shrink-0" />
@@ -162,7 +162,7 @@ const HomeOption3: FunctionComponent = () => {
             <img
               className="absolute h-[56.83%] w-[18.76%] top-[0%] right-[40.62%] bottom-[43.17%] left-[40.62%] max-w-full overflow-hidden max-h-full"
               alt=""
-              src="/vector14.svg"
+              src="/vector2.svg"
             />
           </div>
         </div>
@@ -207,7 +207,7 @@ const HomeOption3: FunctionComponent = () => {
       <img
         className="absolute top-[2620.37px] left-[872.61px] rounded-md w-[373.63px] h-[43.55px] opacity-[0.24]"
         alt=""
-        src="/rectangle-121.svg"
+        src="/rectangle-12.svg"
       />
       <div className="absolute top-[2678.51px] left-[872.61px] rounded-md box-border w-[373.63px] h-[43.55px] opacity-[0.24] border-[1px] border-solid border-text" />
       <div className="absolute top-[2736.66px] left-[871.57px] rounded-md box-border w-[373.63px] h-[43.55px] opacity-[0.24] border-[1px] border-solid border-text" />
@@ -232,12 +232,12 @@ const HomeOption3: FunctionComponent = () => {
       <img
         className="absolute top-[2755.36px] left-[1219.32px] w-[10.34px] h-[6.56px]"
         alt=""
-        src="/polygon-21.svg"
+        src="/polygon-2.svg"
       />
       <img
         className="absolute top-[2697.22px] left-[1219.32px] w-[10.34px] h-[6.56px]"
         alt=""
-        src="/polygon-32.svg"
+        src="/polygon-3.svg"
       />
       <div className="absolute top-[2923.22px] left-[871.57px] rounded-md bg-primary-green w-[374.67px] h-[52.81px]" />
       <div className="absolute top-[2935.13px] left-[1024.9px] text-lg leading-[163%] font-medium text-white">
@@ -249,7 +249,7 @@ const HomeOption3: FunctionComponent = () => {
           <div className="absolute top-[calc(50%_-_49.43px)] left-[25.89%] font-semibold">
             95%
           </div>
-          <div className="absolute top-[calc(50%_+_20.43px)] left-[0%] text-4xl text-gray-500 text-left">
+          <div className="absolute top-[calc(50%_+_20.43px)] left-[0%] text-4xl text-gray-800 text-left">
             Client Retention
           </div>
         </div>
@@ -262,7 +262,7 @@ const HomeOption3: FunctionComponent = () => {
           <div className="absolute top-[calc(50%_-_49.74px)] left-[37.9%] font-semibold">
             15
           </div>
-          <div className="absolute top-[calc(50%_+_20.74px)] left-[0%] text-4xl text-gray-500 text-left">
+          <div className="absolute top-[calc(50%_+_20.74px)] left-[0%] text-4xl text-gray-800 text-left">
             Years of Service
           </div>
         </div>
@@ -275,7 +275,7 @@ const HomeOption3: FunctionComponent = () => {
           <div className="absolute top-[calc(50%_-_41.31px)] left-[11.92%] font-semibold">
             2000+
           </div>
-          <div className="absolute top-[calc(50%_+_41.31px)] left-[0%] text-4xl text-gray-500">
+          <div className="absolute top-[calc(50%_+_41.31px)] left-[0%] text-4xl text-gray-800">
             Satisfied Clients
           </div>
         </div>
@@ -368,12 +368,12 @@ const HomeOption3: FunctionComponent = () => {
             How Technology Trends are Changing the app Industry
           </b>
           <div className="self-stretch flex flex-col py-0 pr-[430px] pl-0 items-start justify-center text-xs text-font-color-light-subtitle font-caption-caption-2-medium">
-            <div className="rounded bg-gray-600 overflow-hidden flex flex-row py-1 px-2 items-center justify-center">
+            <div className="rounded bg-gray-900 overflow-hidden flex flex-row py-1 px-2 items-center justify-center">
               <div className="relative leading-[22px] font-medium">New</div>
             </div>
           </div>
         </div>
-        <div className="absolute top-[128px] left-[733px] rounded-small bg-white box-border w-[298px] h-[419px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-700">
+        <div className="absolute top-[128px] left-[733px] rounded-small bg-white box-border w-[298px] h-[419px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -407,7 +407,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group@2x.png"
         />
-        <div className="absolute top-[128px] left-[1055px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-700">
+        <div className="absolute top-[128px] left-[1055px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -441,7 +441,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group1@2x.png"
         />
-        <div className="absolute top-[562px] left-[89px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-700">
+        <div className="absolute top-[562px] left-[89px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -475,7 +475,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group2@2x.png"
         />
-        <div className="absolute top-[562px] left-[1055px] rounded-small bg-white box-border w-[298px] h-[397px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-700">
+        <div className="absolute top-[562px] left-[1055px] rounded-small bg-white box-border w-[298px] h-[397px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -509,7 +509,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group3@2x.png"
         />
-        <div className="absolute top-[562px] left-[733px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-700">
+        <div className="absolute top-[562px] left-[733px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -543,7 +543,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group4@2x.png"
         />
-        <div className="absolute top-[562px] left-[411px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-700">
+        <div className="absolute top-[562px] left-[411px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -634,7 +634,7 @@ const HomeOption3: FunctionComponent = () => {
             src="/carbonmachinelearning.svg"
           />
         </div>
-        <div className="relative rounded-[19px] bg-white box-border w-[377px] h-[366px] shrink-0 text-base text-text border-[1px] border-solid border-gray-800">
+        <div className="relative rounded-[19px] bg-white box-border w-[377px] h-[366px] shrink-0 text-base text-text border-[1px] border-solid border-gray-1100">
           <RectangleComponent />
           <div className="absolute top-[189px] left-[39px] leading-[163%] font-medium inline-block w-[297.33px]">
             Also an essential part of our offering. With the ability to connect
@@ -712,7 +712,7 @@ const HomeOption3: FunctionComponent = () => {
         <img
           className="relative w-[92.55px] h-[70.63px] shrink-0 object-cover"
           alt=""
-          src="/cogailogotrans1-12@2x.png"
+          src="/cogailogotrans1-1@2x.png"
         />
         <div className="w-[726px] shrink-0 flex flex-row items-center justify-center gap-[55px]">
           <div className="flex flex-row items-start justify-start gap-[55px] md:hidden">

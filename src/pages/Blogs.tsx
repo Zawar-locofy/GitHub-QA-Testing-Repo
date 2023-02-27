@@ -3,16 +3,16 @@ import { TextField } from "@mui/material";
 
 const Blogs: FunctionComponent = () => {
   return (
-    <div className="relative bg-white w-full h-[2421px] overflow-hidden text-left text-2xs text-gray-1000 font-header">
+    <div className="relative bg-white w-full h-[2421px] overflow-hidden text-left text-2xs text-gray-600 font-header">
       <div className="absolute top-[511.25px] left-[515px] w-[410px] h-[54px] text-center text-9xl text-black">
         <b className="absolute top-[0px] left-[0px] leading-[120%] capitalize">
           Latest Blog Posts
         </b>
       </div>
-      <div className="absolute top-[618px] left-[963px] text-lg tracking-[0.02em] leading-[160%] font-semibold text-gray-900">
+      <div className="absolute top-[618px] left-[963px] text-lg tracking-[0.02em] leading-[160%] font-semibold text-gray-500">
         Shortcut Links
       </div>
-      <div className="absolute top-[1137px] left-[963px] text-lg tracking-[0.02em] leading-[160%] font-inter text-gray-900">
+      <div className="absolute top-[1137px] left-[963px] text-lg tracking-[0.02em] leading-[160%] font-inter text-gray-500">
         Featured Video
       </div>
       <div className="absolute top-[618px] left-[92px] rounded-base bg-white shadow-[0px_0px_4px_rgba(0,_0,_0,_0.1)] w-[821px] h-[297px]" />
@@ -24,7 +24,7 @@ const Blogs: FunctionComponent = () => {
       <img
         className="absolute top-[1290px] left-[1110px] w-[90px] h-[90px] overflow-hidden"
         alt=""
-        src="/frame2.svg"
+        src="/frame3.svg"
       />
       <img
         className="absolute top-[618px] left-[92px] rounded-base w-[334px] h-[297px] object-cover"
@@ -118,7 +118,7 @@ const Blogs: FunctionComponent = () => {
       <div className="absolute top-[638px] left-[471px] text-5xl tracking-[0.02em] leading-[130%] font-semibold text-black inline-block w-[407px]">
         Porttitor pharetra, consectetur viverra est nisl a, vulputate id...
       </div>
-      <div className="absolute top-[765px] left-[471px] text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[407px] h-[82px]">
+      <div className="absolute top-[765px] left-[471px] text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px]">
         Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer maecenas
         sit. Nibh suspendisse lectus hendrerit pretium...
       </div>
@@ -217,7 +217,7 @@ const Blogs: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[173px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-11@2x.png"
+            src="/cogailogotrans1-12@2x.png"
           />
           <div className="absolute top-[61.32px] left-[521.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
             <div className="relative font-medium text-headings">Home</div>
@@ -247,7 +247,7 @@ const Blogs: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[123px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-11@2x.png"
+            src="/cogailogotrans1-12@2x.png"
           />
           <div className="absolute top-[61.32px] left-[471.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
             <div className="relative font-medium">Home</div>
@@ -302,12 +302,12 @@ const Blogs: FunctionComponent = () => {
           <img
             className="absolute top-[309.73px] left-[134.95px] w-[178.05px] h-[33.26px]"
             alt=""
-            src="/group-2152.svg"
+            src="/group-2153.svg"
           />
           <img
             className="absolute top-[73.5px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
             alt=""
-            src="/frame3.svg"
+            src="/frame4.svg"
           />
           <div className="absolute top-[183.87px] left-[134.95px] text-xs leading-[163%] font-header inline-block w-[251.05px]">
             We specialize in developing custom applications that streamline
@@ -332,7 +332,7 @@ const Blogs: FunctionComponent = () => {
               <img
                 className="relative w-[15px] h-[19px] shrink-0"
                 alt=""
-                src="/vector6.svg"
+                src="/vector9.svg"
               />
               <div className="relative">+44-(0)-1474-338-718</div>
             </div>
@@ -340,7 +340,7 @@ const Blogs: FunctionComponent = () => {
               <img
                 className="relative w-[18px] h-3.5 shrink-0"
                 alt=""
-                src="/vector7.svg"
+                src="/vector10.svg"
               />
               <div className="relative">info@cogai.uk</div>
             </div>
@@ -360,7 +360,7 @@ const Blogs: FunctionComponent = () => {
               <img
                 className="relative w-4 h-4 shrink-0"
                 alt=""
-                src="/vector8.svg"
+                src="/vector11.svg"
               />
               <div className="relative">Monday To Friday</div>
             </div>

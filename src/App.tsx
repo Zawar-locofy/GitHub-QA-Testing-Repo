@@ -4,11 +4,11 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import HomeOption3 from "./pages/HomeOption3";
 import ServiceResponsive from "./pages/ServiceResponsive";
 import Industries from "./pages/Industries";
 import Blogs from "./pages/Blogs";
 import ApplicationDevelopment from "./pages/ApplicationDevelopment";
-import HomeOption3 from "./pages/HomeOption3";
 import { useEffect } from "react";
 
 function App() {
@@ -31,6 +31,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/service-responsive":
+        title = "";
+        metaDescription = "";
+        break;
       case "/industries":
         title = "";
         metaDescription = "";
@@ -40,10 +44,6 @@ function App() {
         metaDescription = "";
         break;
       case "/application-development":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/home-option-3":
         title = "";
         metaDescription = "";
         break;
@@ -65,7 +65,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ServiceResponsive />} />
+      <Route path="/" element={<HomeOption3 />} />
+
+      <Route path="/service-responsive" element={<ServiceResponsive />} />
 
       <Route path="/industries" element={<Industries />} />
 
@@ -75,8 +77,6 @@ function App() {
         path="/application-development"
         element={<ApplicationDevelopment />}
       />
-
-      <Route path="/home-option-3" element={<HomeOption3 />} />
     </Routes>
   );
 }

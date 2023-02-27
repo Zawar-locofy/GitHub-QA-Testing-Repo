@@ -19,7 +19,7 @@ const ServiceResponsive: FunctionComponent = () => {
         <img
           className="absolute top-[38px] left-[173px] w-[92.55px] h-[70.63px] object-cover"
           alt=""
-          src="/cogailogotrans1-1@2x.png"
+          src="/cogailogotrans1-11@2x.png"
         />
         <div className="absolute top-[61.32px] left-[521.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
           <div className="relative font-medium text-headings">Home</div>
@@ -50,7 +50,7 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[123px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-1@2x.png"
+            src="/cogailogotrans1-11@2x.png"
           />
           <div className="absolute top-[41.82px] left-[1148.33px] w-[181.66px] h-[63px] text-base">
             <div className="absolute top-[0px] left-[0px] rounded-md bg-headings w-[181.66px] h-[63px]" />
@@ -110,12 +110,12 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className="absolute top-[309.73px] left-[134.95px] w-[178.05px] h-[33.26px]"
             alt=""
-            src="/group-215.svg"
+            src="/group-2151.svg"
           />
           <img
             className="absolute top-[73.5px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
             alt=""
-            src="/frame.svg"
+            src="/frame1.svg"
           />
           <div className="absolute top-[183.87px] left-[134.95px] text-xs leading-[163%] font-header inline-block w-[251.05px]">
             We specialize in developing custom applications that streamline
@@ -129,7 +129,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className="relative w-[15px] h-[19px] shrink-0"
                 alt=""
-                src="/vector.svg"
+                src="/vector3.svg"
               />
               <div className="relative">+44-(0)-1474-338-718</div>
             </div>
@@ -137,7 +137,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className="relative w-[18px] h-3.5 shrink-0"
                 alt=""
-                src="/vector1.svg"
+                src="/vector4.svg"
               />
               <div className="relative">info@cogai.uk</div>
             </div>
@@ -157,7 +157,7 @@ const ServiceResponsive: FunctionComponent = () => {
               <img
                 className="relative w-4 h-4 shrink-0"
                 alt=""
-                src="/vector2.svg"
+                src="/vector5.svg"
               />
               <div className="relative">Monday To Friday</div>
             </div>
@@ -169,7 +169,7 @@ const ServiceResponsive: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] rounded-base w-[587px] h-[403px] object-cover"
             alt=""
-            src="/rectangle-9@2x.png"
+            src="/rectangle-91@2x.png"
           />
           <div className="absolute top-[6px] left-[654px] w-[542px] h-[397px]">
             <div className="absolute top-[0px] left-[0px] w-[542px] h-[312px]">

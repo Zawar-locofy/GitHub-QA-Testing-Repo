@@ -21,7 +21,7 @@ const Industries: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[173px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-11@2x.png"
+            src="/cogailogotrans1-12@2x.png"
           />
           <div className="absolute top-[61.32px] left-[521.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
             <div className="relative font-medium text-headings">Home</div>
@@ -51,7 +51,7 @@ const Industries: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[123px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-11@2x.png"
+            src="/cogailogotrans1-12@2x.png"
           />
           <div className="absolute top-[61.32px] left-[471.5px] flex flex-row items-start justify-start gap-[55px] text-left text-base text-color font-poppins">
             <div className="relative font-medium">Home</div>
@@ -107,12 +107,12 @@ const Industries: FunctionComponent = () => {
             <img
               className="absolute top-[309.73px] left-[134.95px] w-[178.05px] h-[33.26px]"
               alt=""
-              src="/group-2151.svg"
+              src="/group-2152.svg"
             />
             <img
               className="absolute top-[73.5px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
               alt=""
-              src="/frame1.svg"
+              src="/frame2.svg"
             />
             <div className="absolute top-[183.87px] left-[134.95px] text-xs leading-[163%] font-header inline-block w-[251.05px]">
               We specialize in developing custom applications that streamline
@@ -126,7 +126,7 @@ const Industries: FunctionComponent = () => {
                 <img
                   className="relative w-[15px] h-[19px] shrink-0"
                   alt=""
-                  src="/vector3.svg"
+                  src="/vector6.svg"
                 />
                 <div className="relative">+44-(0)-1474-338-718</div>
               </div>
@@ -134,7 +134,7 @@ const Industries: FunctionComponent = () => {
                 <img
                   className="relative w-[18px] h-3.5 shrink-0"
                   alt=""
-                  src="/vector4.svg"
+                  src="/vector7.svg"
                 />
                 <div className="relative">info@cogai.uk</div>
               </div>
@@ -154,7 +154,7 @@ const Industries: FunctionComponent = () => {
                 <img
                   className="relative w-4 h-4 shrink-0"
                   alt=""
-                  src="/vector5.svg"
+                  src="/vector8.svg"
                 />
                 <div className="relative">Monday To Friday</div>
               </div>
@@ -204,12 +204,12 @@ const Industries: FunctionComponent = () => {
           <img
             className="absolute top-[298.42px] left-[459.69px] w-[10.34px] h-[6.56px]"
             alt=""
-            src="/polygon-2.svg"
+            src="/polygon-21.svg"
           />
           <img
             className="absolute top-[241.32px] left-[1295.55px] w-[10.34px] h-[6.56px]"
             alt=""
-            src="/polygon-3.svg"
+            src="/polygon-31.svg"
           />
         </div>
       </div>
@@ -230,7 +230,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[110.59px] font-semibold">
               Smart Building
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -253,7 +253,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[129.59px] text-4xl font-semibold">
               Smart Cities
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -276,7 +276,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[93.59px] text-4xl font-semibold">
               Smart Agriculture
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -300,7 +300,7 @@ const Industries: FunctionComponent = () => {
               <div className="absolute top-[83.67px] left-[119.59px] text-4xl font-semibold">
                 Smart Energy
               </div>
-              <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[318.48px]">
+              <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
                 Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
                 maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
               </div>
@@ -324,7 +324,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[76.59px] font-semibold">
               Smart Constructions
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -347,7 +347,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[106.59px] text-4xl font-semibold">
               Smart Factories
             </div>
-            <div className="absolute top-[125.06px] left-[45.85px] tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.85px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>

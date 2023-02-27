@@ -20,7 +20,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[173px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-11@2x.png"
+            src="/cogailogotrans1-12@2x.png"
           />
           <div className="absolute top-[61.32px] left-[521.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
             <div className="relative font-medium text-headings">Home</div>
@@ -49,7 +49,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
           <img
             className="absolute top-[38px] left-[123px] w-[92.55px] h-[70.63px] object-cover"
             alt=""
-            src="/cogailogotrans1-11@2x.png"
+            src="/cogailogotrans1-12@2x.png"
           />
           <div className="absolute top-[49.75px] left-[369.5px] flex flex-row items-start justify-start gap-[55px] text-color font-poppins">
             <div className="relative font-medium">loco Home</div>
@@ -110,12 +110,12 @@ const ApplicationDevelopment: FunctionComponent = () => {
             <img
               className="absolute top-[309.73px] left-[134.95px] w-[178.05px] h-[33.26px]"
               alt=""
-              src="/group-2153.svg"
+              src="/group-2154.svg"
             />
             <img
               className="absolute top-[73.5px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
               alt=""
-              src="/frame4.svg"
+              src="/frame5.svg"
             />
             <div className="absolute top-[183.87px] left-[134.95px] text-xs leading-[163%] font-header inline-block w-[251.05px]">
               We specialize in developing custom applications that streamline
@@ -129,7 +129,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-[15px] h-[19px] shrink-0"
                   alt=""
-                  src="/vector9.svg"
+                  src="/vector12.svg"
                 />
                 <div className="relative">+44-(0)-1474-338-718</div>
               </div>
@@ -137,7 +137,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-[18px] h-3.5 shrink-0"
                   alt=""
-                  src="/vector10.svg"
+                  src="/vector13.svg"
                 />
                 <div className="relative">info@cogai.uk</div>
               </div>
@@ -157,7 +157,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-4 h-4 shrink-0"
                   alt=""
-                  src="/vector11.svg"
+                  src="/vector14.svg"
                 />
                 <div className="relative">Monday To Friday</div>
               </div>
@@ -209,7 +209,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
       <img
         className="absolute top-[718.85px] left-[1002.26px] rounded-md w-[323.15px] h-[43.55px] opacity-[0.24]"
         alt=""
-        src="/rectangle-12.svg"
+        src="/rectangle-121.svg"
       />
       <div className="absolute top-[776.99px] left-[1002.26px] rounded-md box-border w-[323.15px] h-[43.55px] opacity-[0.24] border-[1px] border-solid border-text" />
       <div className="absolute top-[611.84px] left-[1026.41px] text-xs leading-[163%] inline-block w-[46.75px] h-[25.01px]">
@@ -230,7 +230,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
       <img
         className="absolute top-[795.7px] left-[1294.46px] w-[10.34px] h-[6.56px]"
         alt=""
-        src="/polygon-31.svg"
+        src="/polygon-32.svg"
       />
       <div className="absolute top-[961.7px] left-[1001.36px] rounded-md bg-primary-green w-[324.05px] h-[52.81px]" />
       <div className="absolute top-[970.75px] left-[1100px] text-lg leading-[163%] font-medium text-white">
@@ -319,7 +319,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
               <div className="relative font-semibold">
                 Innovation And Development
               </div>
-              <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[407px] h-[82px] shrink-0">
+              <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
                 Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
                 maecenas sit. Nibh suspendisse lectus hendrerit pretium...
               </div>
@@ -339,7 +339,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
           />
           <div className="absolute top-[23.34px] left-[0px] flex flex-col items-end justify-start gap-[11px]">
             <div className="relative font-semibold">Idea Validation</div>
-            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[407px] h-[82px] shrink-0">
+            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -364,7 +364,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
           />
           <div className="absolute top-[23.34px] left-[0px] flex flex-col items-end justify-start gap-[11px]">
             <div className="relative font-semibold">Software Testing</div>
-            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[407px] h-[82px] shrink-0">
+            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -384,7 +384,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
         <div className="absolute top-[582.5px] left-[464.67px] w-[706.09px] h-[128.1px]">
           <div className="absolute top-[6.1px] left-[299.09px] flex flex-col items-start justify-start gap-[11px]">
             <div className="relative font-semibold">Deployment</div>
-            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-1100 inline-block w-[407px] h-[82px] shrink-0">
+            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse lectus hendrerit pretium...
             </div>
