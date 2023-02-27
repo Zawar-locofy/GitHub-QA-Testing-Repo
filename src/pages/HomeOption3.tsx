@@ -1,7 +1,6 @@
-
 import { FunctionComponent, useEffect } from "react";
+import FrameComponent1 from "../components/FrameComponent1";
 import AlphaCapTreasury from "../components/AlphaCapTreasury";
-import FrameComponent from "../components/FrameComponent";
 import RectangleComponent1 from "../components/RectangleComponent1";
 import RectangleIcon from "../components/RectangleIcon";
 import RectangleComponent from "../components/RectangleComponent";
@@ -98,7 +97,7 @@ const HomeOption3: FunctionComponent = () => {
             </div>
             <div className="flex flex-row items-center justify-start gap-[12px]">
               <img className="relative w-[18px] h-3.5 shrink-0" alt="" />
-              <div className="relative">info@locofy.uk</div>
+              <div className="relative">info@cogai.uk</div>
             </div>
             <div className="flex flex-row items-start justify-start gap-[16px]">
               <img
@@ -113,7 +112,7 @@ const HomeOption3: FunctionComponent = () => {
             </div>
             <div className="flex flex-row items-center justify-start gap-[13px]">
               <img className="relative w-4 h-4 shrink-0" alt="" />
-              <div className="relative">Monday To Saturday</div>
+              <div className="relative">Monday To Friday</div>
             </div>
           </div>
         </div>
@@ -168,32 +167,7 @@ const HomeOption3: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[4230px] left-[345px] rounded-base bg-white shadow-[-7px_-7px_72px_rgba(0,_0,_0,_0.13)] flex flex-col py-[45px] px-[125px] items-center justify-center text-center text-base text-black">
-        <div className="relative w-[501px] h-[200px] shrink-0">
-          <div className="absolute top-[0px] left-[30.5px] text-7xl font-semibold text-left">
-            Get News And Updates!
-          </div>
-          <div className="absolute top-[59px] left-[49.5px] leading-[172%] font-medium text-color inline-block w-[402px] h-[60px]">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </div>
-          <div className="absolute top-[139px] left-[0px] w-[501px] h-[61px] text-white">
-            <div className="absolute top-[0px] left-[0px] rounded-md bg-whitesmoke-100 box-border w-[501px] h-[61px] border-[1px] border-solid border-gainsboro-100" />
-            <button className="cursor-pointer [border:none] p-0 bg-black absolute top-[6px] left-[342px] rounded-md w-[153px] h-[49px] hover:bg-darkgreen" />
-            <div className="absolute top-[17px] left-[378px] leading-[139.78%] font-medium">
-              Subscribe
-            </div>
-            <div className="absolute top-[14px] left-[20px] w-[153px] h-[34px] text-2xl text-darkslategray-100 font-poppins">
-              <div className="absolute top-[0px] left-[0px] leading-[172%] font-medium">
-                @
-              </div>
-              <div className="absolute top-[5px] left-[24px] text-xs leading-[172%] font-medium font-header text-silver">
-                Enter Your Email...
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FrameComponent1 />
       <div className="absolute top-[2390.27px] left-[832px] bg-white shadow-[0px_5px_25px_rgba(0,_0,_0,_0.25)] w-[456.06px] h-[619.86px]" />
       <div className="absolute top-[2390.27px] left-[832px] bg-primary-green w-[456.06px] h-[9.41px]" />
       <div className="absolute top-[2429.01px] left-[872.61px] leading-[163%] font-medium">
@@ -306,7 +280,6 @@ const HomeOption3: FunctionComponent = () => {
           <div className="relative leading-[163%] font-semibold">
             <span className="tracking-[-0.13em]">--</span>
             <span className="text-white">{`    Experienced & Skilled Resources`}</span>
-             <span className="text-white">{`   Git Experienced & Git Skilled Resources`}</span>
           </div>
         </div>
       </div>
@@ -581,7 +554,7 @@ const HomeOption3: FunctionComponent = () => {
         />
       </div>
       <div className="absolute top-[1684px] left-[0px] w-[1440px] h-[1338px] overflow-hidden">
-        <FrameComponent />
+        <div className="absolute top-[706px] left-[827px] w-[464px] h-[617px] overflow-hidden" />
       </div>
       <div className="absolute top-[1497px] left-[0px] w-[1440px] h-[190px] overflow-hidden" />
       <div className="absolute top-[1003px] left-[0px] rounded-[37px] w-[1440px] overflow-hidden flex flex-row py-[23px] px-[116px] box-border items-end justify-start gap-[35px] text-6xl text-primary-green">

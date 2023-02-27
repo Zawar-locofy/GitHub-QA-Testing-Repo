@@ -1,8 +1,6 @@
 
-
-
   {
-    "name": "conflict3",
+    "name": "plugin_qa",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
