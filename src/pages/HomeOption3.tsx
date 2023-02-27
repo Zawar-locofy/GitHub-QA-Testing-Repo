@@ -1,3 +1,4 @@
+
 import { FunctionComponent, useEffect } from "react";
 import AlphaCapTreasury from "../components/AlphaCapTreasury";
 import FrameComponent from "../components/FrameComponent";
@@ -178,7 +179,7 @@ const HomeOption3: FunctionComponent = () => {
           </div>
           <div className="absolute top-[139px] left-[0px] w-[501px] h-[61px] text-white">
             <div className="absolute top-[0px] left-[0px] rounded-md bg-whitesmoke-100 box-border w-[501px] h-[61px] border-[1px] border-solid border-gainsboro-100" />
-            <div className="absolute top-[6px] left-[342px] rounded-md bg-black w-[153px] h-[49px]" />
+            <button className="cursor-pointer [border:none] p-0 bg-black absolute top-[6px] left-[342px] rounded-md w-[153px] h-[49px] hover:bg-darkgreen" />
             <div className="absolute top-[17px] left-[378px] leading-[139.78%] font-medium">
               Subscribe
             </div>
@@ -680,17 +681,20 @@ const HomeOption3: FunctionComponent = () => {
             </div>
           </button>
         </div>
-        <div className="self-stretch w-[626px] shrink-0 flex flex-col items-center justify-center ml-[-54px] text-base text-gray-400 font-poppins">
+        <div className="self-stretch w-[626px] shrink-0 flex flex-col items-center justify-center ml-[-54px]">
           <div className="relative w-[600.05px] h-[471.52px] shrink-0">
             <img
               className="absolute top-[0px] left-[169.21px] w-[430.84px] h-[471.52px] object-cover"
               alt=""
               src="/group-231@2x.png"
             />
-            <div className="absolute top-[359.77px] left-[0px] w-[270.25px] h-[62.45px]">
+            <button
+              className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[359.77px] left-[0px] w-[270.25px] h-[62.45px] [&.animate]:animate-[4s_ease_2s_1_normal_forwards_fade-in] opacity-[0]"
+              data-animate-on-scroll
+            >
               <div className="absolute top-[0px] left-[0px] rounded-lg bg-white shadow-[0px_0px_22px_rgba(38,_50,_56,_0.35)] box-border w-[270.25px] h-[62.45px] border-[1px] border-solid border-white" />
               <div className="absolute top-[14.62px] left-[35.86px] w-[198.53px] h-[33.2px]">
-                <div className="absolute top-[2.62px] left-[47.05px] font-medium inline-block w-[151.48px] h-[24.9px]">
+                <div className="absolute top-[2.62px] left-[47.05px] text-base font-medium font-poppins text-gray-400 text-left inline-block w-[151.48px] h-[24.9px]">
                   App Development
                 </div>
                 <img
@@ -699,7 +703,7 @@ const HomeOption3: FunctionComponent = () => {
                   src="/webdesignsvgrepocom-1.svg"
                 />
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </div>
