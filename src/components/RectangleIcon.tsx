@@ -1,12 +1,11 @@
 import { FunctionComponent } from "react";
-import styles from "./RectangleIcon.module.css";
 
 const RectangleIcon: FunctionComponent = () => {
   return (
     <img
-      className={styles.frameChild}
+      className="absolute top-[0.28px] left-[0.78px] rounded-base w-[376.45px] h-[364.5px]"
       alt=""
-      src="../../public/rectangle-11@2x.png"
+      src="/rectangle-9.svg"
     />
   );
 };
