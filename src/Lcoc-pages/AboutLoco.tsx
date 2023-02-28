@@ -21,6 +21,9 @@ const AboutUs: FunctionComponent = () => {
           software and hardware development and wireless communication, formed
           our company.
         </p>
+        <p className="m-0">
+         GITHUB CHANGES MADE TO CREATE CONFLICTS!!!! 
+        </p>
       </div>
       <b className="absolute top-[1170.92px] left-[206.7px] text-2xl text-primary-green">
         Our Story
