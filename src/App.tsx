@@ -1,11 +1,10 @@
-
 import {
   Routes,
   Route,
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import AboutUs from "./Lcoc-pages/AboutUs";
+import AboutUs from "./Lcoc-pages/AboutLoco";
 import { useEffect } from "react";
 
 function App() {
@@ -28,27 +27,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/service-responsive":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/industries":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/blogs":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/application-development":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/Loco-Home":
-        title = "";
-        metaDescription = "";
-        break;
-        /*This is a test Git Comment*/
     }
 
     if (title) {
