@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import FrameComponent from "../locoComponents/FrameComponent";
 import OurCompanyIs from "../locoComponents/OurCompanyIs";
+import WeSpecializeIn from "../locoComponents/WeSpecializeIn";
 
 const AboutUs: FunctionComponent = () => {
   return (
@@ -11,12 +12,14 @@ const AboutUs: FunctionComponent = () => {
         src="/photo@2x.png"
       />
       <div className="absolute top-[511.25px] left-[482.5px] text-[45px] leading-[110%] font-extrabold">
-        About Our GITHUB Company
+        About Our LOCOFY Company
       </div>
       <div className="absolute top-[1170.92px] left-[733.5px] leading-[157.4%] text-gray-200 inline-block w-[580.52px]">
         <p className="[margin-block-start:0] [margin-block-end:0px]">{`We are a digitalization and smart technology company with a passion for using technology to make a positive impact on the world. `}</p>
         <p className="m-0">
-          A team of GIT experts trying to generate conflicts
+          A team of experts with diverse backgrounds and expertise, including
+          software and hardware development and wireless communication, formed
+          our company.
         </p>
       </div>
       <b className="absolute top-[1170.92px] left-[206.7px] text-2xl text-primary-green">
@@ -209,7 +212,7 @@ const AboutUs: FunctionComponent = () => {
           <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start">
             <div className="w-[200px] flex flex-col items-center justify-start">
               <b className="relative tracking-[-0.02em] leading-[110%]">
-                About LOCO
+                About ZAWAR
               </b>
             </div>
           </div>
@@ -278,10 +281,7 @@ const AboutUs: FunctionComponent = () => {
             alt=""
             src="/frame.svg"
           />
-          <div className="absolute top-[183.87px] left-[134.95px] text-[14px] leading-[163%] font-paragraph inline-block w-[251.05px]">
-            We specialize in developing custom applications that streamline
-            processes and improve efficiency for businesses of all sizes.
-          </div>
+          <WeSpecializeIn />
         </div>
         <div className="absolute top-[90.25px] left-[454px] flex flex-col items-start justify-start gap-[42px] text-[20px] text-whitesmoke-200 font-paragraph">
           <b className="relative">CONTACT US</b>
