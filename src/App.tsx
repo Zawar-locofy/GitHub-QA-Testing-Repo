@@ -7,7 +7,6 @@ import {
 import HomeOption3 from "./pages/HomeOption3";
 import ServiceResponsive from "./pages/ServiceResponsive";
 import Industries from "./pages/Industries";
-import Blogs from "./pages/Blogs";
 import ApplicationDevelopment from "./pages/ApplicationDevelopment";
 import { useEffect } from "react";
 
@@ -39,10 +38,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/blogs":
-        title = "";
-        metaDescription = "";
-        break;
       case "/application-development":
         title = "";
         metaDescription = "";
@@ -70,8 +65,6 @@ function App() {
       <Route path="/service-responsive" element={<ServiceResponsive />} />
 
       <Route path="/industries" element={<Industries />} />
-
-      <Route path="/blogs" element={<Blogs />} />
 
       <Route
         path="/application-development"

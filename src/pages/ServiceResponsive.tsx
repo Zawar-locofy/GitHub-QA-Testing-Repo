@@ -4,7 +4,7 @@ const ServiceResponsive: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[3193px] overflow-hidden text-left text-base text-white font-header">
       <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
-        <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-11xl">
+        <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-10xl">
           <div className="w-[200px] flex flex-col items-center justify-start gap-[34px]">
             <b className="relative tracking-[-0.02em] leading-[110%]">
               Contact Us
@@ -35,7 +35,7 @@ const ServiceResponsive: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[0px] left-[0px] w-[1380px] h-[425px] bg-[url(/public/banner@3x.png)] bg-cover bg-no-repeat bg-[top] text-11xl">
+      <div className="absolute top-[0px] left-[0px] w-[1380px] h-[425px] bg-[url(/public/banner@3x.png)] bg-cover bg-no-repeat bg-[top] text-10xl">
         <div className="absolute top-[0px] left-[0px] w-[1440px] h-[425px] overflow-hidden">
           <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
             <div className="absolute top-[0px] left-[0px] bg-primary-green w-[1440px] h-[424.64px] opacity-[0.85]" />
@@ -299,7 +299,7 @@ const ServiceResponsive: FunctionComponent = () => {
             Read more
           </div>
         </div>
-        <div className="absolute top-[87.25px] left-[441px] w-[637px] h-[50px] text-center text-9xl text-gray-200">
+        <div className="absolute top-[87.25px] left-[441px] w-[637px] h-[50px] text-center text-8xl text-gray-200">
           <div className="absolute top-[0px] left-[0px] w-[637px] h-[50px]">
             <div className="absolute top-[0px] left-[0px] leading-[110%] font-extrabold">
               Services We Are Providing

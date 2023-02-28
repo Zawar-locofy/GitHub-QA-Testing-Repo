@@ -1,12 +1,11 @@
 import { FunctionComponent } from "react";
-import UnsplashvbAEHCrvXZ0Icon from "../components/UnsplashvbAEHCrvXZ0Icon";
 
 const Industries: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[3921px] overflow-hidden text-left text-base text-darkgray-100 font-header">
       <div className="absolute top-[0px] left-[0.5px] w-[1440px] h-[424.64px] text-white">
         <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
-          <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-11xl">
+          <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-10xl">
             <div className="w-[200px] flex flex-col items-center justify-start gap-[34px]">
               <b className="relative tracking-[-0.02em] leading-[110%]">
                 Contact Us
@@ -37,7 +36,7 @@ const Industries: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px] bg-[url(/public/banner1@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-11xl">
+        <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px] bg-[url(/public/banner1@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-10xl">
           <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
             <div className="absolute top-[0px] left-[0px] bg-primary-green w-[1440px] h-[424.64px] opacity-[0.85]" />
           </div>
@@ -195,10 +194,10 @@ const Industries: FunctionComponent = () => {
           <div className="absolute top-[289.99px] left-[970.35px] leading-[163%]">
             Add Comment (optional)
           </div>
-          <div className="absolute top-[50.83px] left-[608px] text-5xl leading-[163%] font-semibold text-primary-green text-center">
+          <div className="absolute top-[50.83px] left-[608px] text-[26px] leading-[163%] font-semibold text-primary-green text-center">
             Feeling Curious?
           </div>
-          <b className="absolute top-[100.83px] left-[546px] text-10xl leading-[163%] text-headings text-center">
+          <b className="absolute top-[100.83px] left-[546px] text-9xl leading-[163%] text-headings text-center">
             GET IN TOUCH
           </b>
           <img
@@ -213,14 +212,18 @@ const Industries: FunctionComponent = () => {
           />
         </div>
       </div>
-      <div className="absolute top-[493.49px] left-[342.5px] w-[756px] h-[54px] text-center text-9xl text-black">
+      <div className="absolute top-[493.49px] left-[342.5px] w-[756px] h-[54px] text-center text-8xl text-black">
         <b className="absolute top-[0px] left-[0px] leading-[120%] capitalize">
           We Serve In Different Industries
         </b>
       </div>
       <div className="absolute top-[586.5px] left-[310.33px] w-[820.34px] h-[2272.93px] text-center text-black">
         <div className="absolute top-[0px] left-[0px] w-[820.34px] h-[364.73px] text-4xl">
-          <UnsplashvbAEHCrvXZ0Icon />
+          <img
+            className="absolute top-[0px] left-[410.17px] rounded-tl-none rounded-tr-base rounded-br-base rounded-bl-none w-[410.17px] h-[364.73px] object-cover"
+            alt=""
+            src="/unsplashvbaehcrvxz0@2x.png"
+          />
           <div className="absolute top-[0px] left-[0px] w-[410.17px] h-[364.73px]">
             <img
               className="absolute top-[0px] left-[0px] w-[410.17px] h-[364.73px]"
@@ -230,7 +233,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[110.59px] font-semibold">
               Smart Building
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -253,7 +256,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[129.59px] text-4xl font-semibold">
               Smart Cities
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -276,7 +279,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[93.59px] text-4xl font-semibold">
               Smart Agriculture
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -300,7 +303,7 @@ const Industries: FunctionComponent = () => {
               <div className="absolute top-[83.67px] left-[119.59px] text-4xl font-semibold">
                 Smart Energy
               </div>
-              <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
+              <div className="absolute top-[125.06px] left-[45.84px] tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[318.48px]">
                 Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
                 maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
               </div>
@@ -324,7 +327,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[76.59px] font-semibold">
               Smart Constructions
             </div>
-            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.84px] text-base tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -347,7 +350,7 @@ const Industries: FunctionComponent = () => {
             <div className="absolute top-[83.67px] left-[106.59px] text-4xl font-semibold">
               Smart Factories
             </div>
-            <div className="absolute top-[125.06px] left-[45.85px] tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[318.48px]">
+            <div className="absolute top-[125.06px] left-[45.85px] tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[318.48px]">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>

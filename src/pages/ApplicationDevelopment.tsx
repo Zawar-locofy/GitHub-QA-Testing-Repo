@@ -5,7 +5,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
     <div className="relative bg-white w-full h-[3887px] overflow-hidden text-left text-base text-text font-header">
       <div className="absolute top-[0px] left-[0.5px] w-[1440px] h-[424.64px] text-white">
         <div className="absolute top-[0px] left-[0px] w-[1440px] h-[424.64px]">
-          <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-11xl">
+          <div className="absolute top-[223px] left-[403.5px] w-[633px] flex flex-col items-center justify-start gap-[28px] text-center text-10xl">
             <div className="w-[200px] flex flex-col items-center justify-start gap-[34px]">
               <b className="relative tracking-[-0.02em] leading-[110%]">
                 Contact Us
@@ -43,7 +43,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
           <div className="absolute top-[223px] left-[403.5px] flex flex-col items-center justify-start">
             <div className="w-[200px]" />
           </div>
-          <b className="absolute top-[222.75px] left-[315.5px] text-11xl tracking-[-0.02em] leading-[110%] text-center">
+          <b className="absolute top-[222.75px] left-[315.5px] text-10xl tracking-[-0.02em] leading-[110%] text-center">
             LOCO Application Development
           </b>
           <img
@@ -110,12 +110,12 @@ const ApplicationDevelopment: FunctionComponent = () => {
             <img
               className="absolute top-[309.73px] left-[134.95px] w-[178.05px] h-[33.26px]"
               alt=""
-              src="/group-2154.svg"
+              src="/group-2153.svg"
             />
             <img
               className="absolute top-[73.5px] left-[134.95px] w-[99px] h-[76px] overflow-hidden"
               alt=""
-              src="/frame5.svg"
+              src="/frame3.svg"
             />
             <div className="absolute top-[183.87px] left-[134.95px] text-xs leading-[163%] font-header inline-block w-[251.05px]">
               We specialize in developing custom applications that streamline
@@ -129,7 +129,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-[15px] h-[19px] shrink-0"
                   alt=""
-                  src="/vector12.svg"
+                  src="/vector9.svg"
                 />
                 <div className="relative">+44-(0)-1474-338-718</div>
               </div>
@@ -137,7 +137,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-[18px] h-3.5 shrink-0"
                   alt=""
-                  src="/vector13.svg"
+                  src="/vector10.svg"
                 />
                 <div className="relative">info@cogai.uk</div>
               </div>
@@ -145,7 +145,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-[11.63px] h-[17.44px] shrink-0"
                   alt=""
-                  src="/group3.svg"
+                  src="/group2.svg"
                 />
                 <div className="relative">
                   <p className="[margin-block-start:0] [margin-block-end:0px]">{`Cogai LTD, 6 Station View, `}</p>
@@ -157,14 +157,14 @@ const ApplicationDevelopment: FunctionComponent = () => {
                 <img
                   className="relative w-4 h-4 shrink-0"
                   alt=""
-                  src="/vector14.svg"
+                  src="/vector11.svg"
                 />
                 <div className="relative">Monday To Friday</div>
               </div>
             </div>
           </div>
         </div>
-        <b className="absolute top-[0px] left-[195.42px] text-8xl text-primary-green">
+        <b className="absolute top-[0px] left-[195.42px] text-7xl text-primary-green">
           Case Studies
         </b>
         <div className="absolute top-[25.55px] left-[108.71px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
@@ -297,7 +297,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
       <div className="absolute top-[1273.15px] left-[537px] font-medium">
         The stages and process for app development
       </div>
-      <b className="absolute top-[1225.15px] left-[435px] text-6xl text-headings">
+      <b className="absolute top-[1225.15px] left-[435px] text-5xl text-headings">
         Application Development Process
       </b>
       <div className="absolute top-[1360.14px] left-[140.5px] w-[1170.76px] h-[710.6px] text-4xl text-black">
@@ -319,7 +319,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
               <div className="relative font-semibold">
                 Innovation And Development
               </div>
-              <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
+              <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[407px] h-[82px] shrink-0">
                 Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
                 maecenas sit. Nibh suspendisse lectus hendrerit pretium...
               </div>
@@ -339,7 +339,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
           />
           <div className="absolute top-[23.34px] left-[0px] flex flex-col items-end justify-start gap-[11px]">
             <div className="relative font-semibold">Idea Validation</div>
-            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
+            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[407px] h-[82px] shrink-0">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -360,11 +360,11 @@ const ApplicationDevelopment: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[436.17px] w-20 h-20 overflow-hidden"
             alt=""
-            src="/group4.svg"
+            src="/group3.svg"
           />
           <div className="absolute top-[23.34px] left-[0px] flex flex-col items-end justify-start gap-[11px]">
             <div className="relative font-semibold">Software Testing</div>
-            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
+            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[407px] h-[82px] shrink-0">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse ...lectus hendrerit pretium
             </div>
@@ -384,7 +384,7 @@ const ApplicationDevelopment: FunctionComponent = () => {
         <div className="absolute top-[582.5px] left-[464.67px] w-[706.09px] h-[128.1px]">
           <div className="absolute top-[6.1px] left-[299.09px] flex flex-col items-start justify-start gap-[11px]">
             <div className="relative font-semibold">Deployment</div>
-            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-700 inline-block w-[407px] h-[82px] shrink-0">
+            <div className="relative text-base tracking-[0.02em] leading-[150%] text-gray-500 inline-block w-[407px] h-[82px] shrink-0">
               Dui massa sapien ornare leo. Sagittis, sollicitudin sed integer
               maecenas sit. Nibh suspendisse lectus hendrerit pretium...
             </div>

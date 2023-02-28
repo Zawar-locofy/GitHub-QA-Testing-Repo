@@ -1,10 +1,4 @@
-
 import { FunctionComponent, useEffect } from "react";
-import AlphaCapTreasury from "../components/AlphaCapTreasury";
-import FrameComponent from "../components/FrameComponent";
-import RectangleComponent1 from "../components/RectangleComponent1";
-import RectangleIcon from "../components/RectangleIcon";
-import RectangleComponent from "../components/RectangleComponent";
 
 const HomeOption3: FunctionComponent = () => {
   useEffect(() => {
@@ -98,7 +92,7 @@ const HomeOption3: FunctionComponent = () => {
             </div>
             <div className="flex flex-row items-center justify-start gap-[12px]">
               <img className="relative w-[18px] h-3.5 shrink-0" alt="" />
-              <div className="relative">info@locofy.uk</div>
+              <div className="relative">info@cogai.uk</div>
             </div>
             <div className="flex flex-row items-start justify-start gap-[16px]">
               <img
@@ -113,7 +107,7 @@ const HomeOption3: FunctionComponent = () => {
             </div>
             <div className="flex flex-row items-center justify-start gap-[13px]">
               <img className="relative w-4 h-4 shrink-0" alt="" />
-              <div className="relative">Monday To Saturday</div>
+              <div className="relative">Monday To Friday</div>
             </div>
           </div>
         </div>
@@ -170,7 +164,7 @@ const HomeOption3: FunctionComponent = () => {
       </div>
       <div className="absolute top-[4230px] left-[345px] rounded-base bg-white shadow-[-7px_-7px_72px_rgba(0,_0,_0,_0.13)] flex flex-col py-[45px] px-[125px] items-center justify-center text-center text-base text-black">
         <div className="relative w-[501px] h-[200px] shrink-0">
-          <div className="absolute top-[0px] left-[30.5px] text-7xl font-semibold text-left">
+          <div className="absolute top-[0px] left-[30.5px] text-6xl font-semibold text-left">
             Get News And Updates!
           </div>
           <div className="absolute top-[59px] left-[49.5px] leading-[172%] font-medium text-color inline-block w-[402px] h-[60px]">
@@ -245,12 +239,12 @@ const HomeOption3: FunctionComponent = () => {
         Submit
       </div>
       <div className="absolute top-[2404.98px] left-[119px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
-      <div className="absolute top-[1537.39px] left-[175px] flex flex-row items-center justify-center gap-[128px] text-center text-10xl text-primary-green">
+      <div className="absolute top-[1537.39px] left-[175px] flex flex-row items-center justify-center gap-[128px] text-center text-9xl text-primary-green">
         <div className="relative w-[197px] h-[98.87px] shrink-0">
           <div className="absolute top-[calc(50%_-_49.43px)] left-[25.89%] font-semibold">
             95%
           </div>
-          <div className="absolute top-[calc(50%_+_20.43px)] left-[0%] text-4xl text-gray-800 text-left">
+          <div className="absolute top-[calc(50%_+_20.43px)] left-[0%] text-4xl text-gray-600 text-left">
             Client Retention
           </div>
         </div>
@@ -263,7 +257,7 @@ const HomeOption3: FunctionComponent = () => {
           <div className="absolute top-[calc(50%_-_49.74px)] left-[37.9%] font-semibold">
             15
           </div>
-          <div className="absolute top-[calc(50%_+_20.74px)] left-[0%] text-4xl text-gray-800 text-left">
+          <div className="absolute top-[calc(50%_+_20.74px)] left-[0%] text-4xl text-gray-600 text-left">
             Years of Service
           </div>
         </div>
@@ -276,13 +270,13 @@ const HomeOption3: FunctionComponent = () => {
           <div className="absolute top-[calc(50%_-_41.31px)] left-[11.92%] font-semibold">
             2000+
           </div>
-          <div className="absolute top-[calc(50%_+_41.31px)] left-[0%] text-4xl text-gray-800">
+          <div className="absolute top-[calc(50%_+_41.31px)] left-[0%] text-4xl text-gray-600">
             Satisfied Clients
           </div>
         </div>
       </div>
       <div className="absolute top-[1846.24px] left-[823.5px] text-base font-semibold text-white">{`WE ARE LEADING TECH COMPANY `}</div>
-      <b className="absolute top-[1798.24px] left-[911.5px] text-6xl text-primary-green">
+      <b className="absolute top-[1798.24px] left-[911.5px] text-5xl text-primary-green">
         Why Choose Us
       </b>
       <div className="absolute top-[1817.24px] left-[821.5px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
@@ -306,7 +300,6 @@ const HomeOption3: FunctionComponent = () => {
           <div className="relative leading-[163%] font-semibold">
             <span className="tracking-[-0.13em]">--</span>
             <span className="text-white">{`    Experienced & Skilled Resources`}</span>
-             <span className="text-white">{`   Git Experienced & Git Skilled Resources`}</span>
           </div>
         </div>
       </div>
@@ -319,10 +312,10 @@ const HomeOption3: FunctionComponent = () => {
         alt=""
         src="/5b1356c175-1@2x.png"
       />
-      <div className="absolute top-[2384.98px] left-[208px] text-6xl leading-[163%] font-semibold text-primary-green">
+      <div className="absolute top-[2384.98px] left-[208px] text-5xl leading-[163%] font-semibold text-primary-green">
         Feeling Curious?
       </div>
-      <b className="absolute top-[2434.97px] left-[120px] text-10xl leading-[163%] inline-block w-[644.09px]">
+      <b className="absolute top-[2434.97px] left-[120px] text-9xl leading-[163%] inline-block w-[644.09px]">
         GET IN TOUCH
       </b>
       <div className="absolute top-[2539.02px] left-[120px] rounded-base bg-white shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25)] box-border w-[179.57px] h-[165.76px] border-[1px] border-solid border-primary-green" />
@@ -360,22 +353,26 @@ const HomeOption3: FunctionComponent = () => {
         <div className="absolute top-[73.76px] left-[90px] text-sm font-semibold font-inter text-text">
           LATEST NEWS ABOUT TECHNOLOGY
         </div>
-        <b className="absolute top-[25.76px] left-[178px] text-6xl font-header text-primary-green">
+        <b className="absolute top-[25.76px] left-[178px] text-5xl font-header text-primary-green">
           News
         </b>
         <div className="absolute top-[44.26px] left-[88px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
-        <AlphaCapTreasury />
-        <div className="absolute top-[349px] left-[120px] w-[544px] flex flex-col items-start justify-start gap-[22px] text-7xl text-white font-heading-heading-3">
+        <img
+          className="absolute top-[129px] left-[90px] rounded-small w-[618px] h-[391px] object-cover"
+          alt=""
+          src="/alpha-cap-treasury@2x.png"
+        />
+        <div className="absolute top-[349px] left-[120px] w-[544px] flex flex-col items-start justify-start gap-[22px] text-6xl text-white font-heading-heading-3">
           <b className="self-stretch relative leading-[44px]">
             How Technology Trends are Changing the app Industry
           </b>
           <div className="self-stretch flex flex-col py-0 pr-[430px] pl-0 items-start justify-center text-xs text-font-color-light-subtitle font-caption-caption-2-medium">
-            <div className="rounded bg-gray-900 overflow-hidden flex flex-row py-1 px-2 items-center justify-center">
+            <div className="rounded bg-gray-700 overflow-hidden flex flex-row py-1 px-2 items-center justify-center">
               <div className="relative leading-[22px] font-medium">New</div>
             </div>
           </div>
         </div>
-        <div className="absolute top-[128px] left-[733px] rounded-small bg-white box-border w-[298px] h-[419px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
+        <div className="absolute top-[128px] left-[733px] rounded-small bg-white box-border w-[298px] h-[419px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-800">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -409,7 +406,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group@2x.png"
         />
-        <div className="absolute top-[128px] left-[1055px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
+        <div className="absolute top-[128px] left-[1055px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-800">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -443,7 +440,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group1@2x.png"
         />
-        <div className="absolute top-[562px] left-[89px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
+        <div className="absolute top-[562px] left-[89px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-800">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -477,7 +474,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group2@2x.png"
         />
-        <div className="absolute top-[562px] left-[1055px] rounded-small bg-white box-border w-[298px] h-[397px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
+        <div className="absolute top-[562px] left-[1055px] rounded-small bg-white box-border w-[298px] h-[397px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-800">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -511,7 +508,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group3@2x.png"
         />
-        <div className="absolute top-[562px] left-[733px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
+        <div className="absolute top-[562px] left-[733px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-800">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -545,7 +542,7 @@ const HomeOption3: FunctionComponent = () => {
           alt=""
           src="/mask-group4@2x.png"
         />
-        <div className="absolute top-[562px] left-[411px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-1000">
+        <div className="absolute top-[562px] left-[411px] rounded-small bg-white box-border w-[298px] flex flex-col pt-0 px-0 pb-4 items-start justify-start border-[1px] border-solid border-gray-800">
           <img
             className="self-stretch relative rounded-t-small rounded-b-none max-w-full overflow-hidden h-[195px] shrink-0 object-cover"
             alt=""
@@ -581,16 +578,16 @@ const HomeOption3: FunctionComponent = () => {
         />
       </div>
       <div className="absolute top-[1684px] left-[0px] w-[1440px] h-[1338px] overflow-hidden">
-        <FrameComponent />
+        <div className="absolute top-[706px] left-[827px] w-[464px] h-[617px] overflow-hidden" />
       </div>
       <div className="absolute top-[1497px] left-[0px] w-[1440px] h-[190px] overflow-hidden" />
-      <div className="absolute top-[1003px] left-[0px] rounded-[37px] w-[1440px] overflow-hidden flex flex-row py-[23px] px-[116px] box-border items-end justify-start gap-[35px] text-6xl text-primary-green">
+      <div className="absolute top-[1003px] left-[0px] rounded-[37px] w-[1440px] overflow-hidden flex flex-row py-[23px] px-[116px] box-border items-end justify-start gap-[35px] text-5xl text-primary-green">
         <div className="flex flex-col py-[7px] px-0 items-center justify-start gap-[27px]">
           <div className="flex flex-row items-start justify-start">
             <b className="relative">Services</b>
           </div>
           <div className="relative rounded-base bg-white w-[351px] h-[349px] shrink-0 overflow-hidden text-3xl text-headings">
-            <RectangleComponent1 />
+            <div className="absolute top-[0px] left-[2px] bg-mintcream w-[349px] h-[349px]" />
             <div className="absolute top-[26.28px] left-[2px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
             <b className="absolute top-[143.28px] left-[17px]">
               App Development
@@ -614,7 +611,11 @@ const HomeOption3: FunctionComponent = () => {
           </div>
         </div>
         <div className="relative w-[378px] h-[365px] shrink-0 overflow-hidden text-3xl text-white">
-          <RectangleIcon />
+          <img
+            className="absolute top-[0.28px] left-[0.78px] rounded-base w-[376.45px] h-[364.5px]"
+            alt=""
+            src="/rectangle-9.svg"
+          />
           <b className="absolute top-[135.28px] left-[40px]">
             <p className="[margin-block-start:0] [margin-block-end:0px]">
               Human-To-Machine
@@ -636,8 +637,8 @@ const HomeOption3: FunctionComponent = () => {
             src="/carbonmachinelearning.svg"
           />
         </div>
-        <div className="relative rounded-[19px] bg-white box-border w-[377px] h-[366px] shrink-0 text-base text-text border-[1px] border-solid border-gray-1100">
-          <RectangleComponent />
+        <div className="relative rounded-[19px] bg-white box-border w-[377px] h-[366px] shrink-0 text-base text-text border-[1px] border-solid border-gray-900">
+          <div className="absolute top-[0.88px] left-[0px] rounded-base bg-white w-[376.45px] h-[364.5px]" />
           <div className="absolute top-[189px] left-[39px] leading-[163%] font-medium inline-block w-[297.33px]">
             Also an essential part of our offering. With the ability to connect
             and communicate with other devices and systems,
@@ -663,7 +664,7 @@ const HomeOption3: FunctionComponent = () => {
       <div className="absolute top-[831px] left-[0px] w-[1440px] h-[172px] overflow-hidden flex flex-col py-[19px] px-[329px] box-border items-center justify-center">
         <div className="w-[782px] h-[134px] shrink-0 overflow-hidden" />
       </div>
-      <div className="absolute top-[141px] left-[0px] w-[1440px] h-[690px] overflow-hidden flex flex-row py-[19px] px-[121px] box-border items-center justify-center text-8xl">
+      <div className="absolute top-[141px] left-[0px] w-[1440px] h-[690px] overflow-hidden flex flex-row py-[19px] px-[121px] box-border items-center justify-center text-7xl">
         <div className="self-stretch w-[626px] shrink-0 flex flex-col items-start justify-start">
           <strong
             className="relative font-semibold inline-block w-[690.5px] h-[108.56px] shrink-0 [&.animate]:animate-[4s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
