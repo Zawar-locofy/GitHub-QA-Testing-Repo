@@ -33,10 +33,16 @@ function App() {
       document.title = title;
     }
 
-    if (metaDescription) {
-      const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
-        'head > meta[name="description"]'
-      );
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
       if (metaDescriptionTag) {
         metaDescriptionTag.content = metaDescription;
       }
