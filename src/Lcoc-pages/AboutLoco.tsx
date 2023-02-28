@@ -1,27 +1,31 @@
 import { FunctionComponent } from "react";
+import FrameComponent from "../locoComponents/FrameComponent";
+import OurCompanyIs from "../locoComponents/OurCompanyIs";
 
 const AboutUs: FunctionComponent = () => {
   return (
-    <div className="relative bg-white w-full h-[3479px] overflow-hidden text-left text-base text-primary-green font-paragraph">
+    <div className="relative bg-white w-full h-[3479px] overflow-hidden text-left text-base text-gray-300 font-paragraph">
       <img
         className="absolute top-[1698.54px] left-[741px] rounded-base w-[576.4px] h-[367px] object-cover"
         alt=""
         src="/photo@2x.png"
       />
-      <div className="absolute top-[511.25px] left-[482.5px] text-[45px] leading-[110%] font-extrabold text-gray-300">
+      <div className="absolute top-[511.25px] left-[482.5px] text-[45px] leading-[110%] font-extrabold">
         About Our Company
       </div>
       <div className="absolute top-[1170.92px] left-[733.5px] leading-[157.4%] text-gray-200 inline-block w-[580.52px]">
         <p className="[margin-block-start:0] [margin-block-end:0px]">{`We are a digitalization and smart technology company with a passion for using technology to make a positive impact on the world. `}</p>
         <p className="m-0">
-          A Team of Git Experts with high motivation to change code on git to create conflicts!!
+          A team of experts with diverse backgrounds and expertise, including
+          software and hardware development and wireless communication, formed
+          our company.
         </p>
       </div>
-      <b className="absolute top-[1170.92px] left-[206.7px] text-2xl">
+      <b className="absolute top-[1170.92px] left-[206.7px] text-2xl text-primary-green">
         Our Story
       </b>
       <div className="absolute top-[1196.47px] left-[120px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
-      <div className="absolute top-[1375.92px] left-[121.5px] rounded-base bg-gray-100 w-[1197px] flex flex-col py-[58px] px-[67px] box-border items-center justify-center text-center text-3xl">
+      <div className="absolute top-[1375.92px] left-[121.5px] rounded-base bg-gray-100 w-[1197px] flex flex-col py-[58px] px-[67px] box-border items-center justify-center text-center text-3xl text-primary-green">
         <div className="flex flex-row items-center justify-start gap-[98px]">
           <div className="relative w-[210px] h-[108.87px] shrink-0">
             <div className="absolute top-[calc(50%_-_54.43px)] left-[24.29%] font-semibold">
@@ -59,34 +63,15 @@ const AboutUs: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[1698.54px] left-[123.8px] w-[616px] flex flex-col items-start justify-start text-2xl">
-        <div className="flex flex-col items-start justify-start gap-[39px]">
-          <div className="relative w-[346.7px] h-[51px] shrink-0">
-            <b className="absolute top-[0px] left-[85.7px]">Our Mission</b>
-            <div className="absolute top-[25.55px] left-[-1px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
-          </div>
-          <div className="relative text-base leading-[157.4%] text-gray-200 inline-block w-[477.57px]">
-            Our mission is to use our skills and knowledge to help organizations
-            across various industries leverage the power of technology to
-            improve their operations, reduce costs, and achieve their business
-            goals. Technology has the potential to transform the world, and we
-            are dedicated to using it to make a positive difference.
-          </div>
-        </div>
+      <div className="absolute top-[1698.54px] left-[123.8px] w-[616px] flex flex-col items-start justify-start">
+        <FrameComponent />
       </div>
-      <div className="absolute top-[2145.54px] left-[123.8px] w-[325.7px] h-[51px] text-2xl">
+      <div className="absolute top-[2145.54px] left-[123.8px] w-[325.7px] h-[51px] text-2xl text-primary-green">
         <b className="absolute top-[0px] left-[85.7px]">Our Values</b>
         <div className="absolute top-[25.55px] left-[-1px] box-border w-[74px] h-0.5 border-t-[2px] border-solid border-primary-green" />
       </div>
-      <div className="absolute top-[2145.54px] left-[733.5px] leading-[157.4%] text-gray-200 inline-block w-[585px]">
-        Our company is committed to delivering high-quality solutions that
-        exceed our client's expectations. We believe in the value of
-        collaboration and strive to work closely with our clients to understand
-        their unique challenges and goals. We also believe in the importance of
-        ongoing support and maintenance and are dedicated to providing excellent
-        service to our clients long after a project is completed.
-      </div>
-      <div className="absolute top-[2361.54px] left-[20px] w-[1400px] flex flex-row items-start justify-center gap-[52px] text-lg text-gray-300">
+      <OurCompanyIs />
+      <div className="absolute top-[2361.54px] left-[20px] w-[1400px] flex flex-row items-start justify-center gap-[52px] text-lg">
         <div className="rounded-base bg-whitesmoke-100 w-[576px] shrink-0 flex flex-col py-[39px] px-[27px] box-border items-start justify-center">
           <div className="w-[518px] flex flex-row items-center justify-start gap-[40px]">
             <img
@@ -135,7 +120,7 @@ const AboutUs: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[2675.54px] left-[20px] w-[1400px] flex flex-row items-start justify-center gap-[52px] text-lg text-gray-300">
+      <div className="absolute top-[2675.54px] left-[20px] w-[1400px] flex flex-row items-start justify-center gap-[52px] text-lg">
         <div className="rounded-base bg-whitesmoke-100 w-[576px] shrink-0 flex flex-col py-[39px] px-[27px] box-border items-start justify-center">
           <div className="w-[519px] flex flex-row items-center justify-start gap-[40px]">
             <img
