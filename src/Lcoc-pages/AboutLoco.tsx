@@ -2,6 +2,7 @@ import { FunctionComponent } from "react";
 import FrameComponent from "../locoComponents/FrameComponent";
 import OurCompanyIs from "../locoComponents/OurCompanyIs";
 import WeSpecializeIn from "../locoComponents/WeSpecializeIn";
+import PhotoIcon from "../locoComponents/PhotoIcon";
 
 const AboutUs: FunctionComponent = () => {
   return (
@@ -20,9 +21,6 @@ const AboutUs: FunctionComponent = () => {
           A team of experts with diverse backgrounds and expertise, including
           software and hardware development and wireless communication, formed
           our company.
-        </p>
-        <p className="m-0">
-         GITHUB CHANGES MADE TO CREATE CONFLICTS!!!! 
         </p>
       </div>
       <b className="absolute top-[1170.92px] left-[206.7px] text-2xl text-primary-green">
@@ -334,11 +332,7 @@ const AboutUs: FunctionComponent = () => {
           alt=""
           src="/photo1@2x.png"
         />
-        <img
-          className="absolute top-[0px] left-[782.42px] rounded-base w-[403.06px] h-[493.67px] object-cover"
-          alt=""
-          src="/photo2@2x.png"
-        />
+        <PhotoIcon />
       </div>
       <div className="absolute top-[438.93px] left-[121px] font-poppins text-darkgray">
         Home / About Us
