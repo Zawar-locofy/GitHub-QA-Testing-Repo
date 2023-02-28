@@ -14,9 +14,7 @@ const AboutUs: FunctionComponent = () => {
       <div className="absolute top-[1170.92px] left-[733.5px] leading-[157.4%] text-gray-200 inline-block w-[580.52px]">
         <p className="[margin-block-start:0] [margin-block-end:0px]">{`We are a digitalization and smart technology company with a passion for using technology to make a positive impact on the world. `}</p>
         <p className="m-0">
-          A team of experts with diverse backgrounds and expertise, including
-          software and hardware development and wireless communication, formed
-          our company.
+          A Team of Git Experts with high motivation to change code on git to create conflicts!!
         </p>
       </div>
       <b className="absolute top-[1170.92px] left-[206.7px] text-2xl">
