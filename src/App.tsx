@@ -47,6 +47,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/Loco-Home":
+        title = "";
+        metaDescription = "";
+        break;
+        /*This is a test Git Comment*/
     }
 
     if (title) {
