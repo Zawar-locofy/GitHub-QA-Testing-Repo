@@ -11,14 +11,12 @@ const AboutUs: FunctionComponent = () => {
         src="/photo@2x.png"
       />
       <div className="absolute top-[511.25px] left-[482.5px] text-[45px] leading-[110%] font-extrabold">
-        About Our Company
+        About Our GITHUB Company
       </div>
       <div className="absolute top-[1170.92px] left-[733.5px] leading-[157.4%] text-gray-200 inline-block w-[580.52px]">
         <p className="[margin-block-start:0] [margin-block-end:0px]">{`We are a digitalization and smart technology company with a passion for using technology to make a positive impact on the world. `}</p>
         <p className="m-0">
-          A team of experts with diverse backgrounds and expertise, including
-          software and hardware development and wireless communication, formed
-          our company.
+          A team of GIT experts trying to generate conflicts
         </p>
       </div>
       <b className="absolute top-[1170.92px] left-[206.7px] text-2xl text-primary-green">
