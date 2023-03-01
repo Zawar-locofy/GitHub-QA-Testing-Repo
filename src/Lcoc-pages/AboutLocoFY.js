@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div className={styles.weAreAContainer}>
         <p
           className={styles.weAreA}
-        >{`We are a digitalization and smart technology company with a passion for using technology to make a positive impact on the world. `}</p>
+        >{`GIT GIT GIT We are a digitalization and smart technology company with a passion for using technology to make a positive impact on the world. `}</p>
         <p className={styles.aTeamOf}>
           A team of experts with diverse backgrounds and expertise, including
           software and hardware development and wireless communication, formed
@@ -49,10 +49,10 @@ const AboutUs = () => {
 "
           innovationIsTheKeyToDrivi="We believe that teamwork is the GIT GIT GIT"
           committedToConstantlySeek="foundation of our success. We are dedicated to fostering a culture of collaboration and mutual support and working together to achieve our common goals."
-          propHeight="263px"
-          propWidth="620px"
-          propWidth1="350px"
-          propWidth2="357.2px"
+          propHeight="280px"
+          propWidth="625px"
+          propWidth1="355px"
+          propWidth2="360.2px"
         />
       </div>
       <div className={styles.banner}>
