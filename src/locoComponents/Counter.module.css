@@ -1,0 +1,18 @@
+.counter {
+  position: absolute;
+  top: 1375.92px;
+  left: 121.5px;
+  border-radius: 20px;
+  background-color: #fafafa;
+  width: 1197px;
+  display: flex;
+  flex-direction: column;
+  padding: 58px 67px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 46px;
+  color: #80c904;
+  font-family: Montserrat;
+}

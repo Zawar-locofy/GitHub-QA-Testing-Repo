@@ -1,5 +1,10 @@
 
+
+<<<<<<< HEAD
+  # PlugIn QA
+=======
   # conflict3
+>>>>>>> New-HEAD
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">node js</a></code>
 

@@ -1,0 +1,136 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(128, 201, 4, 0.05);
+}
+.frequentQuestions {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+.frequentQuestionsWrapper {
+  position: absolute;
+  top: 85.88px;
+  left: 506px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 45px;
+}
+.whatIsDigitalisation {
+  letter-spacing: -0.01em;
+  line-height: 52px;
+  display: inline-block;
+  width: 208px;
+  height: 47.06px;
+}
+.frameChild,
+.whatIsA,
+.whatIsDigitalisation {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  border-top: 1px solid #14342b;
+  box-sizing: border-box;
+  width: 554px;
+  height: 1px;
+  opacity: 0.2;
+}
+.whatIsA {
+  letter-spacing: -0.01em;
+  line-height: 52px;
+  display: inline-block;
+  width: 359px;
+  height: 47.06px;
+}
+.aSmartTechnology {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.andEffectivenessOf {
+  margin: 0;
+}
+.aSmartTechnologyContainer {
+  position: relative;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+  line-height: 180%;
+  font-family: Inter;
+  color: #969aa0;
+  display: inline-block;
+  width: 528.98px;
+  height: 125.08px;
+  flex-shrink: 0;
+}
+.whatIsDigitalisationParent {
+  position: absolute;
+  top: 200px;
+  left: 96px;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.howDoesYour {
+  position: absolute;
+  height: 100%;
+  width: 93.24%;
+  top: 0;
+  left: 6.76%;
+  letter-spacing: -0.01em;
+  line-height: 52px;
+  display: inline-block;
+}
+.frameItem {
+  position: absolute;
+  top: 17.19px;
+  left: 0;
+  width: 14px;
+  height: 12.67px;
+}
+.doYouOffer,
+.howDoesYourCompanyApproachParent,
+.whatDifferentiatesYourContainer {
+  position: relative;
+  width: 444px;
+  height: 47.06px;
+  flex-shrink: 0;
+}
+.doYouOffer,
+.whatDifferentiatesYourContainer {
+  letter-spacing: -0.01em;
+  line-height: 52px;
+  display: inline-block;
+  width: 454px;
+}
+.whatDifferentiatesYourContainer {
+  line-height: 30px;
+  width: 449px;
+  height: 54.29px;
+}
+.frameParent {
+  position: absolute;
+  top: 199.9px;
+  left: 788.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.faq {
+  position: relative;
+  width: 1438px;
+  height: 695px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #14342b;
+  font-family: Montserrat;
+}

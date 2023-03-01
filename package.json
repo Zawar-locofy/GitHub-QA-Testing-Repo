@@ -1,6 +1,11 @@
 
+
   {
+<<<<<<< HEAD
+    "name": "plugin_qa",
+=======
     "name": "conflict3",
+>>>>>>> New-HEAD
     "version": "0.1.0",
     "private": true,
     "dependencies": {

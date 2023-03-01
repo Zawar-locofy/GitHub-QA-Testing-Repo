@@ -1,0 +1,121 @@
+.photoIcon {
+  position: absolute;
+  top: 1698.54px;
+  left: 741px;
+  border-radius: 20px;
+  width: 576.4px;
+  height: 367px;
+  object-fit: cover;
+}
+.aboutOurLocofy {
+  position: absolute;
+  top: 511.25px;
+  left: 482.5px;
+  font-size: 45px;
+  line-height: 110%;
+  font-weight: 800;
+  color: #242331;
+}
+.weAreA {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.aTeamOf {
+  margin: 0;
+}
+.ourStory,
+.weAreAContainer {
+  position: absolute;
+  top: 1170.92px;
+}
+.weAreAContainer {
+  left: 733.5px;
+  line-height: 157.4%;
+  display: inline-block;
+  width: 580.52px;
+}
+.ourStory {
+  left: 206.7px;
+  font-size: 42px;
+  color: #80c904;
+}
+.aboutUsChild {
+  position: absolute;
+  top: 1196.47px;
+  left: 120px;
+  border-top: 2px solid #80c904;
+  box-sizing: border-box;
+  width: 74px;
+  height: 2px;
+}
+.content {
+  position: absolute;
+  top: 1698.54px;
+  left: 123.8px;
+  width: 616px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupChild,
+.ourValues {
+  position: absolute;
+  top: 0;
+  left: 85.7px;
+}
+.groupChild {
+  top: 25.55px;
+  left: -1px;
+  border-top: 2px solid #80c904;
+  box-sizing: border-box;
+  width: 74px;
+  height: 2px;
+}
+.ourValuesParent {
+  top: 2145.54px;
+  left: 123.8px;
+  width: 325.7px;
+  height: 51px;
+  font-size: 42px;
+  color: #80c904;
+}
+.banner,
+.div,
+.ourValuesParent {
+  position: absolute;
+}
+.div {
+  top: 2361.54px;
+  left: 20px;
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 52px;
+}
+.banner {
+  top: 0.25px;
+  left: 0;
+  width: 1440px;
+  height: 424.64px;
+}
+.homeAbout {
+  position: absolute;
+  top: 438.93px;
+  left: 121px;
+  font-family: Poppins;
+  color: #a6a6a6;
+}
+.aboutUs {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 3479px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #797979;
+  font-family: Montserrat;
+}

@@ -1,0 +1,85 @@
+.download,
+.m {
+  position: absolute;
+}
+.m {
+  top: calc(50% - 54.43px);
+  left: 24.29%;
+  font-weight: 600;
+}
+.download {
+  top: calc(50% + 15.43px);
+  left: 0;
+  font-size: 25px;
+  line-height: 157.4%;
+  font-family: Nunito;
+  color: #242331;
+  text-align: left;
+}
+.frameChild,
+.mParent {
+  position: relative;
+  width: 210px;
+  height: 108.87px;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 3px;
+  height: 102.69px;
+}
+.m1 {
+  position: absolute;
+  top: calc(50% - 54.74px);
+  left: 38.32%;
+  font-weight: 600;
+}
+.transaction {
+  position: absolute;
+  top: calc(50% + 15.74px);
+  left: 0;
+  font-size: 25px;
+  line-height: 157.4%;
+  font-family: Nunito;
+  color: #242331;
+  text-align: left;
+}
+.mGroup {
+  position: relative;
+  width: 184px;
+  height: 109.48px;
+  flex-shrink: 0;
+}
+.m2,
+.rattings {
+  position: absolute;
+}
+.m2 {
+  top: calc(50% - 60.81px);
+  left: 21.78%;
+  font-weight: 600;
+}
+.rattings {
+  top: calc(50% + 21.81px);
+  left: 0;
+  font-size: 25px;
+  line-height: 157.4%;
+  font-family: Nunito;
+  color: #242331;
+}
+.mContainer {
+  position: relative;
+  width: 202px;
+  height: 121.62px;
+  flex-shrink: 0;
+}
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 98px;
+  text-align: center;
+  font-size: 46px;
+  color: #80c904;
+  font-family: Montserrat;
+}

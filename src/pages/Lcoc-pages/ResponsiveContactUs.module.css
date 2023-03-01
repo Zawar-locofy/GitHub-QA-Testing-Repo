@@ -1,0 +1,21 @@
+.contactussection,
+.responsiveContactUs {
+  width: 1438px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.responsiveContactUs {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media screen and (max-width: 960px) {
+  .contactussection {
+    display: flex;
+  }
+}

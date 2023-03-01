@@ -1,0 +1,105 @@
+.contactUs {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+.line {
+  position: relative;
+  border-top: 3px solid #fff;
+  box-sizing: border-box;
+  width: 58px;
+  height: 3px;
+  flex-shrink: 0;
+}
+.title {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.thereAreMany {
+  position: relative;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+  line-height: 180%;
+  font-family: Inter;
+  display: inline-block;
+  width: 633px;
+}
+.content {
+  position: absolute;
+  top: 223px;
+  left: 403.5px;
+  width: 633px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px;
+  text-align: center;
+  font-size: 50px;
+}
+.cogaiLogotrans11Icon {
+  position: absolute;
+  top: 38px;
+  left: 173px;
+  width: 92.55px;
+  height: 70.63px;
+  object-fit: cover;
+}
+.home {
+  color: #14342b;
+}
+.about,
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.homeParent {
+  position: absolute;
+  top: 61.32px;
+  left: 521.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55px;
+  color: #626262;
+  font-family: Poppins;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  background-color: #14342b;
+  width: 181.66px;
+  height: 63px;
+}
+.getAQuote {
+  position: absolute;
+  top: 18.5px;
+  left: 34.33px;
+  line-height: 163%;
+  font-weight: 500;
+}
+.banner,
+.rectangleParent {
+  position: absolute;
+  top: 41.82px;
+  left: 1198.33px;
+  width: 181.66px;
+  height: 63px;
+}
+.banner {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 424.64px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Montserrat;
+}
