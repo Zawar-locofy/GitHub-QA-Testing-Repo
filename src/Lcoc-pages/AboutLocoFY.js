@@ -37,14 +37,17 @@ const AboutUs = () => {
         <Component
           icon="/icon.svg"
           innovation="Innovation"
-          innovationIsTheKeyToDrivi="Innovation is the key to driving progress and solving complex challenges. We are"
+
+
+
+          innovationIsTheKeyToDrivi="GIT GIT GIT GIT GIT GIT GIT Innovation is the key to driving progress and solving complex challenges. We are"
           committedToConstantlySeek="committed to constantly seeking new ideas and approaches and using the latest technologies and methodologies to deliver innovative solutions to our clients."
         />
         <Component
           icon="/icon1.svg"
           innovation="Team work
 "
-          innovationIsTheKeyToDrivi="We believe that teamwork is the "
+          innovationIsTheKeyToDrivi="We believe that teamwork is the GIT GIT GIT"
           committedToConstantlySeek="foundation of our success. We are dedicated to fostering a culture of collaboration and mutual support and working together to achieve our common goals."
           propHeight="263px"
           propWidth="620px"
