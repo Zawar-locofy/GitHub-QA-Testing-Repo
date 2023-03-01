@@ -1,0 +1,113 @@
+.footerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #263238;
+  width: 1440px;
+  height: 451.61px;
+}
+.copyright {
+  position: absolute;
+  top: 417.61px;
+  left: 616px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 11px;
+}
+.otherLinks {
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #f2f2f2;
+}
+.otherLinks,
+.termsCondition {
+  position: relative;
+  line-height: 148.52%;
+}
+.otherlinks,
+.services {
+  position: absolute;
+  top: 79.61px;
+  left: 1171px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.services {
+  left: 759px;
+}
+.socialmedialinksChild {
+  position: relative;
+  width: 178.05px;
+  height: 33.26px;
+  flex-shrink: 0;
+}
+.socialmedialinks {
+  position: absolute;
+  top: 309.1px;
+  left: 134.95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weSpecializeIn {
+  position: relative;
+  line-height: 163%;
+  display: inline-block;
+  width: 250.91px;
+  flex-shrink: 0;
+}
+.summary {
+  position: absolute;
+  top: 183.24px;
+  left: 134.95px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: relative;
+  width: 79.23px;
+  height: 64.43px;
+  flex-shrink: 0;
+}
+.vectorIcon1 {
+  width: 7.12px;
+  height: 7.18px;
+}
+.logo {
+  position: absolute;
+  top: 73px;
+  left: 135px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer1 {
+  position: relative;
+  width: 1440px;
+  height: 451.61px;
+  flex-shrink: 0;
+}
+.footer {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #a6a6a6;
+  font-family: Poppins;
+}

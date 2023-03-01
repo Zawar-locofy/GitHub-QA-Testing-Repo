@@ -1,0 +1,121 @@
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.background {
+  background-color: #80c904;
+  opacity: 0.85;
+}
+.background,
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 424.64px;
+}
+.aboutZawar {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+.content,
+.title {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  position: absolute;
+  top: 223px;
+  left: 403.5px;
+  width: 633px;
+}
+.cogaiLogotrans11Icon {
+  position: absolute;
+  top: 38px;
+  left: 123px;
+  width: 92.55px;
+  height: 70.63px;
+  object-fit: cover;
+}
+.about,
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.about {
+  color: #fff;
+}
+.homeParent {
+  position: absolute;
+  top: 61.32px;
+  left: 471.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55px;
+  text-align: left;
+  font-size: 16px;
+  color: #626262;
+  font-family: Poppins;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  background-color: #14342b;
+  width: 181.66px;
+  height: 63px;
+}
+.getAQuote {
+  position: absolute;
+  top: 18.5px;
+  left: 34.33px;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 41.82px;
+  left: 1148.33px;
+  width: 181.66px;
+  height: 63px;
+}
+.rectangleParent:hover {
+  animation: 1s ease 0s infinite normal none scale-down-center;
+  opacity: 1;
+}
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 424.64px;
+  background-image: url(/public/bannerrrrrrrrrrrrrrrr@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  font-family: Montserrat;
+}

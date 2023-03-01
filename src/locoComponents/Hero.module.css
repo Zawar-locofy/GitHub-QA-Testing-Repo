@@ -1,0 +1,155 @@
+.hamburgerbtnChild {
+  position: relative;
+  background-color: #f9fbfc;
+  width: 68px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.hamburgerbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.cogaiLogotrans11Icon {
+  position: relative;
+  width: 92.55px;
+  height: 70.63px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logo {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about,
+.home {
+  position: relative;
+  display: inline-block;
+  width: 61px;
+  flex-shrink: 0;
+}
+.about {
+  width: 63px;
+}
+.services {
+  width: 88px;
+}
+.industries,
+.resources,
+.services {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.industries {
+  line-height: 160.5%;
+  width: 104px;
+}
+.resources {
+  width: 107px;
+}
+.navBar {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.getAQuote1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+}
+.getAQuote,
+.logoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.getAQuote {
+  cursor: pointer;
+  border: 0;
+  padding: 19px 34px;
+  background-color: #14342b;
+  flex: 1;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+.getAQuote:hover {
+  background-color: #459380;
+}
+.logoParent {
+  height: 111px;
+  flex-shrink: 0;
+  padding: 40px 57px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 400px;
+}
+.contactUs {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+.pagetitle {
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  color: #92e800;
+  font-family: Montserrat;
+}
+.banner,
+.hero,
+.pagetitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.banner {
+  flex: 1;
+  align-items: center;
+  background-image: url(/public/banner@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hero {
+  height: 424px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 960px) {
+  .hamburgerbtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hamburgerbtn {
+    display: flex;
+  }
+}

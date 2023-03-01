@@ -1,0 +1,60 @@
+.icon {
+  position: relative;
+  width: 129px;
+  height: 160px;
+  flex-shrink: 0;
+}
+.innovation1 {
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+}
+.innovationIsThe {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.committedToConstantly {
+  margin: 0;
+}
+.innovationIsTheContainer {
+  position: relative;
+  font-size: 16px;
+  line-height: 157.4%;
+  color: #797979;
+  display: inline-block;
+  width: 349.03px;
+}
+.content,
+.innovation {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  width: 451px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+.innovation {
+  width: 518px;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.div {
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  width: 576px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 39px 27px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 24px;
+  color: #242331;
+  font-family: Montserrat;
+}

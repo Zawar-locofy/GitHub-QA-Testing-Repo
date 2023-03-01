@@ -1,0 +1,110 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #263238;
+  width: 1440px;
+  height: 452.25px;
+}
+.copyright2022,
+.otherLinks {
+  position: absolute;
+  top: 418.25px;
+  left: 616px;
+  font-size: 11px;
+  line-height: 148.52%;
+}
+.otherLinks {
+  top: 80.25px;
+  left: 1171px;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #f2f2f2;
+}
+.contactUs,
+.privacyPolicy,
+.reportAbuse,
+.termsCondition {
+  position: absolute;
+  top: 156.25px;
+  left: 1171px;
+  line-height: 148.52%;
+}
+.contactUs,
+.privacyPolicy,
+.reportAbuse {
+  top: 190.25px;
+}
+.contactUs,
+.reportAbuse {
+  top: 224.25px;
+}
+.contactUs {
+  top: 258.25px;
+}
+.applicationDevelopment,
+.serives {
+  position: absolute;
+  left: 759px;
+  line-height: 148.52%;
+}
+.serives {
+  top: 80.25px;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #f2f2f2;
+}
+.applicationDevelopment {
+  top: 156.25px;
+}
+.humanToMachineCommunication,
+.machineToMachineCommunicati,
+.videoAnalytics {
+  position: absolute;
+  top: 190.25px;
+  left: 759px;
+  line-height: 148.52%;
+}
+.machineToMachineCommunicati,
+.videoAnalytics {
+  top: 224.25px;
+}
+.videoAnalytics {
+  top: 258.25px;
+}
+.div {
+  position: absolute;
+  top: 80.25px;
+  left: 121px;
+  width: 182px;
+  height: 36.1px;
+}
+.frameIcon,
+.groupItem {
+  position: absolute;
+  top: 309.73px;
+  left: 134.95px;
+  width: 178.05px;
+  height: 33.26px;
+}
+.frameIcon {
+  top: 73.5px;
+  width: 99px;
+  height: 76px;
+  overflow: hidden;
+}
+.groupParent,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 452.25px;
+}
+.groupParent {
+  top: 3026.75px;
+  text-align: left;
+  font-size: 16px;
+  color: #a6a6a6;
+  font-family: Poppins;
+}
