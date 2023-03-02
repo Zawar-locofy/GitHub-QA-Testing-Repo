@@ -1,6 +1,8 @@
+
+
 .hamburgerbtnChild {
   position: relative;
-  background-color: #f9fbfc;
+  background-color: var(--color-gray-100);
   width: 68px;
   height: 12px;
   flex-shrink: 0;
@@ -9,13 +11,13 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: transparent;
+  background-color: var(--color-gray-800);
   overflow: hidden;
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 6px;
+  gap: var(--gap-7xs);
 }
 .cogaiLogotrans11Icon {
   position: relative;
@@ -66,15 +68,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: var(--gap-41xl);
 }
 .getAQuote1 {
   position: relative;
-  font-size: 16px;
+  font-size: var(--paragraph-size);
   line-height: 163%;
   font-weight: 500;
-  font-family: Montserrat;
-  color: #fff;
+  font-family: var(--header);
+  color: var(--color-white);
   text-align: left;
 }
 .getAQuote,
@@ -86,24 +88,24 @@
 .getAQuote {
   cursor: pointer;
   border: 0;
-  padding: 19px 34px;
-  background-color: #14342b;
+  padding: var(--padding-lgi) var(--padding-15xl);
+  background-color: var(--headings1);
   flex: 1;
-  border-radius: 6px;
+  border-radius: var(--br-7xs);
   align-items: center;
   justify-content: center;
 }
 .getAQuote:hover {
-  background-color: #459380;
+  background-color: var(--color-darkcyan);
 }
 .logoParent {
   height: 111px;
   flex-shrink: 0;
-  padding: 40px 57px 0;
+  padding: var(--padding-21xl) var(--padding-38xl) 0;
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 400px;
+  gap: var(--gap-381xl);
 }
 .contactUs {
   position: relative;
@@ -113,9 +115,9 @@
 .pagetitle {
   align-items: center;
   text-align: center;
-  font-size: 50px;
-  color: #92e800;
-  font-family: Montserrat;
+  font-size: var(--font-size-31xl);
+  color: var(--color-greenyellow);
+  font-family: var(--header);
 }
 .banner,
 .hero,
@@ -128,7 +130,7 @@
 .banner {
   flex: 1;
   align-items: center;
-  background-image: url(/public/banner@3x.png);
+  background-image: url(/public/banner1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -137,11 +139,11 @@
   height: 424px;
   flex-shrink: 0;
   align-items: flex-start;
-  gap: 10px;
+  gap: var(--gap-3xs);
   text-align: left;
-  font-size: 20px;
-  color: #fff;
-  font-family: Poppins;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
 }
 @media screen and (max-width: 960px) {
   .hamburgerbtn {

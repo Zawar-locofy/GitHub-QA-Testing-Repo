@@ -1,0 +1,171 @@
+.homeContact {
+  position: relative;
+}
+.homeContactUsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--paragraph-size);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-poppins);
+}
+.contactUsHeadingChild {
+  position: relative;
+  background-color: var(--primary-green);
+  border-top: 2px solid var(--primary-green);
+  box-sizing: border-box;
+  width: 74px;
+  height: 2px;
+  flex-shrink: 0;
+}
+.keepInTouch {
+  position: relative;
+  font-size: var(--paragraph-size);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+  color: var(--text);
+  display: inline-block;
+  width: 360px;
+}
+.contactUsHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-13xl);
+  color: var(--primary-green);
+}
+.icon {
+  position: absolute;
+  top: 14.43px;
+  left: 0;
+  width: 35px;
+  height: 35px;
+}
+.registeredOffice {
+  color: var(--color-black);
+}
+.registeredOfficeCogaiLtd {
+  margin: 0;
+}
+.registeredOfficeCogaiContainer,
+.visitUs {
+  position: absolute;
+  top: 25.15%;
+  left: 12.94%;
+  letter-spacing: -0.01em;
+  line-height: 180%;
+}
+.visitUs {
+  top: 0;
+  left: 13.6%;
+  font-size: var(--font-size-5xl);
+  line-height: 52px;
+  color: var(--headings1);
+}
+.visutUs {
+  position: relative;
+  width: 456px;
+  height: 171px;
+  flex-shrink: 0;
+}
+.name {
+  width: 495px;
+  height: 183px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon1 {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 35px;
+  height: 35px;
+}
+.dropUs1,
+.infocogaiuk {
+  position: absolute;
+  top: 56.76%;
+  left: 31.72%;
+  letter-spacing: -0.01em;
+  line-height: 180%;
+}
+.dropUs1 {
+  top: 0;
+  font-size: var(--font-size-5xl);
+  line-height: 52px;
+  color: var(--headings1);
+}
+.dropUs {
+  position: relative;
+  width: 186px;
+  height: 74px;
+  flex-shrink: 0;
+}
+.name1 {
+  align-self: stretch;
+  height: 85px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon2 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.call4401474338718,
+.callUs {
+  position: absolute;
+  top: 56.16%;
+  left: 0;
+  letter-spacing: -0.01em;
+  line-height: 180%;
+}
+.callUs {
+  top: 0;
+  font-size: var(--font-size-5xl);
+  line-height: 52px;
+  color: var(--headings1);
+}
+.name2 {
+  position: relative;
+  width: 222px;
+  height: 73px;
+  flex-shrink: 0;
+}
+.contactUs1,
+.contactdetails {
+  display: flex;
+  justify-content: flex-start;
+}
+.contactUs1 {
+  width: 495px;
+  height: 79px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-10xl);
+}
+.contactdetails {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-71xl) var(--padding-84xl) var(--padding-34xl);
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-200);
+  font-family: var(--header);
+}

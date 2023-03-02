@@ -1,0 +1,105 @@
+.contactUs {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+.line {
+  position: relative;
+  border-top: 3px solid var(--color-white);
+  box-sizing: border-box;
+  width: 58px;
+  height: 3px;
+  flex-shrink: 0;
+}
+.title {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.thereAreMany {
+  position: relative;
+  font-size: var(--font-size-lgi);
+  letter-spacing: -0.01em;
+  line-height: 180%;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 633px;
+}
+.content {
+  position: absolute;
+  top: 223px;
+  left: 403.5px;
+  width: 633px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+}
+.cogaiLogotrans11Icon {
+  position: absolute;
+  top: 38px;
+  left: 173px;
+  width: 92.55px;
+  height: 70.63px;
+  object-fit: cover;
+}
+.home {
+  color: var(--headings1);
+}
+.about,
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.homeParent {
+  position: absolute;
+  top: 61.32px;
+  left: 521.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--headings1);
+  width: 181.66px;
+  height: 63px;
+}
+.getAQuote {
+  position: absolute;
+  top: 18.5px;
+  left: 34.33px;
+  line-height: 163%;
+  font-weight: 500;
+}
+.banner,
+.rectangleParent {
+  position: absolute;
+  top: 41.82px;
+  left: 1198.33px;
+  width: 181.66px;
+  height: 63px;
+}
+.banner {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 424.64px;
+  text-align: left;
+  font-size: var(--paragraph-size);
+  color: var(--color-white);
+  font-family: var(--header);
+}

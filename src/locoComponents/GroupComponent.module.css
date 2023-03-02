@@ -1,8 +1,10 @@
+
+
 .groupChild {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #263238;
+  background-color: var(--color-darkslategray-100);
   width: 1440px;
   height: 452.25px;
 }
@@ -11,15 +13,15 @@
   position: absolute;
   top: 418.25px;
   left: 616px;
-  font-size: 11px;
+  font-size: var(--font-size-2xs);
   line-height: 148.52%;
 }
 .otherLinks {
   top: 80.25px;
   left: 1171px;
-  font-size: 24px;
-  font-family: Montserrat;
-  color: #f2f2f2;
+  font-size: var(--font-size-5xl);
+  font-family: var(--header);
+  color: var(--color-whitesmoke-200);
 }
 .contactUs,
 .privacyPolicy,
@@ -50,9 +52,9 @@
 }
 .serives {
   top: 80.25px;
-  font-size: 24px;
-  font-family: Montserrat;
-  color: #f2f2f2;
+  font-size: var(--font-size-5xl);
+  font-family: var(--header);
+  color: var(--color-whitesmoke-200);
 }
 .applicationDevelopment {
   top: 156.25px;
@@ -79,19 +81,30 @@
   width: 182px;
   height: 36.1px;
 }
-.frameIcon,
 .groupItem {
-  position: absolute;
   top: 309.73px;
-  left: 134.95px;
   width: 178.05px;
   height: 33.26px;
+}
+.frameIcon,
+.groupItem,
+.weSpecializeIn {
+  position: absolute;
+  left: 134.95px;
 }
 .frameIcon {
   top: 73.5px;
   width: 99px;
   height: 76px;
   overflow: hidden;
+}
+.weSpecializeIn {
+  top: 183.87px;
+  font-size: var(--caption-caption-2-medium-size);
+  line-height: 163%;
+  font-family: var(--header);
+  display: inline-block;
+  width: 251.05px;
 }
 .groupParent,
 .rectangleParent {
@@ -104,7 +117,7 @@
 .groupParent {
   top: 3026.75px;
   text-align: left;
-  font-size: 16px;
-  color: #a6a6a6;
-  font-family: Poppins;
+  font-size: var(--paragraph-size);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-poppins);
 }

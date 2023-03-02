@@ -1,0 +1,56 @@
+.icon {
+  position: relative;
+  width: 129px;
+  height: 160px;
+  flex-shrink: 0;
+}
+.innovation1 {
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+}
+.innovationIsThe {
+  margin: 0;
+}
+.innovationIsTheContainer {
+  position: relative;
+  font-size: var(--paragraph-size);
+  line-height: 157.4%;
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 349.03px;
+}
+.content,
+.innovation {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  width: 451px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+}
+.innovation {
+  width: 518px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.div {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  width: 576px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-8xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
+  font-family: var(--header);
+}

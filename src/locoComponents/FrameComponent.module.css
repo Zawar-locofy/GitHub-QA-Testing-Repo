@@ -1,3 +1,5 @@
+
+
 .groupChild,
 .ourMission {
   position: absolute;
@@ -7,7 +9,7 @@
 .groupChild {
   top: 25.55px;
   left: -1px;
-  border-top: 2px solid #80c904;
+  border-top: 2px solid var(--primary-green);
   box-sizing: border-box;
   width: 74px;
   height: 2px;
@@ -20,9 +22,9 @@
 }
 .ourMissionIs {
   position: relative;
-  font-size: 16px;
+  font-size: var(--paragraph-size);
   line-height: 157.4%;
-  color: #797979;
+  color: var(--color-gray-300);
   display: inline-block;
   width: 477.57px;
 }
@@ -31,9 +33,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 39px;
+  gap: var(--gap-20xl);
   text-align: left;
-  font-size: 42px;
-  color: #80c904;
-  font-family: Montserrat;
+  font-size: var(--header-size);
+  color: var(--primary-green);
+  font-family: var(--header);
 }

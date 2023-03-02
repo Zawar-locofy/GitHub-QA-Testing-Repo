@@ -1,3 +1,5 @@
+
+
 .download,
 .m {
   position: absolute;
@@ -10,10 +12,10 @@
 .download {
   top: calc(50% + 15.43px);
   left: 0;
-  font-size: 25px;
+  font-size: var(--font-size-6xl);
   line-height: 157.4%;
-  font-family: Nunito;
-  color: #242331;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-400);
   text-align: left;
 }
 .frameChild,
@@ -37,10 +39,10 @@
   position: absolute;
   top: calc(50% + 15.74px);
   left: 0;
-  font-size: 25px;
+  font-size: var(--font-size-6xl);
   line-height: 157.4%;
-  font-family: Nunito;
-  color: #242331;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-400);
   text-align: left;
 }
 .mGroup {
@@ -61,10 +63,10 @@
 .rattings {
   top: calc(50% + 21.81px);
   left: 0;
-  font-size: 25px;
+  font-size: var(--font-size-6xl);
   line-height: 157.4%;
-  font-family: Nunito;
-  color: #242331;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-400);
 }
 .mContainer {
   position: relative;
@@ -77,9 +79,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 98px;
+  gap: var(--gap-79xl);
   text-align: center;
-  font-size: 46px;
-  color: #80c904;
-  font-family: Montserrat;
+  font-size: var(--font-size-27xl);
+  color: var(--primary-green);
+  font-family: var(--header);
 }

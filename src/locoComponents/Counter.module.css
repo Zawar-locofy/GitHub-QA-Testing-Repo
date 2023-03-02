@@ -1,18 +1,20 @@
+
+
 .counter {
   position: absolute;
   top: 1375.92px;
   left: 121.5px;
-  border-radius: 20px;
-  background-color: #fafafa;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
   width: 1197px;
   display: flex;
   flex-direction: column;
-  padding: 58px 67px;
+  padding: var(--padding-39xl) var(--padding-48xl);
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 46px;
-  color: #80c904;
-  font-family: Montserrat;
+  font-size: var(--font-size-27xl);
+  color: var(--primary-green);
+  font-family: var(--header);
 }
